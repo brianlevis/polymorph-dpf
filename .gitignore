@@ -5,6 +5,7 @@ node_modules
 .idea/
 
 # DATA
+raw-data/
 output/
 output.txt
 supplementary/
