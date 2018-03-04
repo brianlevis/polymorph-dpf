@@ -13,9 +13,11 @@ cb_bucket_name = 'codebase-pm-dpf'
 TEMP_INPUT_FILE_NAME = 'temp_in.gz'
 TEMP_OUTPUT_FILE_NAME = 'temp_out.gz'
 
+# Total Files: 15,360
+START_INDEX = 100  # [0, 987]
+STOP_INDEX = 200   # [1, 988]
 
-START_INDEX = 0   # [0, 987]
-STOP_INDEX = 100  # [1, 988]
+CONTINUATION_TOKEN = None
 
 try:
     os.remove(TEMP_INPUT_FILE_NAME)
@@ -31,7 +33,15 @@ as_objects = s3client.list_objects_v2(Bucket=as_bucket_name)
 as_bucket = s3.Bucket(name=as_bucket_name)
 cb_bucket = s3.Bucket(name=cb_bucket_name)
 
-file_keys = [item['Key'] for item in as_objects['Contents'] if 'part' in item['Key']][START_INDEX:STOP_INDEX]
+# file_keys = [item['Key'] for item in as_objects['Contents'] if 'part' in item['Key']][START_INDEX:STOP_INDEX]
+
+file_keys = []
+for d in range(11, 16):
+    for h in range(0, 24):
+        for n in range(0, 128):
+            file_keys.append('%02d/%02d/part-00%03d.gz' % (d, h, n))
+
+file_keys = file_keys[START_INDEX:STOP_INDEX]
 
 keys_to_pop = [
     # Duplicate Keys
@@ -41,7 +51,7 @@ keys_to_pop = [
 ]
 
 limiter = 0
-limit = 100
+limit = 500
 for file_key in file_keys:
     if limiter == limit:
         break
