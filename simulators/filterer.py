@@ -14,8 +14,8 @@ TEMP_INPUT_FILE_NAME = 'temp_in.gz'
 TEMP_OUTPUT_FILE_NAME = 'temp_out.gz'
 
 # Total Files: 15,360
-START_INDEX = 100  # [0, 987]
-STOP_INDEX = 200   # [1, 988]
+START_INDEX = 5000
+STOP_INDEX = 10000
 
 CONTINUATION_TOKEN = None
 
@@ -50,13 +50,7 @@ keys_to_pop = [
     "bid_req_cnt", "bid_resp_cnt", "bid_price", "campaign_id"
 ]
 
-limiter = 0
-limit = 500
 for file_key in file_keys:
-    if limiter == limit:
-        break
-    limiter += 1
-
     print(file_key)
 
     as_bucket.download_file(Key=file_key, Filename=TEMP_INPUT_FILE_NAME)
@@ -78,6 +72,7 @@ for file_key in file_keys:
             index += len(line_dict["bid_requests"])
             line = json.dumps(line_dict)
             filtered_output.write(line + "\n")
+    
     filtered_output.close()
 
     cb_bucket.upload_file(Filename=TEMP_OUTPUT_FILE_NAME, Key=file_key)
