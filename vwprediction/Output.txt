@@ -190,9 +190,9 @@
 0.0001083 | siteId:31392 campaignId:3389 zoneId:40290
 0.0004774 | siteId:11257 campaignId:11374 zoneId:27168
 0.00095 | siteId:11257 campaignId:20602 zoneId:27168
-8.23528715e-05 | siteId:22719 campaignId:22355 zoneId:22232, "geo_city_name": "Prague", "site_id": 22719, "campaign_id": 22355, "session_id": "99e9ec4f29214657ac9e9a09a64cdd78_04bb3b97", "geo_continent_code": "EU", "geo_area_code": 0, "bid_req_cnt": 1, "r_timestamp": "2018-02-11T11:26:12.482847Z", "ua_device_type": "PC", "bid_price": 8.23528715e-05, "geo_country_code2": "CZ", "ua_os": "Windows 10 None.None"
-0.00017626 | siteId:22719 campaignId:18025 zoneId:22232, "geo_city_name": "Prague", "site_id": 22719, "campaign_id": 18025, "session_id": "99e9ec4f29214657ac9e9a09a64cdd78_04bb3b97", "geo_continent_code": "EU", "geo_area_code": 0, "bid_req_cnt": 1, "r_timestamp": "2018-02-11T11:26:12.482847Z", "ua_device_type": "PC", "bid_price": 0.00017626, "geo_country_code2": "CZ", "ua_os": "Windows 10 None.None"
-0.00577373 | siteId:22719 campaignId:24276 zoneId:22232, "geo_city_name": "Prague", "site_id": 22719, "campaign_id": 24276, "session_id": "99e9ec4f29214657ac9e9a09a64cdd78_04bb3b97", "geo_continent_code": "EU", "geo_area_code": 0, "bid_req_cnt": 1, "r_timestamp": "2018-02-11T11:26:12.482847Z", "ua_device_type": "PC", "bid_price": 0.00577373, "geo_country_code2": "CZ", "ua_os": "Windows 10 None.None"
+8.23528715e-05 | siteId:22719 campaignId:22355 zoneId:22232
+0.00017626 | siteId:22719 campaignId:18025 zoneId:22232
+0.00577373 | siteId:22719 campaignId:24276 zoneId:22232
 0.000832479 | siteId:25674 campaignId:2547 zoneId:33695
 0.00034 | siteId:11257 campaignId:25856 zoneId:25670
 0.00033669 | siteId:11257 campaignId:20868 zoneId:27168
@@ -516,7 +516,7 @@
 2.0651e-05 | siteId:17295 campaignId:2547 zoneId:23708
 3e-05 | siteId:11257 campaignId:19914 zoneId:23580
 4.8543689e-05 | siteId:25958 campaignId:22557 zoneId:34051
-0.00146902 | siteId:22719 campaignId:24276 zoneId:22232, "geo_city_name": "Trelleborg", "site_id": 22719, "campaign_id": 24276, "session_id": "9003e037b1114a57936880f512293724_ee8c44e4", "geo_continent_code": "EU", "geo_area_code": 0, "bid_req_cnt": 1, "r_timestamp": "2018-02-11T11:35:33.095309Z", "ua_device_type": "PC", "bid_price": 0.00146902, "geo_country_code2": "SE", "ua_os": "Windows 10 None.None"
+0.00146902 | siteId:22719 campaignId:24276 zoneId:22232
 0.000548032 | siteId:3531 campaignId:2547 zoneId:5334
 0.003335 | siteId:11257 campaignId:14468 zoneId:27168
 0.00020082 | siteId:11257 campaignId:20868 zoneId:27168
@@ -537,10 +537,10 @@
 6.06e-05 | siteId:30070 campaignId:3389 zoneId:41637
 3e-05 | siteId:11257 campaignId:19914 zoneId:23580
 0.0002 | siteId:11257 campaignId:20602 zoneId:27168
-0.00538985 | siteId:22719 campaignId:24276 zoneId:22232, "geo_city_name": "Ostrava", "site_id": 22719, "campaign_id": 24276, "session_id": "a1ae64c374df404b814c965c58cc08c5_bcf6b353", "geo_continent_code": "EU", "geo_area_code": 0, "bid_req_cnt": 1, "r_timestamp": "2018-02-11T11:56:49.855167Z", "ua_device_type": "PC", "bid_price": 0.00538985, "geo_country_code2": "CZ", "ua_os": "Windows 10 None.None"
-8.23528715e-05 | siteId:22719 campaignId:22355 zoneId:22232, "geo_city_name": "Ostrava", "site_id": 22719, "campaign_id": 22355, "session_id": "a1ae64c374df404b814c965c58cc08c5_bcf6b353", "geo_continent_code": "EU", "geo_area_code": 0, "bid_req_cnt": 1, "r_timestamp": "2018-02-11T11:56:49.855167Z", "ua_device_type": "PC", "bid_price": 8.23528715e-05, "geo_country_code2": "CZ", "ua_os": "Windows 10 None.None"
-0.00017114 | siteId:22719 campaignId:18025 zoneId:22232, "geo_city_name": "Ostrava", "site_id": 22719, "campaign_id": 18025, "session_id": "a1ae64c374df404b814c965c58cc08c5_bcf6b353", "geo_continent_code": "EU", "geo_area_code": 0, "bid_req_cnt": 1, "r_timestamp": "2018-02-11T11:56:49.855167Z", "ua_device_type": "PC", "bid_price": 0.00017114, "geo_country_code2": "CZ", "ua_os": "Windows 10 None.None"
-0.000133352 | siteId:22719 campaignId:20579 zoneId:22232, "geo_city_name": "Ostrava", "site_id": 22719, "campaign_id": 20579, "session_id": "a1ae64c374df404b814c965c58cc08c5_bcf6b353", "geo_continent_code": "EU", "geo_area_code": 0, "bid_req_cnt": 1, "r_timestamp": "2018-02-11T11:56:49.855167Z", "ua_device_type": "PC", "bid_price": 0.000133352, "geo_country_code2": "CZ", "ua_os": "Windows 10 None.None"
+0.00538985 | siteId:22719 campaignId:24276 zoneId:22232
+8.23528715e-05 | siteId:22719 campaignId:22355 zoneId:22232
+0.00017114 | siteId:22719 campaignId:18025 zoneId:22232
+0.000133352 | siteId:22719 campaignId:20579 zoneId:22232
 0.04854368932 | siteId:3278 campaignId:22557 zoneId:5011
 7e-05 | siteId:11257 campaignId:23344 zoneId:14221
 3.9906e-05 | siteId:29997 campaignId:2547 zoneId:38826
@@ -23512,8 +23512,8 @@
 0.0003864047479 | siteId:11257 campaignId:22355 zoneId:25670
 0.00047 | siteId:11257 campaignId:20120 zoneId:27168
 0.0003864047479 | siteId:11257 campaignId:22355 zoneId:27168
-0.00512856 | siteId:22719 campaignId:24276 zoneId:22232, "geo_city_name": "Varberg", "site_id": 22719, "campaign_id": 24276, "session_id": "a694abaf21094fbebf27bfc4a98319fc_6edc888c", "geo_continent_code": "EU", "geo_area_code": 0, "bid_req_cnt": 1, "r_timestamp": "2018-02-11T11:12:37.024917Z", "ua_device_type": "PC", "bid_price": 0.00512856, "geo_country_code2": "SE", "ua_os": "Windows 10 None.None"
-0.000485 | siteId:22719 campaignId:24275 zoneId:22232, "geo_city_name": "Varberg", "site_id": 22719, "campaign_id": 24275, "session_id": "a694abaf21094fbebf27bfc4a98319fc_6edc888c", "geo_continent_code": "EU", "geo_area_code": 0, "bid_req_cnt": 1, "r_timestamp": "2018-02-11T11:12:37.024917Z", "ua_device_type": "PC", "bid_price": 0.000485, "geo_country_code2": "SE", "ua_os": "Windows 10 None.None"
+0.00512856 | siteId:22719 campaignId:24276 zoneId:22232
+0.000485 | siteId:22719 campaignId:24275 zoneId:22232
 0.0003294114861 | siteId:11257 campaignId:22355 zoneId:15023
 0.00029 | siteId:11257 campaignId:19587 zoneId:27168
 0.00122939 | siteId:11257 campaignId:20868 zoneId:27168
@@ -24947,9 +24947,9 @@
 0.00083633 | siteId:11257 campaignId:20868 zoneId:27168
 0.00197 | siteId:11257 campaignId:24209 zoneId:27168
 0.002 | siteId:22719 campaignId:20902 zoneId:22765
-0.0067904 | siteId:22719 campaignId:24276 zoneId:22232, "geo_city_name": "Pisek", "site_id": 22719, "campaign_id": 24276, "session_id": "d684d682aa584b5ba371de6becd7cd67_aea7e74a", "geo_continent_code": "EU", "geo_area_code": 0, "bid_req_cnt": 1, "r_timestamp": "2018-02-11T11:04:59.471961Z", "ua_device_type": "PC", "bid_price": 0.0067904, "geo_country_code2": "CZ", "ua_os": "Windows 7 None.None"
-8.23528715e-05 | siteId:22719 campaignId:22355 zoneId:22232, "geo_city_name": "Pisek", "site_id": 22719, "campaign_id": 22355, "session_id": "d684d682aa584b5ba371de6becd7cd67_aea7e74a", "geo_continent_code": "EU", "geo_area_code": 0, "bid_req_cnt": 1, "r_timestamp": "2018-02-11T11:04:59.471961Z", "ua_device_type": "PC", "bid_price": 8.23528715e-05, "geo_country_code2": "CZ", "ua_os": "Windows 7 None.None"
-0.0001763 | siteId:22719 campaignId:18025 zoneId:22232, "geo_city_name": "Pisek", "site_id": 22719, "campaign_id": 18025, "session_id": "d684d682aa584b5ba371de6becd7cd67_aea7e74a", "geo_continent_code": "EU", "geo_area_code": 0, "bid_req_cnt": 1, "r_timestamp": "2018-02-11T11:04:59.471961Z", "ua_device_type": "PC", "bid_price": 0.0001763, "geo_country_code2": "CZ", "ua_os": "Windows 7 None.None"
+0.0067904 | siteId:22719 campaignId:24276 zoneId:22232
+8.23528715e-05 | siteId:22719 campaignId:22355 zoneId:22232
+0.0001763 | siteId:22719 campaignId:18025 zoneId:22232
 0.0063656 | siteId:11257 campaignId:14468 zoneId:15023
 0.000252 | siteId:11257 campaignId:17565 zoneId:15023
 0.0002 | siteId:11257 campaignId:22819 zoneId:15023
@@ -33094,9 +33094,9 @@
 0.00046 | siteId:11257 campaignId:20120 zoneId:27168
 0.04854368932 | siteId:10371 campaignId:22557 zoneId:13212
 0.0008 | siteId:22719 campaignId:20570 zoneId:22232
-8.23528715e-05 | siteId:22719 campaignId:22355 zoneId:22232, "geo_city_name": "Prague", "site_id": 22719, "campaign_id": 22355, "session_id": "c4ab9a7dc72c43d69cbca6523c248be1_fe6a85b5", "geo_continent_code": "EU", "geo_area_code": 0, "bid_req_cnt": 1, "r_timestamp": "2018-02-11T11:48:42.304727Z", "ua_device_type": "PC", "bid_price": 8.23528715e-05, "geo_country_code2": "CZ", "ua_os": "Windows 10 None.None"
-0.00290522 | siteId:22719 campaignId:24276 zoneId:22232, "geo_city_name": "Prague", "site_id": 22719, "campaign_id": 24276, "session_id": "c4ab9a7dc72c43d69cbca6523c248be1_fe6a85b5", "geo_continent_code": "EU", "geo_area_code": 0, "bid_req_cnt": 1, "r_timestamp": "2018-02-11T11:48:42.304727Z", "ua_device_type": "PC", "bid_price": 0.00290522, "geo_country_code2": "CZ", "ua_os": "Windows 10 None.None"
-0.000127932 | siteId:22719 campaignId:20579 zoneId:22232, "geo_city_name": "Prague", "site_id": 22719, "campaign_id": 20579, "session_id": "c4ab9a7dc72c43d69cbca6523c248be1_fe6a85b5", "geo_continent_code": "EU", "geo_area_code": 0, "bid_req_cnt": 1, "r_timestamp": "2018-02-11T11:48:42.304727Z", "ua_device_type": "PC", "bid_price": 0.000127932, "geo_country_code2": "CZ", "ua_os": "Windows 10 None.None"
+8.23528715e-05 | siteId:22719 campaignId:22355 zoneId:22232
+0.00290522 | siteId:22719 campaignId:24276 zoneId:22232
+0.000127932 | siteId:22719 campaignId:20579 zoneId:22232
 0.000485436893 | siteId:23315 campaignId:22557 zoneId:34428
 0.000621 | siteId:23315 campaignId:3389 zoneId:34428
 0.0 | siteId:22719 campaignId:24012 zoneId:22765
@@ -37926,7 +37926,7 @@
 0.0016223799 | siteId:11257 campaignId:21942 zoneId:27168
 0.0 | siteId:11257 campaignId:25853 zoneId:25670
 3.46e-05 | siteId:27569 campaignId:3389 zoneId:36084
-0.00084747 | siteId:22719 campaignId:24276 zoneId:22232, "geo_city_name": "Hudiksvall", "site_id": 22719, "campaign_id": 24276, "session_id": "9bcaccbf57eb40baa08bf2af376a283a_be4db0f8", "geo_continent_code": "EU", "geo_area_code": 0, "bid_req_cnt": 1, "r_timestamp": "2018-02-11T11:56:59.175278Z", "ua_device_type": "PC", "bid_price": 0.00084747, "geo_country_code2": "SE", "ua_os": "Mac OS X 10.12"
+0.00084747 | siteId:22719 campaignId:24276 zoneId:22232
 6.27e-05 | siteId:27570 campaignId:3389 zoneId:36087
 2.36e-05 | siteId:4192 campaignId:3389 zoneId:6107
 0.0004985233395 | siteId:11257 campaignId:21579 zoneId:25670
@@ -38597,7 +38597,7 @@
 3.834e-05 | siteId:1865 campaignId:2547 zoneId:3374
 4.8543689e-05 | siteId:1865 campaignId:22557 zoneId:3374
 2.9126214e-05 | siteId:17575 campaignId:22557 zoneId:24033
-0.00095925 | siteId:22719 campaignId:24276 zoneId:22232, "geo_city_name": "Katrineholm", "site_id": 22719, "campaign_id": 24276, "session_id": "5bf87222989d42daadba507ec53621c3_55fb8562", "geo_continent_code": "EU", "geo_area_code": 0, "bid_req_cnt": 1, "r_timestamp": "2018-02-11T11:36:13.920423Z", "ua_device_type": "PC", "bid_price": 0.00095925, "geo_country_code2": "SE", "ua_os": "Mac OS X 10.13"
+0.00095925 | siteId:22719 campaignId:24276 zoneId:22232
 0.000187152 | siteId:2471 campaignId:2547 zoneId:4082
 0.00023 | siteId:2471 campaignId:22130 zoneId:4082
 2.32e-05 | siteId:2471 campaignId:3389 zoneId:4082
@@ -39611,9 +39611,9 @@
 0.000373446 | siteId:7391 campaignId:2547 zoneId:10078
 5.95912e-05 | siteId:22719 campaignId:24012 zoneId:22765
 0.0 | siteId:11257 campaignId:25853 zoneId:25670
-0.00017632 | siteId:22719 campaignId:18025 zoneId:22232, "geo_city_name": "Prague", "site_id": 22719, "campaign_id": 18025, "session_id": "2675eccb999747b48b7a57f57f9a7d17_c3ff4d68", "geo_continent_code": "EU", "geo_area_code": 0, "bid_req_cnt": 1, "r_timestamp": "2018-02-11T11:15:38.435061Z", "ua_device_type": "PC", "bid_price": 0.00017632, "geo_country_code2": "CZ", "ua_os": "Windows 8.1 None.None"
-0.00444698 | siteId:22719 campaignId:24276 zoneId:22232, "geo_city_name": "Prague", "site_id": 22719, "campaign_id": 24276, "session_id": "2675eccb999747b48b7a57f57f9a7d17_c3ff4d68", "geo_continent_code": "EU", "geo_area_code": 0, "bid_req_cnt": 1, "r_timestamp": "2018-02-11T11:15:38.435061Z", "ua_device_type": "PC", "bid_price": 0.00444698, "geo_country_code2": "CZ", "ua_os": "Windows 8.1 None.None"
-8.23528715e-05 | siteId:22719 campaignId:22355 zoneId:22232, "geo_city_name": "Prague", "site_id": 22719, "campaign_id": 22355, "session_id": "2675eccb999747b48b7a57f57f9a7d17_c3ff4d68", "geo_continent_code": "EU", "geo_area_code": 0, "bid_req_cnt": 1, "r_timestamp": "2018-02-11T11:15:38.435061Z", "ua_device_type": "PC", "bid_price": 8.23528715e-05, "geo_country_code2": "CZ", "ua_os": "Windows 8.1 None.None"
+0.00017632 | siteId:22719 campaignId:18025 zoneId:22232
+0.00444698 | siteId:22719 campaignId:24276 zoneId:22232
+8.23528715e-05 | siteId:22719 campaignId:22355 zoneId:22232
 0.00271788692474365 | siteId:11257 campaignId:24598 zoneId:27168
 5.0691e-05 | siteId:27024 campaignId:2547 zoneId:35436
 7.97e-05 | siteId:27024 campaignId:3389 zoneId:35436
@@ -41645,9 +41645,9 @@
 0.00026997 | siteId:3278 campaignId:2547 zoneId:5011
 0.00113 | siteId:11257 campaignId:20602 zoneId:27168
 0.000378640777 | siteId:25123 campaignId:22557 zoneId:33077
-0.00055983 | siteId:22719 campaignId:18025 zoneId:22232, "geo_city_name": "Vilnius", "site_id": 22719, "campaign_id": 18025, "session_id": "9a2013227f444ca29e5a8dede5e4c41e_d40b7a1b", "geo_continent_code": "EU", "geo_area_code": 0, "bid_req_cnt": 1, "r_timestamp": "2018-02-11T11:59:30.657824Z", "ua_device_type": "PC", "bid_price": 0.00055983, "geo_country_code2": "LT", "ua_os": "Windows 10 None.None"
-0.0001785 | siteId:22719 campaignId:20579 zoneId:22232, "geo_city_name": "Vilnius", "site_id": 22719, "campaign_id": 20579, "session_id": "9a2013227f444ca29e5a8dede5e4c41e_d40b7a1b", "geo_continent_code": "EU", "geo_area_code": 0, "bid_req_cnt": 1, "r_timestamp": "2018-02-11T11:59:30.657824Z", "ua_device_type": "PC", "bid_price": 0.0001785, "geo_country_code2": "LT", "ua_os": "Windows 10 None.None"
-0.00098038 | siteId:22719 campaignId:24276 zoneId:22232, "geo_city_name": "Vilnius", "site_id": 22719, "campaign_id": 24276, "session_id": "9a2013227f444ca29e5a8dede5e4c41e_d40b7a1b", "geo_continent_code": "EU", "geo_area_code": 0, "bid_req_cnt": 1, "r_timestamp": "2018-02-11T11:59:30.657824Z", "ua_device_type": "PC", "bid_price": 0.00098038, "geo_country_code2": "LT", "ua_os": "Windows 10 None.None"
+0.00055983 | siteId:22719 campaignId:18025 zoneId:22232
+0.0001785 | siteId:22719 campaignId:20579 zoneId:22232
+0.00098038 | siteId:22719 campaignId:24276 zoneId:22232
 0.0004 | siteId:11257 campaignId:20907 zoneId:27168
 0.0008 | siteId:22719 campaignId:20570 zoneId:22232
 0.0008 | siteId:22719 campaignId:20570 zoneId:22232
@@ -52107,9 +52107,9 @@
 0.00040776699 | siteId:11257 campaignId:23421 zoneId:25670
 0.0004774 | siteId:11257 campaignId:11374 zoneId:25670
 0.0004 | siteId:11257 campaignId:20907 zoneId:25670
-0.0009537 | siteId:22719 campaignId:24276 zoneId:22232, "geo_city_name": "Vilnius", "site_id": 22719, "campaign_id": 24276, "session_id": "a650949454bf4996a0b54fe2bb5a6585_14f7a1a8", "geo_continent_code": "EU", "geo_area_code": 0, "bid_req_cnt": 1, "r_timestamp": "2018-02-11T11:54:24.629431Z", "ua_device_type": "PC", "bid_price": 0.0009537, "geo_country_code2": "LT", "ua_os": "Windows 7 None.None"
-0.000561247 | siteId:22719 campaignId:18025 zoneId:22232, "geo_city_name": "Vilnius", "site_id": 22719, "campaign_id": 18025, "session_id": "a650949454bf4996a0b54fe2bb5a6585_14f7a1a8", "geo_continent_code": "EU", "geo_area_code": 0, "bid_req_cnt": 1, "r_timestamp": "2018-02-11T11:54:24.629431Z", "ua_device_type": "PC", "bid_price": 0.000561247, "geo_country_code2": "LT", "ua_os": "Windows 7 None.None"
-0.000475637 | siteId:22719 campaignId:20579 zoneId:22232, "geo_city_name": "Vilnius", "site_id": 22719, "campaign_id": 20579, "session_id": "a650949454bf4996a0b54fe2bb5a6585_14f7a1a8", "geo_continent_code": "EU", "geo_area_code": 0, "bid_req_cnt": 1, "r_timestamp": "2018-02-11T11:54:24.629431Z", "ua_device_type": "PC", "bid_price": 0.000475637, "geo_country_code2": "LT", "ua_os": "Windows 7 None.None"
+0.0009537 | siteId:22719 campaignId:24276 zoneId:22232
+0.000561247 | siteId:22719 campaignId:18025 zoneId:22232
+0.000475637 | siteId:22719 campaignId:20579 zoneId:22232
 0.0008 | siteId:22719 campaignId:20570 zoneId:22232
 0.04854368932 | siteId:19687 campaignId:22557 zoneId:26556
 0.0001445 | siteId:22719 campaignId:20579 zoneId:22232
@@ -55269,7 +55269,7 @@
 0.000252 | siteId:11257 campaignId:17565 zoneId:15023
 0.00057 | siteId:11257 campaignId:12816 zoneId:15023
 0.00156 | siteId:11257 campaignId:23153 zoneId:14221
-0.00325231 | siteId:22719 campaignId:24276 zoneId:22232, "geo_city_name": "Vrnamo", "site_id": 22719, "campaign_id": 24276, "session_id": "ec961692cf9b45e39f61986b026b4cb3_cb44e6d7", "geo_continent_code": "EU", "geo_area_code": 0, "bid_req_cnt": 1, "r_timestamp": "2018-02-11T11:09:12.609405Z", "ua_device_type": "PC", "bid_price": 0.00325231, "geo_country_code2": "SE", "ua_os": "Windows 10 None.None"
+0.00325231 | siteId:22719 campaignId:24276 zoneId:22232
 2.239e-05 | siteId:394 campaignId:2547 zoneId:5341
 0.00046 | siteId:11257 campaignId:19587 zoneId:27168
 0.0005313 | siteId:31253 campaignId:11374 zoneId:40148
@@ -62572,9 +62572,9 @@
 0.0006 | siteId:11257 campaignId:20602 zoneId:27168
 2.5054e-05 | siteId:5365 campaignId:2547 zoneId:7883
 0.04854368932 | siteId:17615 campaignId:22557 zoneId:24074
-5.3e-05 | siteId:22719 campaignId:24275 zoneId:22232, "geo_city_name": "Sollentuna", "site_id": 22719, "campaign_id": 24275, "session_id": "85bac92d68134ad8aac10b97d1b8f4bd_2d282d06", "geo_continent_code": "EU", "geo_area_code": 0, "bid_req_cnt": 1, "r_timestamp": "2018-02-11T11:58:14.067412Z", "ua_device_type": "PC", "bid_price": 5.3e-05, "geo_country_code2": "SE", "ua_os": "Windows 7 None.None"
-0.00296518 | siteId:22719 campaignId:24276 zoneId:22232, "geo_city_name": "Sollentuna", "site_id": 22719, "campaign_id": 24276, "session_id": "85bac92d68134ad8aac10b97d1b8f4bd_2d282d06", "geo_continent_code": "EU", "geo_area_code": 0, "bid_req_cnt": 1, "r_timestamp": "2018-02-11T11:58:14.067412Z", "ua_device_type": "PC", "bid_price": 0.00296518, "geo_country_code2": "SE", "ua_os": "Windows 7 None.None"
-0.00085 | siteId:22719 campaignId:20579 zoneId:22232, "geo_city_name": "Sollentuna", "site_id": 22719, "campaign_id": 20579, "session_id": "85bac92d68134ad8aac10b97d1b8f4bd_2d282d06", "geo_continent_code": "EU", "geo_area_code": 0, "bid_req_cnt": 1, "r_timestamp": "2018-02-11T11:58:14.067412Z", "ua_device_type": "PC", "bid_price": 0.00085, "geo_country_code2": "SE", "ua_os": "Windows 7 None.None"
+5.3e-05 | siteId:22719 campaignId:24275 zoneId:22232
+0.00296518 | siteId:22719 campaignId:24276 zoneId:22232
+0.00085 | siteId:22719 campaignId:20579 zoneId:22232
 0.003 | siteId:11257 campaignId:20281 zoneId:23580
 0.0005313 | siteId:22885 campaignId:11374 zoneId:30380
 0.04854368932 | siteId:22885 campaignId:22557 zoneId:30380
