@@ -1,7 +1,5 @@
 # Created by Brian Levis on 3/17/18
 
-from abc import ABC, abstractmethod
-
 from simulator.utils import *
 
 DEFAULT_FLOOR = 0.1 / 1000
