@@ -1,6 +1,7 @@
 # Created by Brian Levis on 3/17/18
-
 from simulator.utils import *
+
+from abc import ABC, abstractmethod
 
 DEFAULT_FLOOR = 0.1 / 1000
 
@@ -61,6 +62,13 @@ class SimulatorStats:
 class Simulator(ABC):
 
     def __init__(self, start=(11, 0), stop=(15, 23), limit=None, download=True, delete=True):
+        """
+        :param start: (day, hour), inclusive
+        :param stop: (day, hour), inclusive
+        :param limit: maximum number of files to download
+        :param download: download data files before simulation
+        :param delete: download data files before simulation
+        """
         self.start = start
         self.stop = stop
         self.limit = limit
