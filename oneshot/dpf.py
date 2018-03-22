@@ -1,13 +1,13 @@
 class DynamicPriceFloor:
 
-    def __init__(self):
-        self.price_floor = 0.0002
-        self.eps = 1.0
-        self.lamb_h = .3
-        self.lamb_e = .1#.01
-        self.lamb_l = .4#.02
-        self.time = 0
-        self.M = 5
+    def __init__(self, price_floor=0.0002, eps=1.0, lamb_h=0.3, lamb_e=0.1, lamb_l=0.4, time=0, M=5):
+        self.price_floor = price_floor
+        self.eps = eps
+        self.lamb_h = lamb_h
+        self.lamb_e = lamb_e
+        self.lamb_l = lamb_l
+        self.time = time
+        self.M = M
         self.revenues = []
         self.oneshot_min_n = 2
 
@@ -55,4 +55,6 @@ class DynamicPriceFloor:
                 self.revenues.pop(0)
             self.revenues.append(revenue)
         return revenue
-                
+
+    def __str__(self):
+        return  "price_floor: " + str(self.price_floor) + "\neps: " + str(self.eps) + "\nlamb_h: " + str(self.lamb_h) + "\nlamb_e: " + str(self.lamb_e) + "\nlamb_l: " + str(self.lamb_l) + "\ntime: " + str(self.time) + "\nM: " + str(self.M)
