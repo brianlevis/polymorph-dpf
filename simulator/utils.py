@@ -25,7 +25,7 @@ cb_bucket = boto3.resource('s3').Bucket(name=CB_BUCKET_NAME)
 # 'session_id', 'i_txn_rate', 'rate_metric', 'geo_city_name', 'f_cnt', 'vi_timestamp', 'f_nff', 'c_timestamp',
 # 'c_txn_rate', 'campaign_type', 'exp_mode', 'f_nfr', 'campaign_id', 'txn_fee', 'site_id', 'geo_area_code',
 # 'vv_timestamp_v', 'r_num_ads_returned', 'r_timestamp', 'ua_os', 'ua_device_type', 'ua_os_name'}
-# Removed: {'r_num_ads_returned', 'bid_responses', 'advertiser_id', }
+# Removed: {'r_num_ads_returned', 'bid_responses', 'advertiser_id', 'campaign_id', }
 
 BID_RESPONSE_KEY = 'bid_responses'
 BID_PRICE_KEY = 'bid_price'
@@ -35,7 +35,7 @@ INPUT_FEATURES = {
     'i_txn_fee', 'cr_cnt', 'c_txn_fee', 'r_num_ads_third_party', 'creative_id', 'r_cnt', 'vv_cnt',
     'pub_network_id', 'f_timestamp', 'geo_continent_code', 'i_timestamp', 'zone_id', 'r_num_ads_requested', 'i_cnt',
     'session_id', 'i_txn_rate', 'rate_metric', 'geo_city_name', 'f_cnt', 'vi_timestamp', 'f_nff', 'c_timestamp',
-    'c_txn_rate', 'campaign_type', 'exp_mode', 'f_nfr', 'campaign_id', 'txn_fee', 'site_id', 'geo_area_code',
+    'c_txn_rate', 'campaign_type', 'exp_mode', 'f_nfr', 'txn_fee', 'site_id', 'geo_area_code',
     'vv_timestamp_v', 'r_timestamp', 'ua_os', 'ua_device_type', 'ua_os_name'
 }
 
