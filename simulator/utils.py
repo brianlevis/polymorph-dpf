@@ -27,18 +27,16 @@ cb_bucket = boto3.resource('s3').Bucket(name=CB_BUCKET_NAME)
 # 'vv_timestamp_v', 'r_num_ads_returned', 'r_timestamp', 'ua_os', 'ua_device_type', 'ua_os_name'}
 # Removed: {'r_num_ads_returned', 'bid_responses', 'advertiser_id', 'campaign_id', 'f_nfr', 'txn_fee', 'f_cnt', 'f_nff',
 #           'vv_cnt', 'i_txn_rate', 'vv_timestamp_v', 'c_txn_rate', 'i_txn_fee', 'cr_cnt', 'c_txn_fee', 'f_nfto', 'token',
-#           'vi_cnt', 'txn_rate', 'c_cnt',  'i_cnt', 'vi_timestamp', 'c_timestamp', 'i_timestamp', 'f_timestamp', }
+#           'vi_cnt', 'txn_rate', 'c_cnt',  'i_cnt', 'vi_timestamp', 'c_timestamp', 'i_timestamp', 'f_timestamp',
+#           'session_id', }
 
 BID_RESPONSE_KEY = 'bid_responses'
 BID_PRICE_KEY = 'bid_price'
 INPUT_FEATURES = {
-    'geo_dma_code', 'geo_timezone', 'ua_name', 'geo_region_name',
-    'bid_requests', 'geo_country_code2', 'ad_type', 'ad_network_id', 'ua_device', 
-    'r_num_ads_third_party', 'creative_id', 'r_cnt', 
-    'pub_network_id', 'geo_continent_code', 'zone_id', 'r_num_ads_requested',
-    'session_id', 'rate_metric', 'geo_city_name',
-    'campaign_type', 'exp_mode', 'site_id', 'geo_area_code',
-    'r_timestamp', 'ua_os', 'ua_device_type', 'ua_os_name'
+    'geo_dma_code', 'geo_timezone', 'ua_name', 'geo_region_name', 'bid_requests', 'geo_country_code2', 'ad_type',
+    'ad_network_id', 'ua_device', 'r_num_ads_third_party', 'creative_id', 'r_cnt', 'pub_network_id', 'geo_continent_code',
+    'zone_id', 'r_num_ads_requested', 'rate_metric', 'geo_city_name', 'campaign_type', 'exp_mode', 'site_id',
+    'geo_area_code', 'r_timestamp', 'ua_os', 'ua_device_type', 'ua_os_name'
 }
 
 
