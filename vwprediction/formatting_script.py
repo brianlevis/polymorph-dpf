@@ -1,50 +1,40 @@
 import gzip
 import json
 import boto3
+
+import sys
 import os
+sys.path.append(os.path.abspath('../simulator'))
+import utils
 
-s3 = boto3.resource('s3')
-s3client = boto3.client('s3')
+line_iterator = utils.get_line_iterator((11, 0), (11, 0))
 
-input_bucket = 'adsnative-sigmoid'
-output_bucket = 'codebase-pm-vw-team'
+text_file = open('formatted.txt', 'w+')
 
-TEMP_INPUT_FILE_NAME = 'temp_in.gz'
+while True:
+    try:
 
-file_keys = []
-for d in range(11, 18):
-    for n in range(0, 128):
-        file_keys.append('%02d/16/part-00%03d.gz' % (d, n))
+        line_dict = next(line_iterator)
+        processed_line = utils.prepare_line(line_dict)
 
-as_bucket = s3.Bucket(name=input_bucket)
-cb_bucket = s3.Bucket(name=output_bucket)
+        campaign_id, site_id, zone_id = 0, 0, 0
 
-for file_key in file_keys:
+        if 'site_id' in processed_line['input_features']:
+            site_id = processed_line['input_features']['site_id']
+        if 'zone_id' in processed_line['input_features']:
+            zone_id = processed_line['input_features']['zone_id']
+        if processed_line['bids']:
+            for br in processed_line['bid_responses']:
+                if br['bid_price'] == processed_line['bids'][0]:
+                    campaign_id = br['id']
+            text_file.write("{0} | campaign_id:{1} site_id:{2} zone_id:{3}\n".format(processed_line['bids'][0], campaign_id, site_id, zone_id))
+    except StopIteration:
+        break
 
-    as_bucket.download_file(Key=file_key, Filename=TEMP_INPUT_FILE_NAME)
+text_file.close()
 
-    with gzip.open(TEMP_INPUT_FILE_NAME, 'r') as f:
-        lines = f.readlines()
-    lines = [x.strip() for x in lines]
+output_bucket = boto3.resource('s3').Bucket('codebase-pm-vw-team')
 
-    soldbids = []
+output_bucket.upload_file(Filename='formatted.txt', Key='formatted.txt')
 
-    for d in lines:
-        line_dict = json.loads(d)
-        if "bid_resp_cnt" in line_dict:
-            if int(line_dict["bid_resp_cnt"]) > 0:
-                soldbids.append(line_dict)
-
-    text_file_name = file_key[:2] + file_key[6:-2] + 'txt'
-    text_file = open(text_file_name, 'w+')
-
-    #with open(file_key[:-2] + 'txt', "w") as text_file:
-    for i in soldbids:
-        #print("{0} | siteId:{1} campaignId:{2} zoneId:{3}".format(i["bid_price"], i["site_id"], i["campaign_id"], i["zone_id"]), file=text_file)
-        text_file.write("{0} | siteId:{1} campaignId:{2} zoneId:{3}\n".format(i["bid_price"], i["site_id"], i["campaign_id"], i["zone_id"]))
-    text_file.close()
-
-    cb_bucket.upload_file(Filename=text_file_name, Key=text_file_name)
-
-    os.remove(TEMP_INPUT_FILE_NAME)
-    os.remove(text_file_name)
+os.remove('formatted.txt')
