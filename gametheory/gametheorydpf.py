@@ -32,7 +32,7 @@ class GameTheoryDPF:
             if len(a) >= 2:
                 sortedBids = sorted(a, key=lambda a: a['bid_price'])
                 bids2.append([sortedBids[-2]['bid_price'], sortedBids[-1]['bid_price']])
-
+            if len(a)
         return bids2
 
     def calculateReserve(self, window):
