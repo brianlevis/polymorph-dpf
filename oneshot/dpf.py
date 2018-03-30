@@ -1,4 +1,6 @@
-class DynamicPriceFloor:
+from simulator import *
+
+class OneShot():
 
     def __init__(self, price_floor=0.0002, eps=1.0, lamb_h=0.3, lamb_e=0.1, lamb_l=0.4, time=0, M=5):
         self.price_floor = price_floor
@@ -39,7 +41,7 @@ class DynamicPriceFloor:
             return 0.0
         return price_floor - second
 
-    def get_price_floor(self, num_bids):
+    def calculate_price_floor(self, num_bids):
         running_avg = sum(self.revenues)/len(self.revenues) if len(self.revenues) > 0 else 0
         return self.price_floor if num_bids >= self.oneshot_min_n else running_avg
 
@@ -47,7 +49,7 @@ class DynamicPriceFloor:
         first, second = self.max2(bids)
         revenue = self.calculate_revenue(first, second, price_floor)
         diff = self.calculate_differential(first, second, price_floor)
-#        print(first, second, price_floor, revenue, diff, self.revenues)
+        #print(first, second, price_floor, revenue, diff, self.revenues)
         if len(bids) >= self.oneshot_min_n:
             self.oneshot(first, second)
         else:
@@ -58,3 +60,20 @@ class DynamicPriceFloor:
 
     def __str__(self):
         return  "price_floor: " + str(self.price_floor) + "\neps: " + str(self.eps) + "\nlamb_h: " + str(self.lamb_h) + "\nlamb_e: " + str(self.lamb_e) + "\nlamb_l: " + str(self.lamb_l) + "\ntime: " + str(self.time) + "\nM: " + str(self.M)
+
+class OneShotSimulator(Simulator):
+    
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.d = OneShot()
+
+
+    def calculate_price_floor(self, input_features):
+        return self.d.calculate_price_floor(2)
+
+    def process_line(self, line, input_features, bids):
+        self.d.update(bids, self.d.price_floor)
+
+
+oneshot = OneShotSimulator(stop=(11, 0), limit=10, delete=False)
+oneshot.run_simulation()
