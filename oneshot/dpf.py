@@ -42,8 +42,7 @@ class OneShot():
         return price_floor - second
 
     def calculate_price_floor(self, num_bids):
-        running_avg = sum(self.revenues)/len(self.revenues) if len(self.revenues) > 0 else 0
-        return self.price_floor if num_bids >= self.oneshot_min_n else running_avg
+        return self.price_floor
 
     def update(self, bids, price_floor):
         first, second = self.max2(bids)
@@ -65,14 +64,28 @@ class OneShotSimulator(Simulator):
     
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
-        self.d = OneShot()
+        self.d = dict()
 
 
     def calculate_price_floor(self, input_features):
-        return self.d.calculate_price_floor(2)
+        if not input_features.get('geo_region_name', 0):
+            input_features['geo_region_name'] = 'None'
+        
+        if not self.d.get(input_features['geo_region_name'] ,0):
+            self.d[input_features['geo_region_name']] = OneShot()            
+
+        return self.d[input_features['geo_region_name']].calculate_price_floor(2)
 
     def process_line(self, line, input_features, bids):
-        self.d.update(bids, self.d.price_floor)
+        if not input_features.get('geo_region_name', 0):
+            input_features['geo_region_name'] = 'None'
+        
+        if not self.d.get(input_features['geo_region_name'] ,0):
+            self.d[input_features['geo_region_name']] = OneShot()
+            
+        pf = self.d[input_features['geo_region_name']].price_floor
+        self.d[input_features['geo_region_name']].update(bids, pf)
+            
 
 
 oneshot = OneShotSimulator(stop=(11, 0), limit=10, delete=False)
