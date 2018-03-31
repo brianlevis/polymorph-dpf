@@ -21,7 +21,8 @@ class MultiShot:
             self.ids[site_id] = idx
         else:
             pf = self.oneshots[self.ids[site_id]].get_price_floor(num_bids) 
-        self.pf = pf 
+        self.pf = pf
+        return pf 
         
     def update(self, input_features):
         bids = inpute_features['bid_requests']
