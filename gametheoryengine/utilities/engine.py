@@ -56,7 +56,7 @@ class Simulator:
             bid_prices = tools.get_bid_prices(auction_data)
             # Get reserve
             start = time.perf_counter()
-            reserve_price = self.strategy.get_reserve()
+            reserve_price = self.strategy.get_reserve(auction_data)
             end = time.perf_counter()
             self.reserve_times.append(end - start)
             # Run auction
@@ -101,7 +101,7 @@ class Strategy:
     all the auction information, list of bid prices sorted in decreasing order
     and the price floor just set.
     """
-    def get_reserve(self):
+    def get_reserve(self, auction_info):
         raise NotImplementedError()
 
     def update(self, auction_info, bid_prices, previous):

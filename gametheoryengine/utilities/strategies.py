@@ -2,6 +2,10 @@ import collections
 import utilities.engine as engine
 import numpy as np
 
+RESPONSES_ATTR = 'bid_responses'
+ID_ATTR = 'id'
+BID_PRICE_ATTR = 'bid_price'
+
 
 class Constant(engine.Strategy):
     """
@@ -14,7 +18,7 @@ class Constant(engine.Strategy):
         """
         self.default = default
 
-    def get_reserve(self):
+    def get_reserve(self, auction_info):
         return self.default
 
     def update(self, auction_info, bid_prices, previous):
@@ -41,7 +45,7 @@ class GameTheory(engine.Strategy):
         self.window_length = window_length
         self.window = collections.deque()
 
-    def get_reserve(self):
+    def get_reserve(self, auction_info):
         if len(self.window) < self.window_length:
             return 0
         top_mean = self.first_sum / self.window_length
@@ -74,78 +78,49 @@ class GameTheoryPerID(engine.Strategy):
     multiplied by self.fraction to get the reserve price. self.fraction should
     act as a weight (i.e. 0.9 would cause the reserve to undershoot a bit)
 
-    @Hermish: b/c this needs bidder IDs attached to price, you'll need to add
-    functions to pass in extra info to params versus your GameTheory class.
-    In this case it's easier to just pass in bid_responses unprocessed since
-    I don't need to know first/second highest bidder per auction anymore.
-
     """
-    def __init__(self, window_length, fraction):
+    def __init__(self, minimum_length, fraction, attribute_id, static):
         """
-        :param window_length: (int) the number of previous auctions to store at
-            one time
-        :param fraction: [float] a decimal between 0 and 1 inclusive which
-            signifies the distance to the first bid
+        :param minimum_length: (int) the minimum length after which to rely
+            on the game theory strategy
+        :param fraction: (float) a decimal between 0 and 1 inclusive which
+            discounts from the average bid
+        :param attribute_id: (str) the attribute to track
+        :param static: (float) the default static price floor to output given
+            not enough information
         """
-        
+        self.static = static
+        self.attribute_id = attribute_id
         self.fraction = fraction
-        self.window_length = window_length
-
-        # self.averages holds running avg (float) for each bidder ID key
-        # e.g. "12345": 0.000987. Bidder IDs are ints, may have to cast to
-        # str for them to be hashable, e.g. self.averages[str(bid['id'])].
+        self.minimum_length = minimum_length
         self.averages = {}
+        self.counts = {}
 
-    def get_reserve(self, bid_responses):
+    def get_reserve(self, auction_info):
+        key = auction_info[self.attribute_id]
+        if key not in self.counts or self.counts[key] < self.minimum_length:
+            return self.static
+        return self.fraction * self.averages[key]
+
+    def update(self, auction_info, bid_prices, previous):
         """
-        (idk how you generate these, sorry bout the formatting)
-        bid_responses: the list of dicts from the JSON
-
-        Returns average of participating bidders' individual running avgs (if they
-        have bid before/exist in self.averages), multiplied by self.fraction to 
-        weight it (e.g. 0.9 to try to undershoot a bit).
+        Note: updates the moving average based on the bids place in the last
+        auction.
         """
-        if len(bid_responses) == 0:
-            return 0
-        
-        count = 0
-        reserve = 0
-        for bid in bid_responses:
-            if bid['id'] in self.averages:
-                reserve += self.averages[bid['bid_price']]
-                count += 1
-
-        if count == 0:
-            return 0 # Or return some constant STATIC_RESERVE
-
-        reserve = reserve / count
-
-        return self.fraction * reserve
-
-    def update(self, bid_responses):
-        """
-        bid_responses: the list of dicts from the JSON
-
-        Moving avg w/out tracking: https://stackoverflow.com/questions/12636613/
-        Using implementation from answer #2.
-        May want to consider exponential moving average in the future.
-        FLAW: earlier bids are weighted way too much until we start getting 
-        close to window_length number of bids in each bidder's running average.
-        """
-
-        if len(bid_responses) == 0:
+        if not bid_prices:
             return
-
-        for bid in bid_responses:
-            if bid['id'] in self.averages:
-                n = self.window_length
-                oldAvg = self.averages[bid['id']]
-                newBid = bid['bid_price']
-                # Below weighs early bids too much initially
-                newAvg = (oldAvg * (n - 1.0) / n) + (newBid / n)
-                self.averages[bid['id']] = newAvg
-            else:
-                self.averages[bid['id']] = bid['bid_price']
+        key = auction_info[self.attribute_id]
+        add_bidders = len(bid_prices)
+        add_average = sum(bid_prices) / add_bidders
+        if key in self.averages:
+            new_count = self.counts[key] + add_bidders
+            new_average = self.averages[key] * (1 - add_bidders / new_count) \
+                + add_average * add_bidders / new_count
+            self.counts[key] = new_count
+            self.averages[key] = new_average
+        else:
+            self.counts[key] = add_bidders
+            self.averages[key] = add_average
 
 
 class BruteForceOptimization(engine.Strategy):
@@ -166,7 +141,7 @@ class BruteForceOptimization(engine.Strategy):
         self.window_length = window_length
         self.window = collections.deque()
 
-    def get_reserve(self):
+    def get_reserve(self, auction_info):
         revenues = [self._calculate_revenue(floor) for floor in self.range]
         max_position = np.argmax(revenues)
         return self.range[max_position]
