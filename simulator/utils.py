@@ -26,9 +26,9 @@ cb_bucket = boto3.resource('s3').Bucket(name=CB_BUCKET_NAME)
 # 'c_txn_rate', 'campaign_type', 'exp_mode', 'f_nfr', 'campaign_id', 'txn_fee', 'site_id', 'geo_area_code',
 # 'vv_timestamp_v', 'r_num_ads_returned', 'r_timestamp', 'ua_os', 'ua_device_type', 'ua_os_name'}
 # Removed: {'r_num_ads_returned', 'bid_responses', 'advertiser_id', 'campaign_id', 'f_nfr', 'txn_fee', 'f_cnt', 'f_nff',
-#           'vv_cnt', 'i_txn_rate', 'vv_timestamp_v', 'c_txn_rate', 'i_txn_fee', 'cr_cnt', 'c_txn_fee', 'f_nfto', 'token',
-#           'vi_cnt', 'txn_rate', 'c_cnt',  'i_cnt', 'vi_timestamp', 'c_timestamp', 'i_timestamp', 'f_timestamp',
-#           'session_id', }
+#           'vv_cnt', 'i_txn_rate', 'vv_timestamp_v', 'c_txn_rate', 'i_txn_fee', 'cr_cnt', 'c_txn_fee', 'f_nfto',
+#           'token', 'vi_cnt', 'txn_rate', 'c_cnt',  'i_cnt', 'vi_timestamp', 'c_timestamp', 'i_timestamp',
+#           'f_timestamp', 'session_id', }
 
 BID_RESPONSE_KEY = 'bid_responses'
 BID_PRICE_KEY = 'bid_price'
