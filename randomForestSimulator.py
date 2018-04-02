@@ -11,7 +11,6 @@ import time
 from simulator.simulator import Simulator
 
 
-
 class RandomForestSimulator(Simulator):
     def __init__(self, start=(11, 0), stop=(11, 0), limit=None, download=True, delete=True):
         super().__init__(start, stop, limit, download, delete)
@@ -40,6 +39,7 @@ class RandomForestSimulator(Simulator):
                 print(prediction['scores'], "vs", self.test_labels[i])
         print(overs / len(y_out), "% over")
         input(total)
+
 
     def json_to_features(self, data):
         values = []
@@ -103,6 +103,8 @@ class RandomForestSimulator(Simulator):
     def process_line(self, line, input_features, bid):
         pass
 
-randomForestSimulator = RandomForestSimulator(limit=1)
 
-randomForestSimulator.run_simulation()
+if __name__ == "__main__":
+    randomForestSimulator = RandomForestSimulator(limit=1)
+
+    randomForestSimulator.run_simulation()
