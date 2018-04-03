@@ -43,12 +43,28 @@ def get_bid_prices(information):
 
 
 def describe(array):
+    """
+    :param array: [num] array to be displayed
+    :return: (None) prints out descriptive statistics
+    """
     result = stats.describe(array)
     sample = 'size: {}'.format(result.nobs)
     average = 'mean: {:.3}'.format(result.mean)
     overview = 'range: [{:.3}, {:.3}]'.format(*map(float, result.minmax))
     variance = 'var: {:.3}'.format(result.variance)
     print(sample, average, overview, variance, sep='\n', end='\n\n')
+
+
+def compare(value, reference):
+    """
+    :param value: (float) value to be compared
+    :param reference: (float) baseline with which to calculate difference
+    :return: (None) prints out the percentage difference
+    """
+    difference = (value - reference) / reference
+    percent = float(100 * difference)
+    direction = 'lower' if difference < 0 else 'higher'
+    print('{:.3}% {}'.format(percent, direction))
 
 
 def reload(*modules):

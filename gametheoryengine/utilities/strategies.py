@@ -103,10 +103,6 @@ class GameTheoryPerID(engine.Strategy):
         return self.fraction * self.averages[key]
 
     def update(self, auction_info, bid_prices, previous):
-        """
-        Note: updates the moving average based on the bids place in the last
-        auction.
-        """
         if not bid_prices:
             return
         key = auction_info[self.attribute_id]
@@ -125,6 +121,7 @@ class GameTheoryPerID(engine.Strategy):
 
 class BruteForceOptimization(engine.Strategy):
     """
+    TODO: Incomplete
     An optimization approach that simply looks for the best price floor to
     maximize revenue at each time interval. This, indeed, takes a while.
     """
@@ -165,3 +162,17 @@ class BruteForceOptimization(engine.Strategy):
                 sales_price = max(price_floor, bids[2])
                 total += sales_price
         return total
+
+
+class LinearOptimization(engine.Strategy):
+    """
+    TODO: Incomplete
+    """
+    def __init__(self):
+        pass
+
+    def get_reserve(self, auction_info):
+        pass
+
+    def update(self, auction_info, bid_prices, previous):
+        pass
