@@ -7,7 +7,7 @@ import os
 sys.path.append(os.path.abspath('../simulator'))
 import utils
 
-line_iterator = utils.get_line_iterator((11, 0), (11, 0))
+line_iterator = utils.get_line_iterator((12, 0), (12, 0))
 
 text_file = open('formatted.txt', 'w+')
 
@@ -21,6 +21,8 @@ def get_features(processed_line):
         for br in processed_line['bid_responses']:
             if br['bid_price'] == processed_line['bids'][0]:
                 campaign_id = br['id']
+    else:
+        campaign_id = input_features['campaign_id']
     return (campaign_id, site_id, zone_id)
 
 while True:
