@@ -60,7 +60,7 @@ Average Bid Count (non-null): 1.4852398020099422
 Average Bid Amount: 0.0032906762426554146
 Average Bid Amount (non-null): 0.00555154196777575
 
-OneShot (publisher_id)
+OneShot (pub_network_id)
 Total Revenue: 3316.5524057070415
 Auction Count: 11366189
 Auction Count (non-null): 6737308
