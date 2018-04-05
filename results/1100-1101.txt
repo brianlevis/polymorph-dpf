@@ -1,7 +1,11 @@
 Results from running simulators on data from 2/11 from 12am - 2am.
 OneShot using advertiser_id works best, >>BUT<< hyperparameters were tuned
-for the advertiser_id case (and were chosen by hand). In order to properly compare the per-id strategies,
-parameters need to be properly chosen.
+for the advertiser_id case (and were chosen by hand). In order to properly
+compare the per-id strategies, parameters need to be properly chosen.
+Additionally, we need to take into account the fact that by choosing the
+best parameters, we are 'overfitting to the data'. We should choose params
+that optimize revenue for the first 3-4 days, and test performance on the
+next 1-2 days.
 
 Static Floor (0.10 CPM floor)
 Total Revenue: 1158.5987943912937
