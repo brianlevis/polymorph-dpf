@@ -89,6 +89,6 @@ class OneShotSimulator(Simulator):
         self.d[input_features[self.id]].update(bids, pf)
             
 
-if __name__ == "main":
+if __name__ == "__main__":
     oneshot = OneShotSimulator(stop=(11, 0), limit=10, delete=False)
     oneshot.run_simulation()
