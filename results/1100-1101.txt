@@ -1,0 +1,70 @@
+Results from running simulators on data from 2/11 from 12am - 2am.
+OneShot using advertiser_id works best, >>BUT<< hyperparameters were tuned
+for the advertiser_id case (and were chosen by hand). In order to properly compare the per-id strategies,
+parameters need to be properly chosen.
+
+Static Floor (0.10 CPM floor)
+Total Revenue: 1158.5987943912937
+Auction Count: 11366189
+Auction Count (non-null): 6737308
+Price Floor Engaged Count: 3586335
+Price Floor Too High Count: 1929333
+Average Revenue: 0.00010193379631390026
+Average Revenue (not-null): 0.0001719676159070201
+Average Bid Count: 0.880375823418034
+Average Bid Count (non-null): 1.4852398020099422
+Average Bid Amount: 0.0032906762426554146
+Average Bid Amount (non-null): 0.00555154196777575
+
+Running Average (0.75 weight, 100 history)
+Total Revenue: 4404.897436065963
+Auction Count: 11366189
+Auction Count (non-null): 6737308
+Price Floor Engaged Count: 1056593
+Price Floor Too High Count: 5646512
+Average Revenue: 0.00038754391960805535
+Average Revenue (not-null): 0.0006538067483431013
+Average Bid Count: 0.880375823418034
+Average Bid Count (non-null): 1.4852398020099422
+Average Bid Amount: 0.0032906762426554146
+Average Bid Amount (non-null): 0.00555154196777575
+
+OneShot params: price_floor=0.0002, eps=1.0, lamb_h=0.1, lamb_e=0.46, lamb_l=0.1, time=0, M=5
+OneShot (advertiser_id)
+Total Revenue: 13559.514554623347
+Auction Count: 11366189
+Auction Count (non-null): 6737308
+Price Floor Engaged Count: 1245341
+Price Floor Too High Count: 5407586
+Average Revenue: 0.0011929693017266691
+Average Revenue (not-null): 0.002012601257746172
+Average Bid Count: 0.880375823418034
+Average Bid Count (non-null): 1.4852398020099422
+Average Bid Amount: 0.0032906762426554146
+Average Bid Amount (non-null): 0.00555154196777575
+
+OneShot (site_id)
+Total Revenue: 6357.782234199602
+Auction Count: 11366189
+Auction Count (non-null): 6737308
+Price Floor Engaged Count: 1590308
+Price Floor Too High Count: 5073845
+Average Revenue: 0.0005593591866367523
+Average Revenue (not-null): 0.0009436680398461228
+Average Bid Count: 0.880375823418034
+Average Bid Count (non-null): 1.4852398020099422
+Average Bid Amount: 0.0032906762426554146
+Average Bid Amount (non-null): 0.00555154196777575
+
+OneShot (publisher_id)
+Total Revenue: 3316.5524057070415
+Auction Count: 11366189
+Auction Count (non-null): 6737308
+Price Floor Engaged Count: 1418005
+Price Floor Too High Count: 5265302
+Average Revenue: 0.0002917910660914614
+Average Revenue (not-null): 0.0004922667044028626
+Average Bid Count: 0.880375823418034
+Average Bid Count (non-null): 1.4852398020099422
+Average Bid Amount: 0.0032906762426554146
+Average Bid Amount (non-null): 0.00555154196777575
