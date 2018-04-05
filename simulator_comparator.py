@@ -30,13 +30,17 @@ class NaiveSimulator(Simulator):
             self.most_recent_bids.append(bids[0])
 
 
-default_simulator = DefaultSimulator()
-naive_simulator = NaiveSimulator(history_len=100)
-oneshot_simulator = OneShotSimulator()
+default_simulator = DefaultSimulator(stop=(11, 23))
+naive_simulator = NaiveSimulator(history_len=100, stop=(11, 23))
+oneshot_simulator = OneShotSimulator(stop=(11, 23))
+oneshot_simulator_site = OneShotSimulator(id='site_id', stop=(11, 23))
+oneshot_simulator_pub = OneShotSimulator(id='pub_network_id', stop=(11, 23))
 # RF simulator trains on 20 (out of 15k) random files from the first 4 days
 # random_forest_simulator = RandomForestSimulator(start=(15, 23), download=False, delete=True)
 
 default_simulator.run_simulation()
 naive_simulator.run_simulation()
 oneshot_simulator.run_simulation()
+oneshot_simulator_site.run_simulation()
+oneshot_simulator_pub.run_simulation()
 # random_forest_simulator.run_simulation()
