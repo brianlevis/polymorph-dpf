@@ -64,28 +64,29 @@ class OneShot:
 
 class OneShotSimulator(Simulator):
     
-    def __init__(self, *args, **kwargs):
+    def __init__(self, *args, id='ad_network_id', **kwargs):
         super().__init__(*args, **kwargs)
         self.d = dict()
+        self.id = id
 
     def calculate_price_floor(self, input_features):
-        if not input_features.get('ad_network_id', 0):
-            input_features['ad_network_id'] = 'None'
+        if not input_features.get(self.id, 0):
+            input_features[self.id] = 'None'
         
-        if not self.d.get(input_features['ad_network_id'] ,0):
-            self.d[input_features['ad_network_id']] = OneShot()            
+        if not self.d.get(input_features[self.id], 0):
+            self.d[input_features[self.id]] = OneShot()
 
-        return self.d[input_features['ad_network_id']].calculate_price_floor(2)
+        return self.d[input_features[self.id]].calculate_price_floor(2)
 
     def process_line(self, line, input_features, bids):
-        if not input_features.get('ad_network_id', 0):
-            input_features['ad_network_id'] = 'None'
+        if not input_features.get(self.id, 0):
+            input_features[self.id] = 'None'
         
-        if not self.d.get(input_features['ad_network_id'] ,0):
-            self.d[input_features['ad_network_id']] = OneShot()
+        if not self.d.get(input_features[self.id], 0):
+            self.d[input_features[self.id]] = OneShot()
             
-        pf = self.d[input_features['ad_network_id']].price_floor
-        self.d[input_features['ad_network_id']].update(bids, pf)
+        pf = self.d[input_features[self.id]].price_floor
+        self.d[input_features[self.id]].update(bids, pf)
             
 
 if __name__ == "main":
