@@ -1,4 +1,5 @@
 from randomForestSimulator import RandomForestSimulator
+from oneshot.dpf import OneShotSimulator
 from simulator import *
 
 
@@ -28,44 +29,18 @@ class NaiveSimulator(Simulator):
         if len(bids) > 0:
             self.most_recent_bids.append(bids[0])
 
-# import dpf
-# from random import randint
-#
-#
-# class MultiShot:
-#     # oneshots[0] holds sites w/ returns from init_return to init_return+init_gap
-#     # oneshots[1] similarly for init_return+init_gap to init_return+2*init_gap
-#     def __init__(self, num_shots, init_return=0.0, init_gap=.05):
-#         self.num_shots = num_shots
-#         self.init_return = init_return
-#         self.init_gap = init_gap
-#         self.oneshots = [dpf.DynamicPriceFloor() for _ in range(num_shots)]
-#         self.ids = {}  # id -> index of one shot algo
-#
-#     def get_price_floor(self, input_features):
-#         site_id, num_bids = input_features['site_id'], len(input_features['bid_requests'])
-#         if site_id not in self.ids:
-#             # can also try using average return instead of random
-#             oneshot = self.oneshots[randint(0, self.num_shots - 1)]
-#             pf = oneshot.get_price_floor(num_bids)
-#             idx = (pf + self.init_return) // self.init_gap
-#             self.ids[site_id] = idx
-#         else:
-#             pf = self.oneshots[self.ids[site_id]].get_price_floor(num_bids)
-#         self.pf = pf
-#         return pf
-#
-#     def update(self, input_features):
-#         bids = input_features['bid_requests']
-#         if  in self.ids and hasattr(self, 'pf'):
-#             self.oneshots[self.ids[site_id]].update(bids, self.pf)
 
-# Test simulators on the last hour of data
-default_simulator = DefaultSimulator(start=(15, 23), download=True, delete=False)
-naive_simulator = NaiveSimulator(start=(15, 23), download=False, delete=False)
+default_simulator = DefaultSimulator(stop=(11, 23))
+naive_simulator = NaiveSimulator(history_len=100, stop=(11, 23))
+oneshot_simulator = OneShotSimulator(stop=(11, 23))
+oneshot_simulator_site = OneShotSimulator(id='site_id', stop=(11, 23))
+oneshot_simulator_pub = OneShotSimulator(id='pub_network_id', stop=(11, 23))
 # RF simulator trains on 20 (out of 15k) random files from the first 4 days
-random_forest_simulator = RandomForestSimulator(start=(15, 23), download=False, delete=True)
+# random_forest_simulator = RandomForestSimulator(start=(15, 23), download=False, delete=True)
 
 default_simulator.run_simulation()
 naive_simulator.run_simulation()
-random_forest_simulator.run_simulation()
+oneshot_simulator.run_simulation()
+oneshot_simulator_site.run_simulation()
+oneshot_simulator_pub.run_simulation()
+# random_forest_simulator.run_simulation()
