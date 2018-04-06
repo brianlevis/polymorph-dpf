@@ -1,0 +1,38 @@
+In progress
+
+(11, 0) - (11, 23)
+Total Revenue: 24042.583307474695
+Auction Count: 218901791
+Auction Count (non-null): 118708514
+Price Floor Engaged Count: 60097320
+Price Floor Too High Count: 31533712
+Average Revenue: 0.00010983273913676976
+Average Revenue (not-null): 0.00020253461607205945
+Average Bid Count: 0.8411281797141623
+Average Bid Count (non-null): 1.5510636836040252
+Average Bid Amount: 0.0024044719570399786
+Average Bid Amount (non-null): 0.004433912952573278
+
+Total Revenue: 64259.75450311822
+Auction Count: 218901791
+Auction Count (non-null): 118708514
+Price Floor Engaged Count: 19965144
+Price Floor Too High Count: 97743721
+Average Revenue: 0.00029355517928639614
+Average Revenue (not-null): 0.0005413238893978424
+Average Bid Count: 0.8411281797141623
+Average Bid Count (non-null): 1.5510636836040252
+Average Bid Amount: 0.0024044719570399786
+Average Bid Amount (non-null): 0.004433912952573278
+
+Total Revenue: 186279.95251341516
+Auction Count: 218901791
+Auction Count (non-null): 118708514
+Price Floor Engaged Count: 17256758
+Price Floor Too High Count: 100007746
+Average Revenue: 0.0008509750041899619
+Average Revenue (not-null): 0.001569221500939816
+Average Bid Count: 0.8411281797141623
+Average Bid Count (non-null): 1.5510636836040252
+Average Bid Amount: 0.0024044719570399786
+Average Bid Amount (non-null): 0.004433912952573278
