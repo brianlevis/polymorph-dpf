@@ -36,14 +36,15 @@ class SimulatorStats:
                 self.price_floor_hit_count += 1
             elif revenue == 0:
                 self.price_floor_too_high_count += 1
-        self.average_revenue = self.total_revenue / self.auction_count
-        self.average_revenue_non_null = self.total_revenue / self.auction_count_non_null
         self._total_bid_count += len(bids)
         self._total_bid_amount += sum(bids)
         self.average_bid_count = self._total_bid_count / self.auction_count
-        self.average_bid_count_non_null = self._total_bid_count / self.auction_count_non_null
         self.average_bid_amount = self._total_bid_amount / self.auction_count
-        self.average_bid_amount_non_null = self._total_bid_amount / self.auction_count_non_null
+        if len(bids) > 0:
+            self.average_revenue_non_null = self.total_revenue / self.auction_count_non_null
+            self.average_revenue = self.total_revenue / self.auction_count
+            self.average_bid_count_non_null = self._total_bid_count / self.auction_count_non_null
+            self.average_bid_amount_non_null = self._total_bid_amount / self.auction_count_non_null
 
     def print_stats(self):
         print("Total Revenue:", self.total_revenue)
