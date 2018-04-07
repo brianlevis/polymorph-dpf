@@ -1,11 +1,13 @@
 from dpf import OneShot
 from random import randint
+from simulator import Simulator
 
-class MultiShot:
+class MultiShot(Simulator):
     """oneshots[0] holds sites w/ returns from init_return to init_return+init_gap
     oneshots[1] similarly for init_return+init_gap to init_return+2*init_gap, etc
     """
-    def __init__(self, num_shots, init_return=0.0, init_gap=.05):
+    def __init__(self, num_shots, init_return=0.0, init_gap=.00005):
+        super(MultiShot, self).__init__()
         self.num_shots = num_shots
         self.init_return = init_return
         self.init_gap = init_gap
@@ -21,20 +23,26 @@ class MultiShot:
             idx = self.get_idx(pf) 
             self.ids[site_id] = idx
         else:
-            pf = self.oneshots[self.ids[site_id]].get_price_floor(num_bids) 
+            pf = self.oneshots[self.ids[site_id]].calculate_price_floor(num_bids) 
         self.pf = pf
-        return pf 
+        return pf
+    
        
     def get_idx(self, revenue):
-        return (revenue-self.init_return)//self.init_gap
+        idx = int((revenue-self.init_return)//self.init_gap)
+        return min(idx, self.num_shots-1)
  
-    def update(self, input_features, bids):
+    def process_line(self, line, input_features, bids):
         site_id = input_features['site_id']
-        if site_id in self.ids and hasattr(self, pf):
+        if site_id in self.ids and hasattr(self, 'pf'):
             oneshot = self.oneshots[self.ids[site_id]]
             revenue = oneshot.calculate_revenue(bids, self.pf)
             idx = self.get_idx(revenue)
             self.ids[site_id] = idx 
             oneshot.update(bids, self.pf)
             
+oneshot = MultiShot(4)
+oneshot.run_simulation()
+print([list(oneshot.ids.values()).count(i) for i in range(oneshot.num_shots)])
+print([o.log for o in oneshot.oneshots])
 

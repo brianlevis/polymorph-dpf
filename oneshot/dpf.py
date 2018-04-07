@@ -13,13 +13,17 @@ class OneShot:
         self.M = M
         self.revenues = []
         self.oneshot_min_n = 2
+        self.log = [0]*3
 
     def oneshot(self, first, second):
         if self.price_floor > first:
+            self.log[0] += 1
             self.price_floor = (1 - (self.eps**self.time)*self.lamb_h)*self.price_floor
         elif self.price_floor > second:
+            self.log[1] += 1
             self.price_floor = (1 + (self.eps**self.time)*self.lamb_e)*self.price_floor
         else:
+            self.log[2] += 1
             self.price_floor = (1 + (self.eps**self.time)*self.lamb_l)*self.price_floor
         self.time += 1
 
