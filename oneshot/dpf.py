@@ -1,4 +1,4 @@
-from simulator import *
+#from simulator import *
 
 
 class OneShot:
@@ -13,13 +13,17 @@ class OneShot:
         self.M = M
         self.revenues = []
         self.oneshot_min_n = 2
+        self.log = [0]*3
 
     def oneshot(self, first, second):
         if self.price_floor > first:
+            self.log[0] += 1
             self.price_floor = (1 - (self.eps**self.time)*self.lamb_h)*self.price_floor
         elif self.price_floor > second:
+            self.log[1] += 1
             self.price_floor = (1 + (self.eps**self.time)*self.lamb_e)*self.price_floor
         else:
+            self.log[2] += 1
             self.price_floor = (1 + (self.eps**self.time)*self.lamb_l)*self.price_floor
         self.time += 1
 
@@ -32,7 +36,12 @@ class OneShot:
                 max2 = bid
         return max1, max2
 
-    def calculate_revenue(self, first, second, price_floor):
+    def calculate_revenue(self, bids, price_floor):
+        first, second = self.max2(bids)
+        return self.calculate_revenue_helper(first, second, price_floor)
+
+
+    def calculate_revenue_helper(self, first, second, price_floor):
         if price_floor > first:
             return 0.0
         return max(second, price_floor)
@@ -47,7 +56,7 @@ class OneShot:
 
     def update(self, bids, price_floor):
         first, second = self.max2(bids)
-        revenue = self.calculate_revenue(first, second, price_floor)
+        revenue = self.calculate_revenue_helper(first, second, price_floor)
         diff = self.calculate_differential(first, second, price_floor)
         # print(first, second, price_floor, revenue, diff, self.revenues)
         if len(bids) >= self.oneshot_min_n:
@@ -62,33 +71,33 @@ class OneShot:
         return "price_floor: " + str(self.price_floor) + "\neps: " + str(self.eps) + "\nlamb_h: " + str(self.lamb_h) + "\nlamb_e: " + str(self.lamb_e) + "\nlamb_l: " + str(self.lamb_l) + "\ntime: " + str(self.time) + "\nM: " + str(self.M)
 
 
-class OneShotSimulator(Simulator):
-    
-    def __init__(self, *args, id='ad_network_id', **kwargs):
-        super().__init__(*args, **kwargs)
-        self.d = dict()
-        self.id = id
-
-    def calculate_price_floor(self, input_features):
-        if not input_features.get(self.id, 0):
-            input_features[self.id] = 'None'
-        
-        if not self.d.get(input_features[self.id], 0):
-            self.d[input_features[self.id]] = OneShot()
-
-        return self.d[input_features[self.id]].calculate_price_floor(2)
-
-    def process_line(self, line, input_features, bids):
-        if not input_features.get(self.id, 0):
-            input_features[self.id] = 'None'
-        
-        if not self.d.get(input_features[self.id], 0):
-            self.d[input_features[self.id]] = OneShot()
-            
-        pf = self.d[input_features[self.id]].price_floor
-        self.d[input_features[self.id]].update(bids, pf)
-            
-
-if __name__ == "__main__":
-    oneshot = OneShotSimulator(stop=(11, 0), limit=10, delete=False)
-    oneshot.run_simulation()
+#class OneShotSimulator(Simulator):
+#    
+#    def __init__(self, *args, id='ad_network_id', **kwargs):
+#        super().__init__(*args, **kwargs)
+#        self.d = dict()
+#        self.id = id
+#
+#    def calculate_price_floor(self, input_features):
+#        if not input_features.get(self.id, 0):
+#            input_features[self.id] = 'None'
+#        
+#        if not self.d.get(input_features[self.id], 0):
+#            self.d[input_features[self.id]] = OneShot()
+#
+#        return self.d[input_features[self.id]].calculate_price_floor(2)
+#
+#    def process_line(self, line, input_features, bids):
+#        if not input_features.get(self.id, 0):
+#            input_features[self.id] = 'None'
+#        
+#        if not self.d.get(input_features[self.id], 0):
+#            self.d[input_features[self.id]] = OneShot()
+#            
+#        pf = self.d[input_features[self.id]].price_floor
+#        self.d[input_features[self.id]].update(bids, pf)
+#            
+#
+#if __name__ == "__main__":
+#    oneshot = OneShotSimulator(stop=(11, 0), limit=10, delete=False)
+#    oneshot.run_simulation()
