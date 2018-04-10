@@ -1,8 +1,8 @@
 import boto3
 import sys
 import os
-sys.path.append(os.path.abspath('../simulator'))
-import utils
+sys.path.append(os.path.abspath('..'))
+import simulator.utils as utils
 
 START = (12, 0)
 END = (12, 0)
@@ -24,9 +24,10 @@ while True:
                     for request_id in processed_line['input_features']['bid_requests']:
                         line += 'campaign_id' + str(request_id) + ' '
                 elif str(feature) == 'r_timestamp':
+                    # TODO: Fix timestamps- can't have timestamps as a binary feature
                     line += 'r_timestamp' + processed_line['input_features'][str(feature)].replace(':', '-') + ' '
                 else:
-                    line += str(feature) + str(processed_line['input_features'][str(feature)]) + ' '
+                    line += feature + str(processed_line['input_features'][str(feature)]) + ' '
             line = line[:-1] + '\n'
             text_file.write(line)
     except StopIteration:
