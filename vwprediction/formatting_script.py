@@ -18,18 +18,27 @@ while True:
         line_dict = next(line_iterator)
         processed_line = utils.prepare_line(line_dict)
         if processed_line['bids']:
-            line = str(processed_line['bids'][0]) + ' | '
+            bid = str(processed_line['bids'][0]) + ' | '
+            geoline = '| '
+            ualine = '| '
+            numline = '| '
             for feature in processed_line['input_features']:
                 if str(feature) == 'bid_requests':
                     for request_id in processed_line['input_features']['bid_requests']:
-                        line += 'campaign_id' + str(request_id) + ' '
+                        bid += 'campaign_id' + str(request_id) + ' '
                 elif str(feature) == 'r_timestamp':
-                    # TODO: Fix timestamps- can't have timestamps as a binary feature
-                    #line += 'r_timestamp' + processed_line['input_features'][str(feature)].replace(':', '-') + ' '
-                    line += 'hour' + str(processed_line['input_features'][str(feature)])[11:13] + ' '
+                    bid += 'hour' + str(processed_line['input_features'][str(feature)])[11:13] + ' '
+                elif "geo" in str(feature):
+                    geoline += feature + str(processed_line['input_features'][str(feature)]) + ' '
+                elif "ua_" in str(feature):
+                    ualine += feature + str(processed_line['input_features'][str(feature)]) + ' '
+                elif "num_ads" in str(feature):
+                    numline += feature + ':' + str(processed_line['input_features'][str(feature)]) + ' '
+                elif "r_cnt" in str(feature):
+                    numline += feature + ':' + str(processed_line['input_features'][str(feature)]) + ' '
                 else:
-                    line += feature + str(processed_line['input_features'][str(feature)]) + ' '
-            line = line[:-1] + '\n'
+                    bid += feature + str(processed_line['input_features'][str(feature)]) + ' '
+            line = bid + geoline + ualine + numline[:-1] + '\n'
             text_file.write(line)
     except StopIteration:
         break
