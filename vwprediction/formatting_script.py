@@ -1,8 +1,10 @@
 import boto3
 import sys
 import os
-sys.path.append(os.path.abspath('../simulator'))
-import utils
+sys.path.append(os.path.abspath('..'))
+import simulator.utils as utils
+
+
 
 START = (12, 0)
 END = (12, 0)
@@ -18,16 +20,28 @@ while True:
         line_dict = next(line_iterator)
         processed_line = utils.prepare_line(line_dict)
         if processed_line['bids']:
-            line = str(processed_line['bids'][0]) + ' | '
+            bid = str(processed_line['bids'][0]) + ' | '
+            geoline = '| '
+            ualine = '| '
+            numline = '| '
+
             for feature in processed_line['input_features']:
                 if str(feature) == 'bid_requests':
                     for request_id in processed_line['input_features']['bid_requests']:
-                        line += 'campaign_id' + str(request_id) + ' '
+                        bid += 'campaign_id' + str(request_id) + ' '
                 elif str(feature) == 'r_timestamp':
-                    line += 'r_timestamp' + processed_line['input_features'][str(feature)].replace(':', '-') + ' '
+                    bid += 'hour' + str(processed_line['input_features'][str(feature)])[11:13] + ' '
+                elif "geo" in str(feature):
+                    geoline += feature + str(processed_line['input_features'][str(feature)]) + ' '
+                elif "ua_" in str(feature):
+                    ualine += feature + str(processed_line['input_features'][str(feature)]) + ' '
+                elif "num_ads" in str(feature):
+                    numline += feature + ':' + str(processed_line['input_features'][str(feature)]) + ' '
+                elif "r_cnt" in str(feature):
+                    numline += feature + ':' + str(processed_line['input_features'][str(feature)]) + ' '
                 else:
-                    line += str(feature) + str(processed_line['input_features'][str(feature)]) + ' '
-            line = line[:-1] + '\n'
+                    bid += feature + str(processed_line['input_features'][str(feature)]) + ' '
+            line = bid + geoline + ualine + numline[:-1] + '\n'
             text_file.write(line)
     except StopIteration:
         break
@@ -38,6 +52,14 @@ output_bucket = boto3.resource('s3').Bucket('codebase-pm-vw-team')
 
 output_bucket.upload_file(Filename=FILE_NAME, Key=FILE_NAME)
 
+
+# Overfits
+# os.system('vw {0} --holdout_off -f {1}.model'.format(FILE_NAME, FILE_NAME[:-4]))
 os.system('vw {0} --holdout_off -f {1}.model'.format(FILE_NAME, FILE_NAME[:-4]))
 
-os.remove(FILE_NAME)
+# On local system:
+#     Squared Loss, 10 passes, using cache
+# os.system('vw -d 120to1201.txt --loss_function=squared --passes=10 --cache_file cache.txt -f japmodel.vw')
+
+
+# os.remove(FILE_NAME)
