@@ -1,7 +1,7 @@
 import sys
 sys.path.append('../')
 
-import simulator.simulator as sim
+import simulator as sim
 
 DEFAULT_FLOOR = 0.1 / 1000
 
@@ -11,8 +11,8 @@ class Average(sim.Simulator):
     tracking past elements.
     """
 
-    def __init__(self, window, weight, start=(11, 0), stop=(15, 23), **kwargs):
-        Simulator.__init__(self, start, stop, limit, download, delete)
+    def __init__(self, window, weight, start=(11, 0), stop=(15, 23), limit=10, **kwargs):
+        sim.Simulator.__init__(self, start, stop, limit, **kwargs)
         self.window = window
         self.weight = weight
         self.lowAvg = 0.0
@@ -37,8 +37,8 @@ class AverageBidderID(sim.Simulator):
     in the same way as the weight parameter from Average().
     """
 
-    def __init__(self, window, weight, start=(11, 0), stop=(15, 23), **kwargs):
-        Simulator.__init__(self, start, stop, **kwargs)
+    def __init__(self, window, weight, start=(11, 0), stop=(15, 23), limit=10, **kwargs):
+        sim.Simulator.__init__(self, start, stop, limit, **kwargs)
         self.window = window
         self.weight = weight
         self.input = "bid_requests"
@@ -77,8 +77,8 @@ class AverageSingleID(sim.Simulator):
     pub_network_id, but not bid_requests).
     """
 
-    def __init__(self, window, weight, param_id, start=(11, 0), stop=(15, 23), **kwargs): 
-        Simulator.__init__(self, start, stop, **kwargs)
+    def __init__(self, window, weight, param_id, start=(11, 0), stop=(15, 23), limit=10, **kwargs): 
+        sim.Simulator.__init__(self, start, stop, limit, **kwargs)
         self.window = window
         self.weight = weight
         self.id = param_id
