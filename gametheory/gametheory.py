@@ -1,9 +1,11 @@
 import sys
+
 sys.path.append('../')
 
 import simulator as sim
 
 DEFAULT_FLOOR = 0.1 / 1000
+
 
 class Average(sim.Simulator):
     """
@@ -11,8 +13,8 @@ class Average(sim.Simulator):
     tracking past elements.
     """
 
-    def __init__(self, window, weight **kwargs):
-        sim.Simulator.__init__(self, **kwargs)
+    def __init__(self, window, weight, *args, **kwargs):
+        super().__init__(self, *args, **kwargs)
         self.window = window
         self.weight = weight
         self.lowAvg = 0.0
@@ -24,10 +26,9 @@ class Average(sim.Simulator):
     def process_line(self, line, input_features, bids):
         if len(bids) < 2:
             return
-        self.lowAvg = self.lowAvg * (self.window - 1)/self.window +\
-                bids[1] * 1.0/self.window
-        self.highAvg = self.highAvg * (self.window - 1)/self.window +\
-                bids[1] * 1.0/self.window
+        self.lowAvg = self.lowAvg * (self.window - 1) / self.window + bids[1] * 1.0 / self.window
+        self.highAvg = self.highAvg * (self.window - 1) / self.window + bids[1] * 1.0 / self.window
+
 
 class AverageBidderID(sim.Simulator):
     """
@@ -51,33 +52,32 @@ class AverageBidderID(sim.Simulator):
         seenIDs = [k for k in keys if (k in self.averages)]
         if len(seenIDs) == 0:
             return DEFAULT_FLOOR
-        else: 
+        else:
             return max([self.averages[key] for key in seenIDs]) * self.weight
 
     def process_line(self, line, input_features, bids):
         if len(bids) == 0:
             return
-        bidResponses = line["bid_responses"]
-        for response in bidResponses:
-            bidderID = response["id"]
-            price = response["bid_price"] 
-            if bidderID in self.averages:
-                n = min(self.counts[bidderID] + 1, self.window)
-                self.averages[bidderID] = self.averages[bidderID] * (n - 1)/n +\
-                        price * 1.0/n
-                self.counts[bidderID] += 1
+        bid_responses = line["bid_responses"]
+        for response in bid_responses:
+            bidder_i_d = response["id"]
+            price = response["bid_price"]
+            if bidder_i_d in self.averages:
+                n = min(self.counts[bidder_i_d] + 1, self.window)
+                self.averages[bidder_i_d] = self.averages[bidder_i_d] * (n - 1) / n + price * 1.0 / n
+                self.counts[bidder_i_d] += 1
             else:
-                self.averages[bidderID] = price
-                self.counts[bidderID] = 1
+                self.averages[bidder_i_d] = price
+                self.counts[bidder_i_d] = 1
+
 
 class AverageSingleID(sim.Simulator):
-
     """
     Only works for input features with a single value (e.g. works with site_id, 
     pub_network_id, but not bid_requests).
     """
 
-    def __init__(self, window, weight, param_id, **kwargs): 
+    def __init__(self, window, weight, param_id, **kwargs):
         sim.Simulator.__init__(self, **kwargs)
         self.window = window
         self.weight = weight
@@ -89,7 +89,7 @@ class AverageSingleID(sim.Simulator):
         key = input_features[self.id]
         if key in self.averages:
             return self.averages[key]
-        else: 
+        else:
             return DEFAULT_FLOOR
 
     def process_line(self, line, input_features, bids):
@@ -97,16 +97,14 @@ class AverageSingleID(sim.Simulator):
             return
         key = input_features[self.id]
         low, high = bids[1], bids[0]
-        weightedAvg = low * self.weight + high * (1 - self.weight)
+        weighted_avg = low * self.weight + high * (1 - self.weight)
         if key in self.averages:
             n = min(self.counts[key] + 1, self.window)
-            self.averages[key] = self.averages[key] * (n - 1)/n +\
-                    weightedAvg * 1.0/n
+            self.averages[key] = self.averages[key] * (n - 1) / n + weighted_avg * 1.0 / n
             self.counts[key] += 1
         else:
-            self.averages[key] = weightedAvg
+            self.averages[key] = weighted_avg
             self.counts[key] = 1
-
 
 # {"geo_timezone": "America/Indianapolis", "pub_network_id": 267, "site_id":
 # 3878, "campaign_id": 3389, "ua_device": "iPhone", "geo_region_name": "IN",
@@ -125,4 +123,4 @@ class AverageSingleID(sim.Simulator):
 # "session_id": "2c1425441a6a49dc9999663bd48cfff2_a33c8f55", "token":
 # "rtb:11:250_10000", "r_num_ads_requested": 1, "geo_dma_code": 527,
 # "geo_country_code2": "US", "creative_id": 56440, "ua_os": "iOS 10.3",
-# "geo_city_name": "Greencastle", "geo_area_code": 765} 
+# "geo_city_name": "Greencastle", "geo_area_code": 765}
