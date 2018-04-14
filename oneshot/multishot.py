@@ -40,10 +40,11 @@ class MultiShot(Simulator):
             idx = self.get_idx(revenue)
             self.ids[site_id] = idx 
             oneshot.update(bids, self.pf)
-            
-oneshot_args = {'price_floor': 0.0002, 'eps': 1.0, 'lamb_h': 0.1, 'lamb_e': 0.46, 'lamb_l': 0.1, 'time': 0, 'M': 5}
-oneshot = MultiShot(1, oneshot_args=oneshot_args)
-oneshot.run_simulation()
-print([list(oneshot.ids.values()).count(i) for i in range(oneshot.num_shots)])
-print([o.log for o in oneshot.oneshots])
+
+if __name__ == "__main__":
+    oneshot_args = {'price_floor': 0.0002, 'eps': 1.0, 'lamb_h': 0.1, 'lamb_e': 0.46, 'lamb_l': 0.1, 'time': 0, 'M': 5}
+    oneshot = MultiShot(1, oneshot_args=oneshot_args)
+    oneshot.run_simulation()
+    print([list(oneshot.ids.values()).count(i) for i in range(oneshot.num_shots)])
+    print([o.log for o in oneshot.oneshots])
 
