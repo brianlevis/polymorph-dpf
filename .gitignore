@@ -1,3 +1,5 @@
+*.gz
+
 # NODE
 node_modules
 
