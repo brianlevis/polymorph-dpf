@@ -3,7 +3,7 @@
 
 class OneShot:
 
-    def __init__(self, price_floor=0.0002, eps=1.0, lamb_h=0.1, lamb_e=0.46, lamb_l=0.1, time=0, M=5):
+    def __init__(self, price_floor=0.0002, eps=1.0, lamb_h=0.1, lamb_e=0.46, lamb_l=0.1, time=0, M=5, pf_ceil=.005):
         self.price_floor = price_floor
         self.eps = eps
         self.lamb_h = lamb_h
@@ -14,10 +14,13 @@ class OneShot:
         self.revenues = []
         self.oneshot_min_n = 2
         self.log = [0]*3
+        self.over = 0
+        self.pf_ceil = pf_ceil
 
     def oneshot(self, first, second):
         if self.price_floor > first:
             self.log[0] += 1
+            self.over += self.price_floor
             self.price_floor = (1 - (self.eps**self.time)*self.lamb_h)*self.price_floor
         elif self.price_floor > second:
             self.log[1] += 1
@@ -25,6 +28,7 @@ class OneShot:
         else:
             self.log[2] += 1
             self.price_floor = (1 + (self.eps**self.time)*self.lamb_l)*self.price_floor
+        self.price_floor = min(self.price_floor, self.pf_ceil)
         self.time += 1
 
     def max2(self, bids):
