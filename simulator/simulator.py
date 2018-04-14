@@ -5,6 +5,8 @@ from abc import ABC, abstractmethod
 
 DEFAULT_FLOOR = 0.1 / 1000
 
+_simulator_queue = {}
+
 
 class SimulatorStats:
 
@@ -97,6 +99,31 @@ class Simulator(ABC):
         if output != 'none':
             self.stats.print_stats()
 
+
+def queue_simulator(sim, name):
+    """
+    :param sim: Simulator object to queue
+    :param name: name to be printed with stats
+    """
+    _simulator_queue[name] = sim
+
+
+def run_queue(*args, **kwargs):
+    stable_queue = _simulator_queue.copy()
+    _simulator_queue.clear()
+    line_iterator = get_line_iterator(*args, **kwargs)
+    for line in line_iterator:
+        prepared_line = prepare_line(line)
+        bids, input_features = prepared_line['bids'], prepared_line['input_features']
+        for sim in stable_queue.values():
+            price_floor = sim.calculate_price_floor(input_features)
+            sim.stats.process_line(bids, input_features, price_floor)
+            sim.process_line(line, input_features, bids)
+    for sim in stable_queue:
+        print("-------------------------------------------")
+        print(sim)
+        print("-------------------------------------------")
+        stable_queue[sim].stats.print_stats()
 
 # class DefaultSimulator(Simulator):
 #

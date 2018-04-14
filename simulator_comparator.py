@@ -1,6 +1,6 @@
-from randomForestSimulator import RandomForestSimulator
-from oneshot.dpf import OneShotSimulator
 from simulator import *
+from oneshot.multishot import MultiShot
+from gametheory.gametheory import Average, AverageBidderID, AverageSingleID
 
 
 class DefaultSimulator(Simulator):
@@ -30,17 +30,26 @@ class NaiveSimulator(Simulator):
             self.most_recent_bids.append(bids[0])
 
 
-default_simulator = DefaultSimulator(stop=(11, 23))
-naive_simulator = NaiveSimulator(history_len=100, stop=(11, 23))
-oneshot_simulator = OneShotSimulator(stop=(11, 23))
-oneshot_simulator_site = OneShotSimulator(id='site_id', stop=(11, 23))
-oneshot_simulator_pub = OneShotSimulator(id='pub_network_id', stop=(11, 23))
+# default_simulator = DefaultSimulator(stop=(11, 23))
+naive_simulator_100 = NaiveSimulator(history_len=100)
+naive_simulator_200 = NaiveSimulator(history_len=200)
+# oneshot_simulator = MultiShot(10)
+
+queue_simulator(naive_simulator_100, 'Naive-100')
+queue_simulator(naive_simulator_200, 'Naive-200')
+# queue_simulator(oneshot_simulator, 'OneShot')
+
+run_queue(stop=(11, 0), limit=5)
+
+
+# oneshot_simulator_site = MultiShot(id='site_id', stop=(11, 23))
+# oneshot_simulator_pub = MultiShot(id='pub_network_id', stop=(11, 23))
 # RF simulator trains on 20 (out of 15k) random files from the first 4 days
 # random_forest_simulator = RandomForestSimulator(start=(15, 23), download=False, delete=True)
 
-default_simulator.run_simulation()
-naive_simulator.run_simulation()
-oneshot_simulator.run_simulation()
-oneshot_simulator_site.run_simulation()
-oneshot_simulator_pub.run_simulation()
+# default_simulator.run_simulation()
+# naive_simulator.run_simulation()
+# oneshot_simulator.run_simulation()
+# oneshot_simulator_site.run_simulation()
+# oneshot_simulator_pub.run_simulation()
 # random_forest_simulator.run_simulation()
