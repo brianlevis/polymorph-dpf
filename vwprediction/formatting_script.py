@@ -25,7 +25,8 @@ while True:
                         line += 'campaign_id' + str(request_id) + ' '
                 elif str(feature) == 'r_timestamp':
                     # TODO: Fix timestamps- can't have timestamps as a binary feature
-                    line += 'r_timestamp' + processed_line['input_features'][str(feature)].replace(':', '-') + ' '
+                    #line += 'r_timestamp' + processed_line['input_features'][str(feature)].replace(':', '-') + ' '
+                    line += 'hour' + str(processed_line['input_features'][str(feature)])[11:13] + ' '
                 else:
                     line += feature + str(processed_line['input_features'][str(feature)]) + ' '
             line = line[:-1] + '\n'
