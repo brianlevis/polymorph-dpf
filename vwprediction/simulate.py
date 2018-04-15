@@ -62,4 +62,4 @@ def optimal_multiplier(start, end, min_mult, max_mult, increment):
     optimum = max(revenues)
     return (optimum, min_mult + increment * revenues.index(optimum))
 
-print(optimal_multiplier((11, 0), (11, 0), 0.1, 0.9, 0.2))
+print(optimal_multiplier((11, 0), (11, 0), 0.1, 1, 0.1))
