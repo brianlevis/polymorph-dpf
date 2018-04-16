@@ -13,7 +13,9 @@ if sys.version_info < MIN_PYTHON:
     sys.exit("Python %s.%s or later is required.\n" % MIN_PYTHON)
 
 # Approximate number of files in each directory
-FILES_PER_HOUR = 128
+FILES_PER_HOUR = 64
+
+FILE_FORMAT = '%02d/%02d/part-00%03d.gz'
 
 CB_BUCKET_NAME = 'codebase-pm-dpf'
 cb_bucket = boto3.resource('s3').Bucket(name=CB_BUCKET_NAME)
@@ -85,7 +87,7 @@ def get_line_iterator(start=(11, 0), stop=(11, 0), limit=None, dictionary=True, 
             for n in range(0, FILES_PER_HOUR):
                 if limit is not None and len(file_keys) >= limit:
                     break
-                file_keys.append('%02d/%02d/part-00%03d.gz' % (d, h, n))
+                file_keys.append(FILE_FORMAT % (d, h, n))
             if d >= day_stop and h >= hour_stop:
                 break
 
