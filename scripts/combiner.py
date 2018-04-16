@@ -57,7 +57,7 @@ for input1, input2, output in file_keys:
         failed[1] = True
     if failed[0] and failed[0]:
         print("Warning: could not upload", output)
-        break
+        continue
     elif failed[0]:
         os.system('mv %s %s' % (TEMP_INPUT_FILE_NAME_1, TEMP_OUTPUT_FILE_NAME))
     elif failed[1]:
