@@ -1,4 +1,4 @@
-from dpf import OneShot
+from oneshot.oneshot import OneShot
 from random import randint
 from simulator import Simulator
 

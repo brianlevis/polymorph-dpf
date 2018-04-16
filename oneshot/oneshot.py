@@ -1,6 +1,3 @@
-#from simulator import *
-
-
 class OneShot:
 
     def __init__(self, price_floor=0.0002, eps=1.0, lamb_h=0.1, lamb_e=0.46, lamb_l=0.1, time=0, M=5, pf_ceil=.005):
@@ -43,7 +40,6 @@ class OneShot:
     def calculate_revenue(self, bids, price_floor):
         first, second = self.max2(bids)
         return self.calculate_revenue_helper(first, second, price_floor)
-
 
     def calculate_revenue_helper(self, first, second, price_floor):
         if price_floor > first:
