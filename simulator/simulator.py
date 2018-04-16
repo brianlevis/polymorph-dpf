@@ -92,10 +92,13 @@ class Simulator(ABC):
                                           delete=self.delete)
         for line in line_iterator:
             prepared_line = prepare_line(line)
-            bids, input_features = prepared_line['bids'], prepared_line['input_features']
+            input_features = prepared_line['input_features']
             price_floor = self.calculate_price_floor(input_features)
+            # only reveal bids that are below the price floor
+            bids = [bid for bid in prepared_line['bids'] if bid >= price_floor]
             self.stats.process_line(bids, input_features, price_floor)
             self.process_line(line, input_features, bids)
+            # self.process_line(line, input_features, bids, bid_responses) <-- enable this to reveal who made each bid
         if output != 'none':
             self.stats.print_stats()
 
