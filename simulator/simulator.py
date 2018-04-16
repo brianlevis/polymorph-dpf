@@ -2,6 +2,7 @@
 from simulator.utils import *
 
 from abc import ABC, abstractmethod
+from time import time
 
 DEFAULT_FLOOR = 0.1 / 1000
 
@@ -11,7 +12,7 @@ _simulator_queue = {}
 class SimulatorStats:
 
     def __init__(self):
-        # TODO: add timer
+        self.timer = 0.0
         self.total_revenue = 0
         self.auction_count = 0
         self.auction_count_non_null = 0
@@ -27,6 +28,15 @@ class SimulatorStats:
         self.average_bid_count_non_null = 0
         self.average_bid_amount = 0
         self.average_bid_amount_non_null = 0
+
+        self._intermediate_timer = None
+
+    def start_timer(self):
+        self._intermediate_timer = time()
+
+    def stop_timer(self):
+        self.timer += time() - self._intermediate_timer
+        self._intermediate_timer = None
 
     def process_line(self, bids, input_features, price_floor):
         revenue = calculate_revenue(bids, price_floor)
@@ -52,14 +62,15 @@ class SimulatorStats:
         print("Total Revenue:", self.total_revenue)
         print("Auction Count:", self.auction_count)
         print("Auction Count (non-null):", self.auction_count_non_null)
-        print("Price Floor Engaged Count:", self.price_floor_hit_count)
-        print("Price Floor Too High Count:", self.price_floor_too_high_count)
+        print("Price Floor Engaged (non-null): %4.2f%%" % (100 * self.price_floor_hit_count / self.auction_count_non_null))
+        print("Price Floor Too High (non-null): %4.2f%%" % (100 * self.price_floor_too_high_count / self.auction_count_non_null))
         print("Average Revenue:", self.average_revenue)
         print("Average Revenue (not-null):", self.average_revenue_non_null)
         print("Average Bid Count:", self.average_bid_count)
         print("Average Bid Count (non-null):", self.average_bid_count_non_null)
         print("Average Bid Amount:", self.average_bid_amount)
         print("Average Bid Amount (non-null):", self.average_bid_amount_non_null)
+        print("Time taken: %.2f seconds" % self.timer)
 
 
 class Simulator(ABC):
@@ -92,12 +103,16 @@ class Simulator(ABC):
                                           delete=self.delete)
         for line in line_iterator:
             prepared_line = prepare_line(line)
-            input_features = prepared_line['input_features']
+            bids, input_features = prepared_line['bids'], prepared_line['input_features']
+            self.stats.start_timer()
             price_floor = self.calculate_price_floor(input_features)
+            self.stats.stop_timer()
             # only reveal bids that are below the price floor
-            bids = [bid for bid in prepared_line['bids'] if bid >= price_floor]
+            redacted_bids = [bid for bid in bids if bid >= price_floor]
             self.stats.process_line(bids, input_features, price_floor)
-            self.process_line(line, input_features, bids)
+            self.stats.start_timer()
+            self.process_line(line, input_features, redacted_bids)
+            self.stats.stop_timer()
             # self.process_line(line, input_features, bids, bid_responses) <-- enable this to reveal who made each bid
         if output != 'none':
             self.stats.print_stats()
@@ -119,9 +134,15 @@ def run_queue(*args, **kwargs):
         prepared_line = prepare_line(line)
         bids, input_features = prepared_line['bids'], prepared_line['input_features']
         for sim in stable_queue.values():
+            # TODO: add wrapper function for timing to cleanup code
+            sim.stats.start_timer()
             price_floor = sim.calculate_price_floor(input_features)
+            sim.stats.stop_timer()
+            redacted_bids = [bid for bid in bids if bid >= price_floor]
             sim.stats.process_line(bids, input_features, price_floor)
-            sim.process_line(line, input_features, bids)
+            sim.stats.start_timer()
+            sim.process_line(line, input_features, redacted_bids)
+            sim.stats.stop_timer()
     for sim in stable_queue:
         print("-------------------------------------------")
         print(sim)
