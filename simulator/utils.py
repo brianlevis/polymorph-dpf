@@ -13,7 +13,7 @@ if sys.version_info < MIN_PYTHON:
     sys.exit("Python %s.%s or later is required.\n" % MIN_PYTHON)
 
 # Approximate number of files in each directory
-FILES_PER_HOUR = 64
+FILES_PER_HOUR = 32
 
 FILE_FORMAT = '%02d/%02d/part-00%03d.gz'
 
