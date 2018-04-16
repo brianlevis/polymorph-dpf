@@ -12,9 +12,9 @@ TEMP_INPUT_FILE_NAME_1 = 'temp_in0.gz'
 TEMP_INPUT_FILE_NAME_2 = 'temp_in1.gz'
 TEMP_OUTPUT_FILE_NAME = 'temp_out.gz'
 
-# Total Files: 15,360
+# Total Files: 15,360 -> 7,680 -> 3,840
 START_INDEX = 0
-STOP_INDEX = 7680
+STOP_INDEX = 3840
 
 try:
     os.remove(TEMP_INPUT_FILE_NAME_1)
