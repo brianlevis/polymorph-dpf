@@ -88,6 +88,7 @@ class Simulator:
         """
         if not bid_prices or reserve_price > bid_prices[0]:
             return 0
+        # second = 0 if len(bid_prices) == 1 else bid_prices[1]
         if len(bid_prices) == 1:
             return bid_prices[0]
         return max(bid_prices[1], reserve_price)
