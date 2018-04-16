@@ -17,18 +17,20 @@ for d in range(11, 16):
         local_file = gzip.open(local_filename, 'wt')
         for line_dict in utils.get_line_iterator(start=(d, h), stop=(d, h)):
             processed_line = utils.prepare_line(line_dict)
-            if processed_line['bids']:
-                line = str(processed_line['bids'][0]) + ' | '
-                for feature in processed_line['input_features']:
+            bids, input_features = processed_line['bids'], processed_line['input_features']
+            if len(bids) > 0:
+                line = '%f | ' % bids[0]
+                for feature in input_features:
+                    value = input_features[feature]
                     if feature == 'bid_requests':
-                        for request_id in processed_line['input_features']['bid_requests']:
-                            line += 'campaign_id' + str(request_id) + ' '
+                        for request_id in input_features['bid_requests']:
+                            line += '%s_%d ' % (feature, request_id)
                     elif feature == 'r_timestamp':
-                        line += 'hour' + str(processed_line['input_features'][feature])[11:13] + ' '
+                        line += 'hour:' + str(value)[11:13] + ' '
                     elif 'num_ads' in feature or 'r_cnt' in feature:
-                        line += feature + ':' + str(processed_line['input_features'][feature]) + ' '
+                        line += feature + ':' + str(value) + ' '
                     else:
-                        line += feature + str(processed_line['input_features'][feature]) + ' '
+                        line += '%s_%s ' % (feature, str(value))
                 line = line[:-1] + '\n'
                 local_file.write(line)
         local_file.close()
