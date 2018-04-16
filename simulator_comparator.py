@@ -1,6 +1,7 @@
 from simulator import *
 from oneshot.multishot import MultiShot
 from gametheory.gametheory import Average, AverageBidderID, AverageSingleID
+from gametheory.empirical import LinearProgramming
 
 
 class DefaultSimulator(Simulator):
@@ -33,13 +34,16 @@ class NaiveSimulator(Simulator):
 # default_simulator = DefaultSimulator(stop=(11, 23))
 naive_simulator_100 = NaiveSimulator(history_len=100)
 naive_simulator_200 = NaiveSimulator(history_len=200)
-# oneshot_simulator = MultiShot(10)
+oneshot_simulator = MultiShot(10)
+lp_simulator_5 = LinearProgramming(5, 0.000001, 1, 0.1 / 1000)
+lp_simulator_10 = LinearProgramming(10, 0.000001, 1, 0.1 / 1000)
 
 queue_simulator(naive_simulator_100, 'Naive-100')
 queue_simulator(naive_simulator_200, 'Naive-200')
-# queue_simulator(oneshot_simulator, 'OneShot')
+queue_simulator(oneshot_simulator, 'OneShot')
+queue_simulator(lp_simulator_5, 'LP-5')
 
-run_queue(stop=(11, 0), limit=5)
+run_queue(stop=(11, 0), limit=2)
 
 
 # oneshot_simulator_site = MultiShot(id='site_id', stop=(11, 23))
