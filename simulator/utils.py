@@ -78,7 +78,7 @@ def get_line_iterator(start=(11, 0), stop=(11, 0), limit=None, dictionary=True, 
     day_start, day_stop = start[0], stop[0]
     hour_start, hour_stop = start[1], stop[1]
     assert day_start in range(11, 16) and day_stop in range(11, 16)
-    assert hour_start in range(0, 23) and hour_start in range(0, 24)
+    assert hour_start in range(0, 24) and hour_start in range(0, 24)
     assert day_start * 24 + hour_start <= day_stop * 24 + hour_stop
 
     file_keys = []
