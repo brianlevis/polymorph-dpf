@@ -46,7 +46,9 @@ class LinearProgramming(simulator.Simulator):
             self.upper,
             bounds=self.bounds
         )
+        print(results.status)
         if results.success:
+            print(results.fun)
             return results.x[0] * self.discount
         return self.default
 
@@ -82,6 +84,10 @@ class LinearProgramming(simulator.Simulator):
             of the optimization problem
         """
         dimension = 2 * size + 1
+        # objective = np.zeros(dimension)
+        # for pos in range(1, dimension, 2):
+        #     objective[pos] = 1
+        #     objective[pos + 1] = -1
         objective = np.ones(dimension)
         objective[0] = 0
         return objective
@@ -113,15 +119,15 @@ class LinearProgramming(simulator.Simulator):
         for block in range(size):
             leading_row, leading_col = 3 * block, 2 * block + 1
             matrix[leading_row][0] = tolerance
-            matrix[leading_row + 1][0] = 1
+            matrix[leading_row + 1][0] = -1
             matrix[leading_row][leading_col] = 1
             matrix[leading_row + 1][leading_col] = 1
-            matrix[leading_row + 2][leading_col] = -1
+            matrix[leading_row + 2][leading_col] = 1
             matrix[leading_row + 2][leading_col + 1] = -1
         return matrix
 
 
 if __name__ == '__main__':
-    settings = [5, 0.000001, 1, 0.1 / 1000]
+    settings = [5, 0.000000001, 1, 0.1 / 1000]
     test = LinearProgramming(*settings, limit=1, download=False, delete=False)
     test.run_simulation()
