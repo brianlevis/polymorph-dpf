@@ -133,7 +133,7 @@ def queue_simulator(sim, name):
 def run_queue(*args, output='normal', **kwargs):
     """
     :param output: set to 'none' to suppress output
-    :return: list of strategies that were run
+    :return: list of tuples representing strategies that were run in the form (name (type str), sim (type Simulator))
     """
     stable_queue = _simulator_queue.copy()
     _simulator_queue.clear()
@@ -149,7 +149,7 @@ def run_queue(*args, output='normal', **kwargs):
             print(sim_name)
             print("-------------------------------------------")
             stable_queue[sim_name].stats.print_stats()
-    return [sim.stats for sim in stable_queue]
+    return stable_queue
 
 # class DefaultSimulator(Simulator):
 #
