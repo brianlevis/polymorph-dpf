@@ -104,18 +104,22 @@ class Simulator(ABC):
         for line in line_iterator:
             prepared_line = prepare_line(line)
             bids, input_features = prepared_line['bids'], prepared_line['input_features']
-            self.stats.start_timer()
-            price_floor = self.calculate_price_floor(input_features)
-            self.stats.stop_timer()
-            # only reveal bids that are below the price floor
-            redacted_bids = [bid for bid in bids if bid >= price_floor]
-            self.stats.process_line(bids, input_features, price_floor)
-            self.stats.start_timer()
-            self.process_line(line, input_features, redacted_bids)
-            self.stats.stop_timer()
-            # self.process_line(line, input_features, bids, bid_responses) <-- enable this to reveal who made each bid
+            run_strategy(self, bids, input_features, line)
         if output != 'none':
             self.stats.print_stats()
+
+
+def run_strategy(sim, bids, input_features, line):
+    sim.stats.start_timer()
+    price_floor = sim.calculate_price_floor(input_features)
+    sim.stats.stop_timer()
+    # only reveal bids that are below the price floor
+    redacted_bids = [bid for bid in bids if bid >= price_floor]
+    sim.stats.process_line(bids, input_features, price_floor)
+    sim.stats.start_timer()
+    sim.process_line(line, input_features, redacted_bids)
+    # self.process_line(line, input_features, bids, bid_responses) <-- enable this to reveal who made each bid
+    sim.stats.stop_timer()
 
 
 def queue_simulator(sim, name):
@@ -126,7 +130,7 @@ def queue_simulator(sim, name):
     _simulator_queue[name] = sim
 
 
-def run_queue(*args, **kwargs):
+def run_queue(*args, output='normal', **kwargs):
     stable_queue = _simulator_queue.copy()
     _simulator_queue.clear()
     line_iterator = get_line_iterator(*args, **kwargs)
@@ -134,20 +138,13 @@ def run_queue(*args, **kwargs):
         prepared_line = prepare_line(line)
         bids, input_features = prepared_line['bids'], prepared_line['input_features']
         for sim in stable_queue.values():
-            # TODO: add wrapper function for timing to cleanup code
-            sim.stats.start_timer()
-            price_floor = sim.calculate_price_floor(input_features)
-            sim.stats.stop_timer()
-            redacted_bids = [bid for bid in bids if bid >= price_floor]
-            sim.stats.process_line(bids, input_features, price_floor)
-            sim.stats.start_timer()
-            sim.process_line(line, input_features, redacted_bids)
-            sim.stats.stop_timer()
-    for sim in stable_queue:
-        print("-------------------------------------------")
-        print(sim)
-        print("-------------------------------------------")
-        stable_queue[sim].stats.print_stats()
+            run_strategy(sim, bids, input_features, line)
+    if output != 'none':
+        for sim_name in stable_queue:
+            print("-------------------------------------------")
+            print(sim_name)
+            print("-------------------------------------------")
+            stable_queue[sim_name].stats.print_stats()
 
 # class DefaultSimulator(Simulator):
 #
