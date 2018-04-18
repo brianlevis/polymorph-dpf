@@ -149,7 +149,7 @@ def run_queue(*args, output='normal', **kwargs):
             print(sim_name)
             print("-------------------------------------------")
             stable_queue[sim_name].stats.print_stats()
-    return stable_queue
+    return [sim.stats for sim in stable_queue]
 
 # class DefaultSimulator(Simulator):
 #
