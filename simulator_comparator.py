@@ -1,6 +1,5 @@
 from simulator import *
-from oneshot.multishot import MultiShot
-from gametheory.gametheory import Average, AverageBidderID, AverageSingleID
+from multishot import MultiShot
 from gametheory.empirical import LinearProgramming
 
 

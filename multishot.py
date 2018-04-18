@@ -8,11 +8,7 @@ class MultiShot(Simulator):
     oneshots[1] similarly for init_return+init_gap to init_return+2*init_gap, etc
     """
     def __init__(self, num_shots, *args, init_return=0.0, init_gap=.00005, oneshot_args={}, **kwargs):
-<<<<<<< Updated upstream
         super(MultiShot, self).__init__(*args, **kwargs)
-=======
-        super().__init__(*args, **kwargs)
->>>>>>> Stashed changes
         self.num_shots = num_shots
         self.init_return = init_return
         self.init_gap = init_gap
@@ -45,33 +41,31 @@ class MultiShot(Simulator):
             idx = self.get_idx(revenue)
             self.ids[site_id] = idx 
             oneshot.update(bids, self.pf)
-<<<<<<< Updated upstream
+
+# if __name__ == "__main__":
+#     oneshot_args = {'price_floor': 0.0002, 'eps': 1.0, 'lamb_h': 0.1, 'lamb_e': 0.46, 'lamb_l': 0.1, 'time': 0, 'M': 5}
+#     oneshot = MultiShot(1, oneshot_args=oneshot_args)
+#     oneshot.run_simulation()
+#     print([list(oneshot.ids.values()).count(i) for i in range(oneshot.num_shots)])
+#     print([o.log for o in oneshot.oneshots])
 
 
-if __name__ == "__main__":
-    oneshot_args = {'price_floor': 0.0002, 'eps': 1.0, 'lamb_h': 0.1, 'lamb_e': 0.46, 'lamb_l': 0.1, 'time': 0, 'M': 5}
-    oneshot = MultiShot(1, oneshot_args=oneshot_args)
-    oneshot.run_simulation()
-    print([list(oneshot.ids.values()).count(i) for i in range(oneshot.num_shots)])
-    print([o.log for o in oneshot.oneshots])
-=======
-            
-
-
-min_over = float('inf')
+min_over = 100
 hyper_h = 0
 hyper_e = 0
 hyper_l = 0
 
-for h in range(0, 50, 5):
-    for e in range(0, 50, 5):
-        for l in range(0, 50, 5):
+for h in range(10, 50, 10):
+    for e in range(10, 50, 10):
+        for l in range(10, 50, 10):
+            print("h: " + str(0.01 * h), " e: " + str(0.01 * e) + " l: " + str(0.01 * l))
             oneshot_args = {'price_floor': 0.0002, 'eps': 1.0, 'lamb_h': 0.01 * h, 'lamb_e': 0.01 * e, 'lamb_l': 0.01 * l, 'time': 0, 'M': 5}
-            oneshot = MultiShot(1, limit=10, download=False, delete=False, oneshot_args=oneshot_args)
-            oneshot.run_simulation()
-            print([list(oneshot.ids.values()).count(i) for i in range(oneshot.num_shots)])
-            print([o.log for o in oneshot.oneshots])
+            oneshot = MultiShot(1, limit=5, download=False, delete=False, oneshot_args=oneshot_args)
+            over_percent = oneshot.run_simulation()
+            if over_percent < min_over:
+                min_over = over_percent
+                hyper_h = 0.01 * h
+                hyper_e = 0.01 * e
+                hyper_l = 0.01 * l
 
-
->>>>>>> Stashed changes
-
+print("best h: " + str(0.01 * h), " best e: " + str(0.01 * e) + " best l: " + str(0.01 * l))
