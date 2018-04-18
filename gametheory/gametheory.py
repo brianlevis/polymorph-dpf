@@ -13,8 +13,8 @@ class Average(sim.Simulator):
     tracking past elements.
     """
 
-    def __init__(self, window, weight, *args, **kwargs):
-        super().__init__(self, *args, **kwargs)
+    def __init__(self, window, weight, **kwargs):
+        sim.Simulator.__init__(self, **kwargs)
         self.window = window
         self.weight = weight
         self.lowAvg = 0.0
@@ -53,7 +53,9 @@ class AverageBidderID(sim.Simulator):
         if len(seenIDs) == 0:
             return DEFAULT_FLOOR
         else:
-            return max([self.averages[key] for key in seenIDs]) * self.weight
+            # Max of bid requesters overshoots too much.
+            # return max([self.averages[key] for key in seenIDs]) * self.weight
+            return sum(self.averages[key] for key in seenIDs)/len(seenIDs) * self.weight
 
     def process_line(self, line, input_features, bids):
         if len(bids) == 0:
