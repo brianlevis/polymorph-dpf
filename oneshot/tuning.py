@@ -23,7 +23,7 @@ for h in range(10, 50, 10):
     for e in range(10, 50, 10):
         for l in range(10, 50, 10):
             stats = results[index][1].stats
-            over_percent = stats.price_floor_too_high_count / stats.auction_count_non_null
+            over_percent = 100 * stats.price_floor_too_high_count / stats.auction_count_non_null
             if over_percent < min_over:
                 min_over = over_percent
                 hyper_h = 0.01 * h
@@ -33,5 +33,3 @@ for h in range(10, 50, 10):
 
 # print("best h: " + str(0.01 * h), " best e: " + str(0.01 * e) + " best l: " + str(0.01 * l))
 print("best h: %f best e: %f best l: %f" % (hyper_h, hyper_e, hyper_l))
-# Output: best h: 0.100000 best e: 0.100000 best l: 0.100000
-# ^ run on a single file
