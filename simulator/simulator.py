@@ -131,6 +131,10 @@ def queue_simulator(sim, name):
 
 
 def run_queue(*args, output='normal', **kwargs):
+    """
+    :param output: set to 'none' to suppress output
+    :return: list of strategies that were run
+    """
     stable_queue = _simulator_queue.copy()
     _simulator_queue.clear()
     line_iterator = get_line_iterator(*args, **kwargs)
@@ -145,6 +149,7 @@ def run_queue(*args, output='normal', **kwargs):
             print(sim_name)
             print("-------------------------------------------")
             stable_queue[sim_name].stats.print_stats()
+    return stable_queue
 
 # class DefaultSimulator(Simulator):
 #
