@@ -5,14 +5,18 @@ from simulator import *
 from gametheory import Average, AverageBidderID, AverageSingleID
 
 test_windows = [50, 100, 250, 500, 1000]
-test_weights = range(0.0, 1.1, 0.1)
-test_bidder_id_weights = range(0.0, 2.1, 0.2)
+test_weights = [x / 10.0 for x in range(0, 11, 1)]
+test_bidder_id_weights = [x / 10.0 for x in range(0, 11, 1)]
 
-# Dummy run to download all files for the first time
-# Using default time frame: start=(11, 0), stop=(15, 23), limit=None
-download = Average(1, 0.5, download=True, delete=False)
+def download():
+    """
+    Dummy run to download all files for the first time
+    Using default time frame: start=(11, 0), stop=(15, 23), limit=None
+    """
+    download = Average(1, 0.5, download=True, delete=False)
+    download.run_simulation()
 
-def tuneAverage(windows=test_windows, weights=test_weights, output):
+def tuneAverage(output, windows=test_windows, weights=test_weights):
     """
     :param windows: list of window values to test
     :param weights: list of weight values to test
@@ -26,7 +30,7 @@ def tuneAverage(windows=test_windows, weights=test_weights, output):
             params = ("Average", window, weight)
             output[params] = stats
 
-def tuneAverageBidderID(windows=test_windows, weights=test_bidder_id_weights, output):
+def tuneAverageBidderID(output, windows=test_windows, weights=test_bidder_id_weights):
     """
     :param windows: list of window values to test
     :param weights: list of bidder weight values to test
@@ -42,7 +46,7 @@ def tuneAverageBidderID(windows=test_windows, weights=test_bidder_id_weights, ou
             params = ("AverageBidderID", window, weight)
             output[params] = stats 
 
-def tuneAverageSingleID(windows=test_windows, weights=test_weights, param_id, output):
+def tuneAverageSingleID(output, windows=test_windows, weights=test_weights, param_id=None):
     """
     :param windows: list of window values to test
     :param weights: list of weight values to test
@@ -63,9 +67,9 @@ def printPrettyStats(stats):
     # print("-------------------------------------------")
     for k in stats:
         if k == "price_floor_hit_percent" or k == "price_floor_too_high_percent":
-            print("{}: {:.2%}\n".format(k, stats[k]))
+            print("{}: {:.2%}".format(k, stats[k]))
         else:
-            print("{}: {}\n".format(k, stats[k]))
+            print("{}: {}".format(k, stats[k]))
 
 def getStats(sim):
     stats = {}
