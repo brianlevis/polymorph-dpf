@@ -6,7 +6,7 @@ from time import time
 
 DEFAULT_FLOOR = 0.1 / 1000
 
-_simulator_queue = {}
+_simulator_queue = []
 
 
 class SimulatorStats:
@@ -127,7 +127,7 @@ def queue_simulator(sim, name):
     :param sim: Simulator object to queue
     :param name: name to be printed with stats
     """
-    _simulator_queue[name] = sim
+    _simulator_queue.append((name, sim))
 
 
 def run_queue(*args, output='normal', **kwargs):
@@ -141,14 +141,14 @@ def run_queue(*args, output='normal', **kwargs):
     for line in line_iterator:
         prepared_line = prepare_line(line)
         bids, input_features = prepared_line['bids'], prepared_line['input_features']
-        for sim in stable_queue.values():
+        for name, sim in stable_queue:
             run_strategy(sim, bids, input_features, line)
     if output != 'none':
-        for sim_name in stable_queue:
+        for name, sim in stable_queue:
             print("-------------------------------------------")
-            print(sim_name)
+            print(name)
             print("-------------------------------------------")
-            stable_queue[sim_name].stats.print_stats()
+            sim.stats.print_stats()
     return stable_queue
 
 # class DefaultSimulator(Simulator):
