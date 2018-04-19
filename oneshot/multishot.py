@@ -1,5 +1,6 @@
-from oneshot.oneshot import OneShot
 from random import randint
+
+from oneshot import OneShot
 from simulator import Simulator
 
 
@@ -48,24 +49,3 @@ class MultiShot(Simulator):
 #     oneshot.run_simulation()
 #     print([list(oneshot.ids.values()).count(i) for i in range(oneshot.num_shots)])
 #     print([o.log for o in oneshot.oneshots])
-
-
-min_over = 100
-hyper_h = 0
-hyper_e = 0
-hyper_l = 0
-
-for h in range(10, 50, 10):
-    for e in range(10, 50, 10):
-        for l in range(10, 50, 10):
-            print("h: " + str(0.01 * h), " e: " + str(0.01 * e) + " l: " + str(0.01 * l))
-            oneshot_args = {'price_floor': 0.0002, 'eps': 1.0, 'lamb_h': 0.01 * h, 'lamb_e': 0.01 * e, 'lamb_l': 0.01 * l, 'time': 0, 'M': 5}
-            oneshot = MultiShot(1, limit=5, download=False, delete=False, oneshot_args=oneshot_args)
-            over_percent = oneshot.run_simulation()
-            if over_percent < min_over:
-                min_over = over_percent
-                hyper_h = 0.01 * h
-                hyper_e = 0.01 * e
-                hyper_l = 0.01 * l
-
-print("best h: " + str(0.01 * h), " best e: " + str(0.01 * e) + " best l: " + str(0.01 * l))
