@@ -3,6 +3,8 @@ import boto3
 import gzip
 import os
 import shutil
+import sys
+from time import time
 
 '''
 pass_dict = {}
@@ -18,13 +20,17 @@ print(pass_dict)
 '''
 
 input_bucket = boto3.resource('s3').Bucket('codebase-pm-vw-team')
-
+start_time = time()
 for d in range(11, 14):
     for h in range(0, 24):
+        print('Day: %d, Hour: %d' % (d, h))
         file_key = '%02d/part-%02d.vw.gz' % (d, h)
         file_name = file_key.replace('/', '_')
         input_bucket.download_file(file_key, file_name)
         for p in range(1, 6):
+            print('Passes:', p)
+            print('Time elapsed', time() - start_time)
+            sys.stdout.flush()
             try:
                 with gzip.open(file_name, 'rb') as f_in:
                     with open(file_name[:-3], 'wb') as f_out:
