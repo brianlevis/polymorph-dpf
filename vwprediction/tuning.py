@@ -1,6 +1,10 @@
-from simulate import *
+#from simulate import *
+import boto3
+import gzip
 import os
+import shutil
 
+'''
 pass_dict = {}
 
 for num_passes in range(1, 11):
@@ -11,3 +15,28 @@ for num_passes in range(1, 11):
     pass_dict[num_passes] = optimal_multiplier((12, 0), (12, 0), 0.5, 1, 0.1, num_passes)
 
 print(pass_dict)
+'''
+
+input_bucket = boto3.resource('s3').Bucket('codebase-pm-vw-team')
+
+for d in range(11, 14):
+    for h in range(0, 24):
+        file_key = '%02d/part-%02d.vw.gz' % (d, h)
+        file_name = file_key.replace('/', '_')
+        input_bucket.download_file(file_key, file_name)
+        for p in range(1, 6):
+            try:
+                with gzip.open(file_name, 'rb') as f_in:
+                    with open(file_name[:-3], 'wb') as f_out:
+                        shutil.copyfileobj(f_in, f_out)
+                    if p != 1:
+                        os.system('vw {0} --holdout_off -c --save_resume --passes {1} -f {2}.model'.format(file_name[:-3], p, p))
+                    else:
+                        os.system('vw {0} --holdout_off --save_resume --passes {1} -f {2}.model'.format(file_name[:-3], p, p))
+                    f_in.close()
+                    f_out.close()
+            except IOError:
+                print("if you can see this, fix the code yourself :D just replace IOError with the one you got")
+                continue
+        os.remove(file_name)
+        os.remove(file_name[:-3])
