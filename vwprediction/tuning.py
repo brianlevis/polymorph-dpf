@@ -32,17 +32,17 @@ for d in range(11, 14):
             print('Time elapsed', time() - start_time)
             sys.stdout.flush()
             try:
-                with gzip.open(file_name, 'rb') as f_in:
-                    with open(file_name[:-3], 'wb') as f_out:
-                        shutil.copyfileobj(f_in, f_out)
-                    if p != 1:
-                        os.system('vw {0} --holdout_off -c --save_resume --passes {1} -f {2}.model'.format(file_name[:-3], p, p))
-                    else:
-                        os.system('vw {0} --holdout_off --save_resume --passes {1} -f {2}.model'.format(file_name[:-3], p, p))
-                    f_in.close()
-                    f_out.close()
+                #with gzip.open(file_name, 'rb') as f_in:
+                #    with open(file_name[:-3], 'wb') as f_out:
+                #        shutil.copyfileobj(f_in, f_out)
+                if p != 1:
+                    os.system('~/vowpal_wabbit/vowpalwabbit/vw {0} --holdout_off -c --save_resume --passes {1} -f {2}.model'.format(file_name, p, p))
+                else:
+                    os.system('~/vowpal_wabbit/vowpalwabbit/vw {0} --holdout_off --save_resume --passes {1} -f {2}.model'.format(file_name, p, p))
+                #    f_in.close()
+                #    f_out.close()
             except IOError:
                 print("if you can see this, fix the code yourself :D just replace IOError with the one you got")
-                continue
+                #continue
         os.remove(file_name)
-        os.remove(file_name[:-3])
+        #os.remove(file_name[:-3])
