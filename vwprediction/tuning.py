@@ -45,4 +45,5 @@ for d in range(11, 14):
                 print("if you can see this, fix the code yourself :D just replace IOError with the one you got")
                 #continue
         os.remove(file_name)
+        os.remove(file_name + '.cache')
         #os.remove(file_name[:-3])
