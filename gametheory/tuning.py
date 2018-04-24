@@ -2,7 +2,7 @@ import sys
 sys.path.append('../')
 
 from simulator import *
-from gametheory import Average, AverageBidderID, AverageSingleID
+from gametheory import Average, AverageBidderID, AverageSingleID, AverageSimulateBid
 
 test_windows = [50, 100, 250, 500, 1000]
 test_weights = [x / 10.0 for x in range(0, 11, 1)]
@@ -31,7 +31,7 @@ def tuneAverage(windows=test_windows, weights=test_weights):
             name = "Average : window={}, weight={}".format(window, weight)
             queue_simulator(sim, name)
     
-    output = run_queue(output='none')
+    output = run_queue(output='none', start=default_start, stop=default_stop, limit=default_limit, download=False, delete=False)
     return output
 
 def tuneAverageBidderID(windows=test_windows, weights=test_bidder_id_weights):
@@ -48,7 +48,7 @@ def tuneAverageBidderID(windows=test_windows, weights=test_bidder_id_weights):
             name = "AverageBidderID : window={}, weight={}".format(window, weight)
             queue_simulator(sim, name)
     
-    output = run_queue(output='none')
+    output = run_queue(output='none', start=default_start, stop=default_stop, limit=default_limit, download=False, delete=False)
     return output
 
 def tuneAverageSingleID(windows=test_windows, weights=test_weights, param_id=None):
@@ -61,11 +61,28 @@ def tuneAverageSingleID(windows=test_windows, weights=test_weights, param_id=Non
     for window in windows:
         for weight in weights:
             sim = AverageSingleID(window, weight, param_id, start=default_start, stop=default_stop, limit=default_limit, download=False, delete=False)
-            name = "AverageBidderID : param_id={}, window={}, weight={}".format(param_id, window, weight)
+            name = "AverageSingleID : param_id={}, window={}, weight={}".format(param_id, window, weight)
             queue_simulator(sim, name)
     
-    output = run_queue(output='none')
+    output = run_queue(output='none', start=default_start, stop=default_stop, limit=default_limit, download=False, delete=False)
     return output
+
+def tuneAverageSimulateBid(windows, weights, sim_bids):
+    """
+    :param windows: list of window values to test
+    :param weights: list of weight values to test
+    :param sim_bid: simulate 2nd highest bid using high bid * sim_bid
+    """
+    for window in windows:
+        for weight in weights:
+            for sim_bid in sim_bids:
+                sim = AverageSimulateBid(window, weight, sim_bid, start=default_start, stop=default_stop, limit=default_limit, download=False, delete=False)
+                name = "AverageSimulateBid : window={}, weight={}, sim_bid={}".format(window, weight, sim_bid)
+                queue_simulator(sim, name)
+
+    output = run_queue(output='none', start=default_start, stop=default_stop, limit=default_limit, download=False, delete=False)
+    return output
+
 
 # def printPrettyStats(stats):
 #     # print("-------------------------------------------")
