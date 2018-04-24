@@ -1,6 +1,6 @@
 from simulator import *
 from multishot import MultiShot
-from gametheory.empirical import LinearProgramming
+from gametheory.linear_programming import LinearProgramming
 
 
 class DefaultSimulator(Simulator):
