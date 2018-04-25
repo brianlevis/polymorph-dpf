@@ -1,8 +1,9 @@
 import sys
-import os
 import socket as sock
 from random import randint
-from simulate import *
+
+from vwprediction.simulate import VWSimulator
+
 sys.path.append('../')
 from simulator import *
 
@@ -16,7 +17,7 @@ for p in range(1, 6):
         socket_num = randint(10000, 65000)
         socket_nums.append(socket_num)
         os.system("pkill -9 -f 'vw.*--port {0}'".format(socket_num))
-        os.system("vw --daemon --port {0} --quiet -i {1}.model -t --num_children 1".format(socket_num, model_name))
+        os.system("~/vowpal_wabbit/vowpalwabbit/vw --daemon --port {0} --quiet -i {1}.model -t --num_children 1".format(socket_num, model_name))
         socket = sock.socket(sock.AF_INET, sock.SOCK_STREAM)
         socket.connect(('localhost', socket_num))
         queue_simulator(VWSimulator((14, 0), (14, 1), socket, multiplier), 'VW (Model: {0}, Multiplier: {1})'.format(p, multiplier))
