@@ -20,7 +20,7 @@ for p in range(1, 6):
         os.system("~/vowpal_wabbit/vowpalwabbit/vw --daemon --port {0} --quiet -i {1}.model -t --num_children 1".format(socket_num, model_name))
         socket = sock.socket(sock.AF_INET, sock.SOCK_STREAM)
         socket.connect(('localhost', socket_num))
-        queue_simulator(VWSimulator((14, 0), (14, 1), socket, multiplier), 'VW (Model: {0}, Multiplier: {1})'.format(p, multiplier))
-results = run_queue()
+        queue_simulator(VWSimulator(socket, multiplier), 'VW (Model: {0}, Multiplier: {1})'.format(p, multiplier))
+results = run_queue(start=(14, 0), stop=(14, 1))
 for socket_num in socket_nums:
     os.system("pkill -9 -f 'vw.*--port {0}'".format(socket_num))

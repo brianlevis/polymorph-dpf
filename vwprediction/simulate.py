@@ -8,8 +8,8 @@ import simulator as sim
 
 class VWSimulator(sim.simulator.Simulator):
 
-    def __init__(self, *args, socket, multiplier, **kwargs):
-        super().__init__(*args, **kwargs)
+    def __init__(self, socket, multiplier, **kwargs):
+        super().__init__(**kwargs)
         self.socket = socket
         self.multiplier = multiplier
 
