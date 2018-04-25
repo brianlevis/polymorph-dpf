@@ -27,7 +27,7 @@ class Average(sim.Simulator):
         if len(bids) < 2:
             return
         self.lowAvg = self.lowAvg * (self.window - 1) / self.window + bids[1] * 1.0 / self.window
-        self.highAvg = self.highAvg * (self.window - 1) / self.window + bids[1] * 1.0 / self.window
+        self.highAvg = self.highAvg * (self.window - 1) / self.window + bids[0] * 1.0 / self.window
 
 
 class AverageBidderID(sim.Simulator):
@@ -107,6 +107,43 @@ class AverageSingleID(sim.Simulator):
         else:
             self.averages[key] = weighted_avg
             self.counts[key] = 1
+
+class AverageSimulateBid(sim.Simulator):
+    """
+    Try to fix always-increasing average problem by simulating the second
+    highest bid, which we can't see if our price floor beats it. The simulated
+    bid is calculated by multiplying the highest bid by a fraction and
+    incorporating that into the average for 0 and 1 bidder auctions (engaged
+    and overshoot).
+    """
+
+    def __init__(self, window, weight, sim_bid, **kwargs):
+        sim.Simulator.__init__(self, **kwargs)
+        self.window = window
+        self.weight = weight
+        self.simBid = sim_bid
+        self.lowAvg = 0.0
+        self.highAvg = 0.0
+        self.reserve = 0.0
+
+    def calculate_price_floor(self, input_features):
+        self.reserve = self.lowAvg * self.weight + self.highAvg * (1 - self.weight)
+        return self.reserve
+
+    def process_line(self, line, input_features, bids):
+        low, high = 0, 0
+        if len(bids) == 0:
+            high = self.reserve
+            low = high * self.simBid
+        elif len(bids) == 1:
+            high = bids[0]
+            low = high * self.simBid
+        else:
+            high = bids[0]
+            low = bids[1]
+        self.lowAvg = self.lowAvg * (self.window - 1) / self.window + low * 1.0 / self.window
+        self.highAvg = self.highAvg * (self.window - 1) / self.window + high * 1.0 / self.window
+
 
 # {"geo_timezone": "America/Indianapolis", "pub_network_id": 267, "site_id":
 # 3878, "campaign_id": 3389, "ua_device": "iPhone", "geo_region_name": "IN",
