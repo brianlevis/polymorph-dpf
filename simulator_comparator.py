@@ -1,7 +1,9 @@
 from gametheory import AverageSimulateBid
 from oneshot import MultiShot
+from vwprediction.simulate import VWSimulator
 from simulator import *
 
+import socket as sock
 
 class NoFloor(Simulator):
     """Represents no price floor."""
@@ -60,9 +62,21 @@ oneshot_args_no_ceiling['pf_ceil'] = 0.1
 queue_simulator(MultiShot(1, oneshot_args=oneshot_args), 'MultiShot')
 queue_simulator(MultiShot(1, oneshot_args=oneshot_args_no_ceiling), 'MultiShot (no ceiling)')
 
+socket_num = 12345
+model_name = '~/polymorph-dpf/vwprediction/models/1_pass'
+multiplier = 3.0
+os.system("pkill -9 -f 'vw.*--port {0}'".format(socket_num))
+os.system("~/vowpal_wabbit/vowpalwabbit/vw --daemon --port {0} --quiet -i {1}.model -t --num_children 1".format(socket_num, model_name))
+socket = sock.socket(sock.AF_INET, sock.SOCK_STREAM)
+socket.connect(('localhost', socket_num))
+queue_simulator(VWSimulator(socket, multiplier), 'VW (Multiplier: {0})'.format(multiplier))
+
 queue_simulator(GlobalRunningAverage(), 'Basic Running Average')
 queue_simulator(NoFloor(), 'No Price Floor')
-results = run_queue(start=(14, 0))
+
+results = run_queue(start=(14, 0), stop=(14, 0))
+
+os.system("pkill -9 -f 'vw.*--port {0}'".format(socket_num))
 
 # --- Test OneShot Bucket distribution
 # num_buckets = 20
