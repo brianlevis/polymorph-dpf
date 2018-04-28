@@ -74,7 +74,7 @@ queue_simulator(VWSimulator(socket, multiplier), 'VW (Multiplier: {0})'.format(m
 queue_simulator(GlobalRunningAverage(), 'Basic Running Average')
 queue_simulator(NoFloor(), 'No Price Floor')
 
-results = run_queue(start=(14, 0), stop=(14, 0))
+results = run_queue(start=(14, 0))
 
 os.system("pkill -9 -f 'vw.*--port {0}'".format(socket_num))
 
