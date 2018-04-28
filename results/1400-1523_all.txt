@@ -1,0 +1,1748 @@
+14_00_part-00000.gz
+14_00_part-00001.gz
+14_00_part-00002.gz
+14_00_part-00003.gz
+14_00_part-00004.gz
+14_00_part-00005.gz
+14_00_part-00006.gz
+14_00_part-00007.gz
+14_00_part-00008.gz
+14_00_part-00009.gz
+14_00_part-00010.gz
+14_00_part-00011.gz
+14_00_part-00012.gz
+14_00_part-00013.gz
+14_00_part-00014.gz
+14_00_part-00015.gz
+14_00_part-00016.gz
+14_00_part-00017.gz
+14_00_part-00018.gz
+14_00_part-00019.gz
+14_00_part-00020.gz
+14_00_part-00021.gz
+14_00_part-00022.gz
+14_00_part-00023.gz
+14_00_part-00024.gz
+14_00_part-00025.gz
+14_00_part-00026.gz
+14_00_part-00027.gz
+14_00_part-00028.gz
+14_00_part-00029.gz
+14_00_part-00030.gz
+14_00_part-00031.gz
+14_01_part-00000.gz
+14_01_part-00001.gz
+14_01_part-00002.gz
+14_01_part-00003.gz
+14_01_part-00004.gz
+14_01_part-00005.gz
+14_01_part-00006.gz
+14_01_part-00007.gz
+14_01_part-00008.gz
+14_01_part-00009.gz
+14_01_part-00010.gz
+14_01_part-00011.gz
+14_01_part-00012.gz
+14_01_part-00013.gz
+14_01_part-00014.gz
+14_01_part-00015.gz
+14_01_part-00016.gz
+14_01_part-00017.gz
+14_01_part-00018.gz
+14_01_part-00019.gz
+14_01_part-00020.gz
+14_01_part-00021.gz
+14_01_part-00022.gz
+14_01_part-00023.gz
+14_01_part-00024.gz
+14_01_part-00025.gz
+14_01_part-00026.gz
+14_01_part-00027.gz
+14_01_part-00028.gz
+14_01_part-00029.gz
+14_01_part-00030.gz
+14_01_part-00031.gz
+14_02_part-00000.gz
+14_02_part-00001.gz
+14_02_part-00002.gz
+14_02_part-00003.gz
+14_02_part-00004.gz
+14_02_part-00005.gz
+14_02_part-00006.gz
+14_02_part-00007.gz
+14_02_part-00008.gz
+14_02_part-00009.gz
+14_02_part-00010.gz
+14_02_part-00011.gz
+14_02_part-00012.gz
+14_02_part-00013.gz
+14_02_part-00014.gz
+14_02_part-00015.gz
+14_02_part-00016.gz
+14_02_part-00017.gz
+14_02_part-00018.gz
+14_02_part-00019.gz
+14_02_part-00020.gz
+14_02_part-00021.gz
+14_02_part-00022.gz
+14_02_part-00023.gz
+14_02_part-00024.gz
+14_02_part-00025.gz
+14_02_part-00026.gz
+14_02_part-00027.gz
+14_02_part-00028.gz
+14_02_part-00029.gz
+14_02_part-00030.gz
+14_02_part-00031.gz
+14_03_part-00000.gz
+14_03_part-00001.gz
+14_03_part-00002.gz
+14_03_part-00003.gz
+14_03_part-00004.gz
+14_03_part-00005.gz
+14_03_part-00006.gz
+14_03_part-00007.gz
+14_03_part-00008.gz
+14_03_part-00009.gz
+14_03_part-00010.gz
+14_03_part-00011.gz
+14_03_part-00012.gz
+14_03_part-00013.gz
+14_03_part-00014.gz
+14_03_part-00015.gz
+14_03_part-00016.gz
+14_03_part-00017.gz
+14_03_part-00018.gz
+14_03_part-00019.gz
+14_03_part-00020.gz
+14_03_part-00021.gz
+14_03_part-00022.gz
+14_03_part-00023.gz
+14_03_part-00024.gz
+14_03_part-00025.gz
+14_03_part-00026.gz
+14_03_part-00027.gz
+14_03_part-00028.gz
+14_03_part-00029.gz
+14_03_part-00030.gz
+14_03_part-00031.gz
+14_04_part-00000.gz
+14_04_part-00001.gz
+14_04_part-00002.gz
+14_04_part-00003.gz
+14_04_part-00004.gz
+14_04_part-00005.gz
+14_04_part-00006.gz
+14_04_part-00007.gz
+14_04_part-00008.gz
+14_04_part-00009.gz
+14_04_part-00010.gz
+14_04_part-00011.gz
+14_04_part-00012.gz
+14_04_part-00013.gz
+14_04_part-00014.gz
+14_04_part-00015.gz
+14_04_part-00016.gz
+14_04_part-00017.gz
+14_04_part-00018.gz
+14_04_part-00019.gz
+14_04_part-00020.gz
+14_04_part-00021.gz
+14_04_part-00022.gz
+14_04_part-00023.gz
+14_04_part-00024.gz
+14_04_part-00025.gz
+14_04_part-00026.gz
+14_04_part-00027.gz
+14_04_part-00028.gz
+14_04_part-00029.gz
+14_04_part-00030.gz
+14_04_part-00031.gz
+14_05_part-00000.gz
+14_05_part-00001.gz
+14_05_part-00002.gz
+14_05_part-00003.gz
+14_05_part-00004.gz
+14_05_part-00005.gz
+14_05_part-00006.gz
+14_05_part-00007.gz
+14_05_part-00008.gz
+14_05_part-00009.gz
+14_05_part-00010.gz
+14_05_part-00011.gz
+14_05_part-00012.gz
+14_05_part-00013.gz
+14_05_part-00014.gz
+14_05_part-00015.gz
+14_05_part-00016.gz
+14_05_part-00017.gz
+14_05_part-00018.gz
+14_05_part-00019.gz
+14_05_part-00020.gz
+14_05_part-00021.gz
+14_05_part-00022.gz
+14_05_part-00023.gz
+14_05_part-00024.gz
+14_05_part-00025.gz
+14_05_part-00026.gz
+14_05_part-00027.gz
+14_05_part-00028.gz
+14_05_part-00029.gz
+14_05_part-00030.gz
+14_05_part-00031.gz
+14_06_part-00000.gz
+14_06_part-00001.gz
+14_06_part-00002.gz
+14_06_part-00003.gz
+14_06_part-00004.gz
+14_06_part-00005.gz
+14_06_part-00006.gz
+14_06_part-00007.gz
+14_06_part-00008.gz
+14_06_part-00009.gz
+14_06_part-00010.gz
+14_06_part-00011.gz
+14_06_part-00012.gz
+14_06_part-00013.gz
+14_06_part-00014.gz
+14_06_part-00015.gz
+14_06_part-00016.gz
+14_06_part-00017.gz
+14_06_part-00018.gz
+14_06_part-00019.gz
+14_06_part-00020.gz
+14_06_part-00021.gz
+14_06_part-00022.gz
+14_06_part-00023.gz
+14_06_part-00024.gz
+14_06_part-00025.gz
+14_06_part-00026.gz
+14_06_part-00027.gz
+14_06_part-00028.gz
+14_06_part-00029.gz
+14_06_part-00030.gz
+14_06_part-00031.gz
+14_07_part-00000.gz
+14_07_part-00001.gz
+14_07_part-00002.gz
+14_07_part-00003.gz
+14_07_part-00004.gz
+14_07_part-00005.gz
+14_07_part-00006.gz
+14_07_part-00007.gz
+14_07_part-00008.gz
+14_07_part-00009.gz
+14_07_part-00010.gz
+14_07_part-00011.gz
+14_07_part-00012.gz
+14_07_part-00013.gz
+14_07_part-00014.gz
+14_07_part-00015.gz
+14_07_part-00016.gz
+14_07_part-00017.gz
+14_07_part-00018.gz
+14_07_part-00019.gz
+14_07_part-00020.gz
+14_07_part-00021.gz
+14_07_part-00022.gz
+14_07_part-00023.gz
+14_07_part-00024.gz
+14_07_part-00025.gz
+14_07_part-00026.gz
+14_07_part-00027.gz
+14_07_part-00028.gz
+14_07_part-00029.gz
+14_07_part-00030.gz
+14_07_part-00031.gz
+14_08_part-00000.gz
+14_08_part-00001.gz
+14_08_part-00002.gz
+14_08_part-00003.gz
+14_08_part-00004.gz
+14_08_part-00005.gz
+14_08_part-00006.gz
+14_08_part-00007.gz
+14_08_part-00008.gz
+14_08_part-00009.gz
+14_08_part-00010.gz
+14_08_part-00011.gz
+14_08_part-00012.gz
+14_08_part-00013.gz
+14_08_part-00014.gz
+14_08_part-00015.gz
+14_08_part-00016.gz
+14_08_part-00017.gz
+14_08_part-00018.gz
+14_08_part-00019.gz
+14_08_part-00020.gz
+14_08_part-00021.gz
+14_08_part-00022.gz
+14_08_part-00023.gz
+14_08_part-00024.gz
+14_08_part-00025.gz
+14_08_part-00026.gz
+14_08_part-00027.gz
+14_08_part-00028.gz
+14_08_part-00029.gz
+14_08_part-00030.gz
+14_08_part-00031.gz
+malformed example! Float expected after : "| pub_network_id267 r_num_ads_third_party:1 exp_mode20 zone_id4954 geo_city_nameDar Es Salaam geo_continent_codeAF geo_timezoneAfrica/Dar_es_Salaam r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id1013 campaign_id21494 campaign_id18887 campaign_id21037 campaign_id22557 campaign_id3389 campaign_id7486 hour08 ua_device_typeMOB geo_region_name16 rate_metricCPM site_id276 geo_country_code2TZ creative_id164969 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceOne:"in Example #79932450: "| pub_network_id267 r_num_ads_third_party:1 exp_mode20 zone_id4954 geo_city_nameDar Es Salaam geo_continent_codeAF geo_timezoneAfrica/Dar_es_Salaam r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id1013 campaign_id21494 campaign_id18887 campaign_id21037 campaign_id22557 campaign_id3389 campaign_id7486 hour08 ua_device_typeMOB geo_region_name16 rate_metricCPM site_id276 geo_country_code2TZ creative_id164969 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceOne:Papa Wemba ua_nameFacebook ua_osAndroid 5.1 campaign_typethird-party"
+malformed example! '|',space, or EOL expected after : "| pub_network_id267 r_num_ads_third_party:1 exp_mode20 zone_id4954 geo_city_nameDar Es Salaam geo_continent_codeAF geo_timezoneAfrica/Dar_es_Salaam r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id1013 campaign_id21494 campaign_id18887 campaign_id21037 campaign_id22557 campaign_id3389 campaign_id7486 hour08 ua_device_typeMOB geo_region_name16 rate_metricCPM site_id276 geo_country_code2TZ creative_id164969 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceOne:"in Example #79932450: "| pub_network_id267 r_num_ads_third_party:1 exp_mode20 zone_id4954 geo_city_nameDar Es Salaam geo_continent_codeAF geo_timezoneAfrica/Dar_es_Salaam r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id1013 campaign_id21494 campaign_id18887 campaign_id21037 campaign_id22557 campaign_id3389 campaign_id7486 hour08 ua_device_typeMOB geo_region_name16 rate_metricCPM site_id276 geo_country_code2TZ creative_id164969 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceOne:Papa Wemba ua_nameFacebook ua_osAndroid 5.1 campaign_typethird-party"
+malformed example! '|' or EOL expected after : "| pub_network_id267 r_num_ads_third_party:1 exp_mode20 zone_id4954 geo_city_nameDar Es Salaam geo_continent_codeAF geo_timezoneAfrica/Dar_es_Salaam r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id1013 campaign_id21494 campaign_id18887 campaign_id21037 campaign_id22557 campaign_id3389 campaign_id7486 hour08 ua_device_typeMOB geo_region_name16 rate_metricCPM site_id276 geo_country_code2TZ creative_id164969 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceOne:"in Example #79932450: "| pub_network_id267 r_num_ads_third_party:1 exp_mode20 zone_id4954 geo_city_nameDar Es Salaam geo_continent_codeAF geo_timezoneAfrica/Dar_es_Salaam r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id1013 campaign_id21494 campaign_id18887 campaign_id21037 campaign_id22557 campaign_id3389 campaign_id7486 hour08 ua_device_typeMOB geo_region_name16 rate_metricCPM site_id276 geo_country_code2TZ creative_id164969 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceOne:Papa Wemba ua_nameFacebook ua_osAndroid 5.1 campaign_typethird-party"
+14_09_part-00000.gz
+14_09_part-00001.gz
+14_09_part-00002.gz
+14_09_part-00003.gz
+14_09_part-00004.gz
+14_09_part-00005.gz
+14_09_part-00006.gz
+14_09_part-00007.gz
+14_09_part-00008.gz
+14_09_part-00009.gz
+14_09_part-00010.gz
+14_09_part-00011.gz
+14_09_part-00012.gz
+14_09_part-00013.gz
+14_09_part-00014.gz
+14_09_part-00015.gz
+14_09_part-00016.gz
+14_09_part-00017.gz
+14_09_part-00018.gz
+14_09_part-00019.gz
+14_09_part-00020.gz
+14_09_part-00021.gz
+14_09_part-00022.gz
+14_09_part-00023.gz
+14_09_part-00024.gz
+14_09_part-00025.gz
+14_09_part-00026.gz
+14_09_part-00027.gz
+14_09_part-00028.gz
+14_09_part-00029.gz
+14_09_part-00030.gz
+14_09_part-00031.gz
+14_10_part-00000.gz
+14_10_part-00001.gz
+14_10_part-00002.gz
+14_10_part-00003.gz
+14_10_part-00004.gz
+14_10_part-00005.gz
+14_10_part-00006.gz
+14_10_part-00007.gz
+14_10_part-00008.gz
+14_10_part-00009.gz
+14_10_part-00010.gz
+14_10_part-00011.gz
+14_10_part-00012.gz
+14_10_part-00013.gz
+14_10_part-00014.gz
+14_10_part-00015.gz
+14_10_part-00016.gz
+14_10_part-00017.gz
+14_10_part-00018.gz
+14_10_part-00019.gz
+14_10_part-00020.gz
+14_10_part-00021.gz
+14_10_part-00022.gz
+14_10_part-00023.gz
+14_10_part-00024.gz
+14_10_part-00025.gz
+14_10_part-00026.gz
+14_10_part-00027.gz
+14_10_part-00028.gz
+14_10_part-00029.gz
+14_10_part-00030.gz
+14_10_part-00031.gz
+14_11_part-00000.gz
+14_11_part-00001.gz
+14_11_part-00002.gz
+14_11_part-00003.gz
+14_11_part-00004.gz
+14_11_part-00005.gz
+14_11_part-00006.gz
+14_11_part-00007.gz
+14_11_part-00008.gz
+14_11_part-00009.gz
+14_11_part-00010.gz
+14_11_part-00011.gz
+14_11_part-00012.gz
+14_11_part-00013.gz
+14_11_part-00014.gz
+14_11_part-00015.gz
+14_11_part-00016.gz
+14_11_part-00017.gz
+14_11_part-00018.gz
+14_11_part-00019.gz
+14_11_part-00020.gz
+14_11_part-00021.gz
+14_11_part-00022.gz
+14_11_part-00023.gz
+14_11_part-00024.gz
+14_11_part-00025.gz
+14_11_part-00026.gz
+14_11_part-00027.gz
+14_11_part-00028.gz
+14_11_part-00029.gz
+14_11_part-00030.gz
+14_11_part-00031.gz
+14_12_part-00000.gz
+14_12_part-00001.gz
+14_12_part-00002.gz
+14_12_part-00003.gz
+14_12_part-00004.gz
+14_12_part-00005.gz
+14_12_part-00006.gz
+14_12_part-00007.gz
+14_12_part-00008.gz
+14_12_part-00009.gz
+14_12_part-00010.gz
+14_12_part-00011.gz
+14_12_part-00012.gz
+14_12_part-00013.gz
+14_12_part-00014.gz
+14_12_part-00015.gz
+14_12_part-00016.gz
+14_12_part-00017.gz
+14_12_part-00018.gz
+14_12_part-00019.gz
+14_12_part-00020.gz
+14_12_part-00021.gz
+14_12_part-00022.gz
+14_12_part-00023.gz
+14_12_part-00024.gz
+14_12_part-00025.gz
+14_12_part-00026.gz
+14_12_part-00027.gz
+14_12_part-00028.gz
+14_12_part-00029.gz
+14_12_part-00030.gz
+14_12_part-00031.gz
+14_13_part-00000.gz
+malformed example! Float expected after : "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id3625 geo_city_namePetaling Jaya geo_continent_codeAS geo_timezoneAsia/Kuala_Lumpur r_cnt:1 campaign_id9968 campaign_id2547 campaign_id1013 campaign_id21493 campaign_id21494 campaign_id18887 campaign_id5479 campaign_id21037 campaign_id22557 campaign_id3389 campaign_id7486 hour13 ua_device_typeMOB geo_region_name12 rate_metricCPC site_id2076 geo_country_code2MY creative_id1819446 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceOla Series:"in Example #133656912: "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id3625 geo_city_namePetaling Jaya geo_continent_codeAS geo_timezoneAsia/Kuala_Lumpur r_cnt:1 campaign_id9968 campaign_id2547 campaign_id1013 campaign_id21493 campaign_id21494 campaign_id18887 campaign_id5479 campaign_id21037 campaign_id22557 campaign_id3389 campaign_id7486 hour13 ua_device_typeMOB geo_region_name12 rate_metricCPC site_id2076 geo_country_code2MY creative_id1819446 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceOla Series:mini ua_nameFacebook ua_osAndroid 5.1 campaign_typeprivate"
+malformed example! '|',space, or EOL expected after : "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id3625 geo_city_namePetaling Jaya geo_continent_codeAS geo_timezoneAsia/Kuala_Lumpur r_cnt:1 campaign_id9968 campaign_id2547 campaign_id1013 campaign_id21493 campaign_id21494 campaign_id18887 campaign_id5479 campaign_id21037 campaign_id22557 campaign_id3389 campaign_id7486 hour13 ua_device_typeMOB geo_region_name12 rate_metricCPC site_id2076 geo_country_code2MY creative_id1819446 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceOla Series:"in Example #133656912: "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id3625 geo_city_namePetaling Jaya geo_continent_codeAS geo_timezoneAsia/Kuala_Lumpur r_cnt:1 campaign_id9968 campaign_id2547 campaign_id1013 campaign_id21493 campaign_id21494 campaign_id18887 campaign_id5479 campaign_id21037 campaign_id22557 campaign_id3389 campaign_id7486 hour13 ua_device_typeMOB geo_region_name12 rate_metricCPC site_id2076 geo_country_code2MY creative_id1819446 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceOla Series:mini ua_nameFacebook ua_osAndroid 5.1 campaign_typeprivate"
+malformed example! '|' or EOL expected after : "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id3625 geo_city_namePetaling Jaya geo_continent_codeAS geo_timezoneAsia/Kuala_Lumpur r_cnt:1 campaign_id9968 campaign_id2547 campaign_id1013 campaign_id21493 campaign_id21494 campaign_id18887 campaign_id5479 campaign_id21037 campaign_id22557 campaign_id3389 campaign_id7486 hour13 ua_device_typeMOB geo_region_name12 rate_metricCPC site_id2076 geo_country_code2MY creative_id1819446 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceOla Series:"in Example #133656912: "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id3625 geo_city_namePetaling Jaya geo_continent_codeAS geo_timezoneAsia/Kuala_Lumpur r_cnt:1 campaign_id9968 campaign_id2547 campaign_id1013 campaign_id21493 campaign_id21494 campaign_id18887 campaign_id5479 campaign_id21037 campaign_id22557 campaign_id3389 campaign_id7486 hour13 ua_device_typeMOB geo_region_name12 rate_metricCPC site_id2076 geo_country_code2MY creative_id1819446 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceOla Series:mini ua_nameFacebook ua_osAndroid 5.1 campaign_typeprivate"
+14_13_part-00001.gz
+14_13_part-00002.gz
+14_13_part-00003.gz
+malformed example! Float expected after : "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id3625 geo_city_namePetaling Jaya geo_continent_codeAS geo_timezoneAsia/Kuala_Lumpur r_cnt:1 campaign_id9968 campaign_id2547 campaign_id1013 campaign_id21493 campaign_id21494 campaign_id18887 campaign_id5479 campaign_id3389 campaign_id22557 campaign_id21037 campaign_id7486 hour13 ua_device_typeMOB geo_region_name12 rate_metricCPC site_id2076 geo_country_code2MY creative_id1811030 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceOla Series:"in Example #135226795: "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id3625 geo_city_namePetaling Jaya geo_continent_codeAS geo_timezoneAsia/Kuala_Lumpur r_cnt:1 campaign_id9968 campaign_id2547 campaign_id1013 campaign_id21493 campaign_id21494 campaign_id18887 campaign_id5479 campaign_id3389 campaign_id22557 campaign_id21037 campaign_id7486 hour13 ua_device_typeMOB geo_region_name12 rate_metricCPC site_id2076 geo_country_code2MY creative_id1811030 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceOla Series:mini ua_nameFacebook ua_osAndroid 5.1 campaign_typeprivate"
+malformed example! '|',space, or EOL expected after : "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id3625 geo_city_namePetaling Jaya geo_continent_codeAS geo_timezoneAsia/Kuala_Lumpur r_cnt:1 campaign_id9968 campaign_id2547 campaign_id1013 campaign_id21493 campaign_id21494 campaign_id18887 campaign_id5479 campaign_id3389 campaign_id22557 campaign_id21037 campaign_id7486 hour13 ua_device_typeMOB geo_region_name12 rate_metricCPC site_id2076 geo_country_code2MY creative_id1811030 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceOla Series:"in Example #135226795: "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id3625 geo_city_namePetaling Jaya geo_continent_codeAS geo_timezoneAsia/Kuala_Lumpur r_cnt:1 campaign_id9968 campaign_id2547 campaign_id1013 campaign_id21493 campaign_id21494 campaign_id18887 campaign_id5479 campaign_id3389 campaign_id22557 campaign_id21037 campaign_id7486 hour13 ua_device_typeMOB geo_region_name12 rate_metricCPC site_id2076 geo_country_code2MY creative_id1811030 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceOla Series:mini ua_nameFacebook ua_osAndroid 5.1 campaign_typeprivate"
+malformed example! '|' or EOL expected after : "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id3625 geo_city_namePetaling Jaya geo_continent_codeAS geo_timezoneAsia/Kuala_Lumpur r_cnt:1 campaign_id9968 campaign_id2547 campaign_id1013 campaign_id21493 campaign_id21494 campaign_id18887 campaign_id5479 campaign_id3389 campaign_id22557 campaign_id21037 campaign_id7486 hour13 ua_device_typeMOB geo_region_name12 rate_metricCPC site_id2076 geo_country_code2MY creative_id1811030 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceOla Series:"in Example #135226795: "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id3625 geo_city_namePetaling Jaya geo_continent_codeAS geo_timezoneAsia/Kuala_Lumpur r_cnt:1 campaign_id9968 campaign_id2547 campaign_id1013 campaign_id21493 campaign_id21494 campaign_id18887 campaign_id5479 campaign_id3389 campaign_id22557 campaign_id21037 campaign_id7486 hour13 ua_device_typeMOB geo_region_name12 rate_metricCPC site_id2076 geo_country_code2MY creative_id1811030 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceOla Series:mini ua_nameFacebook ua_osAndroid 5.1 campaign_typeprivate"
+14_13_part-00004.gz
+14_13_part-00005.gz
+14_13_part-00006.gz
+14_13_part-00007.gz
+malformed example! Float expected after : "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id3625 geo_city_namePetaling Jaya geo_continent_codeAS geo_timezoneAsia/Kuala_Lumpur r_cnt:1 campaign_id9968 campaign_id2547 campaign_id1013 campaign_id21493 campaign_id21494 campaign_id18887 campaign_id5479 campaign_id21037 campaign_id22557 campaign_id3389 campaign_id7486 hour13 ua_device_typeMOB geo_region_name12 rate_metricCPC site_id2076 geo_country_code2MY creative_id4816109 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceOla Series:"in Example #136896845: "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id3625 geo_city_namePetaling Jaya geo_continent_codeAS geo_timezoneAsia/Kuala_Lumpur r_cnt:1 campaign_id9968 campaign_id2547 campaign_id1013 campaign_id21493 campaign_id21494 campaign_id18887 campaign_id5479 campaign_id21037 campaign_id22557 campaign_id3389 campaign_id7486 hour13 ua_device_typeMOB geo_region_name12 rate_metricCPC site_id2076 geo_country_code2MY creative_id4816109 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceOla Series:mini ua_nameFacebook ua_osAndroid 5.1 campaign_typeprivate"
+malformed example! '|',space, or EOL expected after : "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id3625 geo_city_namePetaling Jaya geo_continent_codeAS geo_timezoneAsia/Kuala_Lumpur r_cnt:1 campaign_id9968 campaign_id2547 campaign_id1013 campaign_id21493 campaign_id21494 campaign_id18887 campaign_id5479 campaign_id21037 campaign_id22557 campaign_id3389 campaign_id7486 hour13 ua_device_typeMOB geo_region_name12 rate_metricCPC site_id2076 geo_country_code2MY creative_id4816109 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceOla Series:"in Example #136896845: "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id3625 geo_city_namePetaling Jaya geo_continent_codeAS geo_timezoneAsia/Kuala_Lumpur r_cnt:1 campaign_id9968 campaign_id2547 campaign_id1013 campaign_id21493 campaign_id21494 campaign_id18887 campaign_id5479 campaign_id21037 campaign_id22557 campaign_id3389 campaign_id7486 hour13 ua_device_typeMOB geo_region_name12 rate_metricCPC site_id2076 geo_country_code2MY creative_id4816109 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceOla Series:mini ua_nameFacebook ua_osAndroid 5.1 campaign_typeprivate"
+malformed example! '|' or EOL expected after : "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id3625 geo_city_namePetaling Jaya geo_continent_codeAS geo_timezoneAsia/Kuala_Lumpur r_cnt:1 campaign_id9968 campaign_id2547 campaign_id1013 campaign_id21493 campaign_id21494 campaign_id18887 campaign_id5479 campaign_id21037 campaign_id22557 campaign_id3389 campaign_id7486 hour13 ua_device_typeMOB geo_region_name12 rate_metricCPC site_id2076 geo_country_code2MY creative_id4816109 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceOla Series:"in Example #136896845: "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id3625 geo_city_namePetaling Jaya geo_continent_codeAS geo_timezoneAsia/Kuala_Lumpur r_cnt:1 campaign_id9968 campaign_id2547 campaign_id1013 campaign_id21493 campaign_id21494 campaign_id18887 campaign_id5479 campaign_id21037 campaign_id22557 campaign_id3389 campaign_id7486 hour13 ua_device_typeMOB geo_region_name12 rate_metricCPC site_id2076 geo_country_code2MY creative_id4816109 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceOla Series:mini ua_nameFacebook ua_osAndroid 5.1 campaign_typeprivate"
+14_13_part-00008.gz
+malformed example! Float expected after : "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id3625 geo_city_namePetaling Jaya geo_continent_codeAS geo_timezoneAsia/Kuala_Lumpur r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id1013 campaign_id21494 campaign_id18887 campaign_id5479 campaign_id3389 campaign_id21037 campaign_id22557 campaign_id7486 hour13 ua_device_typeMOB geo_region_name12 rate_metricCPC site_id2076 geo_country_code2MY creative_id3340638 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceOla Series:"in Example #137472534: "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id3625 geo_city_namePetaling Jaya geo_continent_codeAS geo_timezoneAsia/Kuala_Lumpur r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id1013 campaign_id21494 campaign_id18887 campaign_id5479 campaign_id3389 campaign_id21037 campaign_id22557 campaign_id7486 hour13 ua_device_typeMOB geo_region_name12 rate_metricCPC site_id2076 geo_country_code2MY creative_id3340638 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceOla Series:mini ua_nameFacebook ua_osAndroid 5.1 campaign_typeprivate"
+malformed example! '|',space, or EOL expected after : "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id3625 geo_city_namePetaling Jaya geo_continent_codeAS geo_timezoneAsia/Kuala_Lumpur r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id1013 campaign_id21494 campaign_id18887 campaign_id5479 campaign_id3389 campaign_id21037 campaign_id22557 campaign_id7486 hour13 ua_device_typeMOB geo_region_name12 rate_metricCPC site_id2076 geo_country_code2MY creative_id3340638 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceOla Series:"in Example #137472534: "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id3625 geo_city_namePetaling Jaya geo_continent_codeAS geo_timezoneAsia/Kuala_Lumpur r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id1013 campaign_id21494 campaign_id18887 campaign_id5479 campaign_id3389 campaign_id21037 campaign_id22557 campaign_id7486 hour13 ua_device_typeMOB geo_region_name12 rate_metricCPC site_id2076 geo_country_code2MY creative_id3340638 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceOla Series:mini ua_nameFacebook ua_osAndroid 5.1 campaign_typeprivate"
+malformed example! '|' or EOL expected after : "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id3625 geo_city_namePetaling Jaya geo_continent_codeAS geo_timezoneAsia/Kuala_Lumpur r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id1013 campaign_id21494 campaign_id18887 campaign_id5479 campaign_id3389 campaign_id21037 campaign_id22557 campaign_id7486 hour13 ua_device_typeMOB geo_region_name12 rate_metricCPC site_id2076 geo_country_code2MY creative_id3340638 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceOla Series:"in Example #137472534: "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id3625 geo_city_namePetaling Jaya geo_continent_codeAS geo_timezoneAsia/Kuala_Lumpur r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id1013 campaign_id21494 campaign_id18887 campaign_id5479 campaign_id3389 campaign_id21037 campaign_id22557 campaign_id7486 hour13 ua_device_typeMOB geo_region_name12 rate_metricCPC site_id2076 geo_country_code2MY creative_id3340638 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceOla Series:mini ua_nameFacebook ua_osAndroid 5.1 campaign_typeprivate"
+14_13_part-00009.gz
+malformed example! Float expected after : "| pub_network_id734 r_num_ads_third_party:1 exp_mode20 zone_id33949 geo_continent_codeAS geo_timezoneAsia/Kabul r_cnt:1 campaign_id25851 campaign_id20578 campaign_id2547 campaign_id20579 campaign_id20868 campaign_id24276 campaign_id18025 campaign_id23421 campaign_id3389 campaign_id21037 campaign_id7486 hour13 ua_device_typeMOB ua_nameChrome Mobile rate_metricCPM site_id11257 geo_country_code2AF creative_id4336978 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceBLU:"in Example #137718977: "| pub_network_id734 r_num_ads_third_party:1 exp_mode20 zone_id33949 geo_continent_codeAS geo_timezoneAsia/Kabul r_cnt:1 campaign_id25851 campaign_id20578 campaign_id2547 campaign_id20579 campaign_id20868 campaign_id24276 campaign_id18025 campaign_id23421 campaign_id3389 campaign_id21037 campaign_id7486 hour13 ua_device_typeMOB ua_nameChrome Mobile rate_metricCPM site_id11257 geo_country_code2AF creative_id4336978 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceBLU:SENS ua_osAndroid 4.4 campaign_typethird-party"
+malformed example! '|',space, or EOL expected after : "| pub_network_id734 r_num_ads_third_party:1 exp_mode20 zone_id33949 geo_continent_codeAS geo_timezoneAsia/Kabul r_cnt:1 campaign_id25851 campaign_id20578 campaign_id2547 campaign_id20579 campaign_id20868 campaign_id24276 campaign_id18025 campaign_id23421 campaign_id3389 campaign_id21037 campaign_id7486 hour13 ua_device_typeMOB ua_nameChrome Mobile rate_metricCPM site_id11257 geo_country_code2AF creative_id4336978 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceBLU:"in Example #137718977: "| pub_network_id734 r_num_ads_third_party:1 exp_mode20 zone_id33949 geo_continent_codeAS geo_timezoneAsia/Kabul r_cnt:1 campaign_id25851 campaign_id20578 campaign_id2547 campaign_id20579 campaign_id20868 campaign_id24276 campaign_id18025 campaign_id23421 campaign_id3389 campaign_id21037 campaign_id7486 hour13 ua_device_typeMOB ua_nameChrome Mobile rate_metricCPM site_id11257 geo_country_code2AF creative_id4336978 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceBLU:SENS ua_osAndroid 4.4 campaign_typethird-party"
+malformed example! '|' or EOL expected after : "| pub_network_id734 r_num_ads_third_party:1 exp_mode20 zone_id33949 geo_continent_codeAS geo_timezoneAsia/Kabul r_cnt:1 campaign_id25851 campaign_id20578 campaign_id2547 campaign_id20579 campaign_id20868 campaign_id24276 campaign_id18025 campaign_id23421 campaign_id3389 campaign_id21037 campaign_id7486 hour13 ua_device_typeMOB ua_nameChrome Mobile rate_metricCPM site_id11257 geo_country_code2AF creative_id4336978 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceBLU:"in Example #137718977: "| pub_network_id734 r_num_ads_third_party:1 exp_mode20 zone_id33949 geo_continent_codeAS geo_timezoneAsia/Kabul r_cnt:1 campaign_id25851 campaign_id20578 campaign_id2547 campaign_id20579 campaign_id20868 campaign_id24276 campaign_id18025 campaign_id23421 campaign_id3389 campaign_id21037 campaign_id7486 hour13 ua_device_typeMOB ua_nameChrome Mobile rate_metricCPM site_id11257 geo_country_code2AF creative_id4336978 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceBLU:SENS ua_osAndroid 4.4 campaign_typethird-party"
+malformed example! Float expected after : "| pub_network_id734 r_num_ads_third_party:1 exp_mode20 zone_id33949 geo_continent_codeAS geo_timezoneAsia/Kabul r_cnt:1 campaign_id25851 campaign_id20578 campaign_id20579 campaign_id2547 campaign_id20868 campaign_id24276 campaign_id18025 campaign_id21037 campaign_id3389 campaign_id23421 campaign_id7486 hour13 ua_device_typeMOB ua_nameChrome Mobile rate_metricCPM site_id11257 geo_country_code2AF creative_id4336978 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceBLU:"in Example #137730180: "| pub_network_id734 r_num_ads_third_party:1 exp_mode20 zone_id33949 geo_continent_codeAS geo_timezoneAsia/Kabul r_cnt:1 campaign_id25851 campaign_id20578 campaign_id20579 campaign_id2547 campaign_id20868 campaign_id24276 campaign_id18025 campaign_id21037 campaign_id3389 campaign_id23421 campaign_id7486 hour13 ua_device_typeMOB ua_nameChrome Mobile rate_metricCPM site_id11257 geo_country_code2AF creative_id4336978 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceBLU:SENS ua_osAndroid 4.4 campaign_typethird-party"
+malformed example! '|',space, or EOL expected after : "| pub_network_id734 r_num_ads_third_party:1 exp_mode20 zone_id33949 geo_continent_codeAS geo_timezoneAsia/Kabul r_cnt:1 campaign_id25851 campaign_id20578 campaign_id20579 campaign_id2547 campaign_id20868 campaign_id24276 campaign_id18025 campaign_id21037 campaign_id3389 campaign_id23421 campaign_id7486 hour13 ua_device_typeMOB ua_nameChrome Mobile rate_metricCPM site_id11257 geo_country_code2AF creative_id4336978 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceBLU:"in Example #137730180: "| pub_network_id734 r_num_ads_third_party:1 exp_mode20 zone_id33949 geo_continent_codeAS geo_timezoneAsia/Kabul r_cnt:1 campaign_id25851 campaign_id20578 campaign_id20579 campaign_id2547 campaign_id20868 campaign_id24276 campaign_id18025 campaign_id21037 campaign_id3389 campaign_id23421 campaign_id7486 hour13 ua_device_typeMOB ua_nameChrome Mobile rate_metricCPM site_id11257 geo_country_code2AF creative_id4336978 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceBLU:SENS ua_osAndroid 4.4 campaign_typethird-party"
+malformed example! '|' or EOL expected after : "| pub_network_id734 r_num_ads_third_party:1 exp_mode20 zone_id33949 geo_continent_codeAS geo_timezoneAsia/Kabul r_cnt:1 campaign_id25851 campaign_id20578 campaign_id20579 campaign_id2547 campaign_id20868 campaign_id24276 campaign_id18025 campaign_id21037 campaign_id3389 campaign_id23421 campaign_id7486 hour13 ua_device_typeMOB ua_nameChrome Mobile rate_metricCPM site_id11257 geo_country_code2AF creative_id4336978 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceBLU:"in Example #137730180: "| pub_network_id734 r_num_ads_third_party:1 exp_mode20 zone_id33949 geo_continent_codeAS geo_timezoneAsia/Kabul r_cnt:1 campaign_id25851 campaign_id20578 campaign_id20579 campaign_id2547 campaign_id20868 campaign_id24276 campaign_id18025 campaign_id21037 campaign_id3389 campaign_id23421 campaign_id7486 hour13 ua_device_typeMOB ua_nameChrome Mobile rate_metricCPM site_id11257 geo_country_code2AF creative_id4336978 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceBLU:SENS ua_osAndroid 4.4 campaign_typethird-party"
+14_13_part-00010.gz
+14_13_part-00011.gz
+14_13_part-00012.gz
+malformed example! Float expected after : "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id3625 geo_city_namePetaling Jaya geo_continent_codeAS geo_timezoneAsia/Kuala_Lumpur r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id1013 campaign_id21494 campaign_id18887 campaign_id5479 campaign_id3389 campaign_id22557 campaign_id21037 campaign_id7486 hour13 ua_device_typeMOB geo_region_name12 rate_metricCPC site_id2076 geo_country_code2MY creative_id4816101 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceOla Series:"in Example #139148939: "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id3625 geo_city_namePetaling Jaya geo_continent_codeAS geo_timezoneAsia/Kuala_Lumpur r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id1013 campaign_id21494 campaign_id18887 campaign_id5479 campaign_id3389 campaign_id22557 campaign_id21037 campaign_id7486 hour13 ua_device_typeMOB geo_region_name12 rate_metricCPC site_id2076 geo_country_code2MY creative_id4816101 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceOla Series:mini ua_nameFacebook ua_osAndroid 5.1 campaign_typeprivate"
+malformed example! '|',space, or EOL expected after : "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id3625 geo_city_namePetaling Jaya geo_continent_codeAS geo_timezoneAsia/Kuala_Lumpur r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id1013 campaign_id21494 campaign_id18887 campaign_id5479 campaign_id3389 campaign_id22557 campaign_id21037 campaign_id7486 hour13 ua_device_typeMOB geo_region_name12 rate_metricCPC site_id2076 geo_country_code2MY creative_id4816101 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceOla Series:"in Example #139148939: "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id3625 geo_city_namePetaling Jaya geo_continent_codeAS geo_timezoneAsia/Kuala_Lumpur r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id1013 campaign_id21494 campaign_id18887 campaign_id5479 campaign_id3389 campaign_id22557 campaign_id21037 campaign_id7486 hour13 ua_device_typeMOB geo_region_name12 rate_metricCPC site_id2076 geo_country_code2MY creative_id4816101 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceOla Series:mini ua_nameFacebook ua_osAndroid 5.1 campaign_typeprivate"
+malformed example! '|' or EOL expected after : "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id3625 geo_city_namePetaling Jaya geo_continent_codeAS geo_timezoneAsia/Kuala_Lumpur r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id1013 campaign_id21494 campaign_id18887 campaign_id5479 campaign_id3389 campaign_id22557 campaign_id21037 campaign_id7486 hour13 ua_device_typeMOB geo_region_name12 rate_metricCPC site_id2076 geo_country_code2MY creative_id4816101 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceOla Series:"in Example #139148939: "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id3625 geo_city_namePetaling Jaya geo_continent_codeAS geo_timezoneAsia/Kuala_Lumpur r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id1013 campaign_id21494 campaign_id18887 campaign_id5479 campaign_id3389 campaign_id22557 campaign_id21037 campaign_id7486 hour13 ua_device_typeMOB geo_region_name12 rate_metricCPC site_id2076 geo_country_code2MY creative_id4816101 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceOla Series:mini ua_nameFacebook ua_osAndroid 5.1 campaign_typeprivate"
+14_13_part-00013.gz
+14_13_part-00014.gz
+14_13_part-00015.gz
+14_13_part-00016.gz
+14_13_part-00017.gz
+malformed example! '|',space, or EOL expected after : "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id24028 geo_city_nameAthens geo_continent_codeEU geo_timezoneEurope/Athens r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id21494 campaign_id5479 campaign_id12055 campaign_id3389 campaign_id21037 campaign_id22557 campaign_id7486 hour13 geo_region_name35 rate_metricCPC site_id17570 geo_country_code2GR creative_id3392699 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameFirefox OS ad_type['story'] ua_deviceAlcatel One Touch 4019X SVN:02010"in Example #141265585: "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id24028 geo_city_nameAthens geo_continent_codeEU geo_timezoneEurope/Athens r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id21494 campaign_id5479 campaign_id12055 campaign_id3389 campaign_id21037 campaign_id22557 campaign_id7486 hour13 geo_region_name35 rate_metricCPC site_id17570 geo_country_code2GR creative_id3392699 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameFirefox OS ad_type['story'] ua_deviceAlcatel One Touch 4019X SVN:02010S MMS:1.1 ua_nameFirefox Mobile ua_osFirefox OS 2.0 campaign_typemarketplace"
+malformed example! '|' or EOL expected after : "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id24028 geo_city_nameAthens geo_continent_codeEU geo_timezoneEurope/Athens r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id21494 campaign_id5479 campaign_id12055 campaign_id3389 campaign_id21037 campaign_id22557 campaign_id7486 hour13 geo_region_name35 rate_metricCPC site_id17570 geo_country_code2GR creative_id3392699 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameFirefox OS ad_type['story'] ua_deviceAlcatel One Touch 4019X SVN:02010"in Example #141265585: "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id24028 geo_city_nameAthens geo_continent_codeEU geo_timezoneEurope/Athens r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id21494 campaign_id5479 campaign_id12055 campaign_id3389 campaign_id21037 campaign_id22557 campaign_id7486 hour13 geo_region_name35 rate_metricCPC site_id17570 geo_country_code2GR creative_id3392699 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameFirefox OS ad_type['story'] ua_deviceAlcatel One Touch 4019X SVN:02010S MMS:1.1 ua_nameFirefox Mobile ua_osFirefox OS 2.0 campaign_typemarketplace"
+14_13_part-00018.gz
+malformed example! Float expected after : "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id3625 geo_city_namePetaling Jaya geo_continent_codeAS geo_timezoneAsia/Kuala_Lumpur r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id1013 campaign_id21494 campaign_id5479 campaign_id18887 campaign_id3389 campaign_id22557 campaign_id21037 campaign_id7486 hour13 ua_device_typeMOB geo_region_name12 rate_metricCPC site_id2076 geo_country_code2MY creative_id4816109 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceOla Series:"in Example #142003349: "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id3625 geo_city_namePetaling Jaya geo_continent_codeAS geo_timezoneAsia/Kuala_Lumpur r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id1013 campaign_id21494 campaign_id5479 campaign_id18887 campaign_id3389 campaign_id22557 campaign_id21037 campaign_id7486 hour13 ua_device_typeMOB geo_region_name12 rate_metricCPC site_id2076 geo_country_code2MY creative_id4816109 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceOla Series:mini ua_nameFacebook ua_osAndroid 5.1 campaign_typeprivate"
+malformed example! '|',space, or EOL expected after : "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id3625 geo_city_namePetaling Jaya geo_continent_codeAS geo_timezoneAsia/Kuala_Lumpur r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id1013 campaign_id21494 campaign_id5479 campaign_id18887 campaign_id3389 campaign_id22557 campaign_id21037 campaign_id7486 hour13 ua_device_typeMOB geo_region_name12 rate_metricCPC site_id2076 geo_country_code2MY creative_id4816109 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceOla Series:"in Example #142003349: "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id3625 geo_city_namePetaling Jaya geo_continent_codeAS geo_timezoneAsia/Kuala_Lumpur r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id1013 campaign_id21494 campaign_id5479 campaign_id18887 campaign_id3389 campaign_id22557 campaign_id21037 campaign_id7486 hour13 ua_device_typeMOB geo_region_name12 rate_metricCPC site_id2076 geo_country_code2MY creative_id4816109 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceOla Series:mini ua_nameFacebook ua_osAndroid 5.1 campaign_typeprivate"
+malformed example! '|' or EOL expected after : "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id3625 geo_city_namePetaling Jaya geo_continent_codeAS geo_timezoneAsia/Kuala_Lumpur r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id1013 campaign_id21494 campaign_id5479 campaign_id18887 campaign_id3389 campaign_id22557 campaign_id21037 campaign_id7486 hour13 ua_device_typeMOB geo_region_name12 rate_metricCPC site_id2076 geo_country_code2MY creative_id4816109 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceOla Series:"in Example #142003349: "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id3625 geo_city_namePetaling Jaya geo_continent_codeAS geo_timezoneAsia/Kuala_Lumpur r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id1013 campaign_id21494 campaign_id5479 campaign_id18887 campaign_id3389 campaign_id22557 campaign_id21037 campaign_id7486 hour13 ua_device_typeMOB geo_region_name12 rate_metricCPC site_id2076 geo_country_code2MY creative_id4816109 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceOla Series:mini ua_nameFacebook ua_osAndroid 5.1 campaign_typeprivate"
+14_13_part-00019.gz
+14_13_part-00020.gz
+14_13_part-00021.gz
+14_13_part-00022.gz
+malformed example! Float expected after : "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id3625 geo_city_namePetaling Jaya geo_continent_codeAS geo_timezoneAsia/Kuala_Lumpur r_cnt:1 campaign_id9968 campaign_id2547 campaign_id1013 campaign_id21493 campaign_id21494 campaign_id5479 campaign_id18887 campaign_id3389 campaign_id22557 campaign_id21037 campaign_id7486 hour13 ua_device_typeMOB geo_region_name12 rate_metricCPC site_id2076 geo_country_code2MY creative_id4816101 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceOla Series:"in Example #143694646: "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id3625 geo_city_namePetaling Jaya geo_continent_codeAS geo_timezoneAsia/Kuala_Lumpur r_cnt:1 campaign_id9968 campaign_id2547 campaign_id1013 campaign_id21493 campaign_id21494 campaign_id5479 campaign_id18887 campaign_id3389 campaign_id22557 campaign_id21037 campaign_id7486 hour13 ua_device_typeMOB geo_region_name12 rate_metricCPC site_id2076 geo_country_code2MY creative_id4816101 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceOla Series:mini ua_nameFacebook ua_osAndroid 5.1 campaign_typeprivate"
+malformed example! '|',space, or EOL expected after : "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id3625 geo_city_namePetaling Jaya geo_continent_codeAS geo_timezoneAsia/Kuala_Lumpur r_cnt:1 campaign_id9968 campaign_id2547 campaign_id1013 campaign_id21493 campaign_id21494 campaign_id5479 campaign_id18887 campaign_id3389 campaign_id22557 campaign_id21037 campaign_id7486 hour13 ua_device_typeMOB geo_region_name12 rate_metricCPC site_id2076 geo_country_code2MY creative_id4816101 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceOla Series:"in Example #143694646: "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id3625 geo_city_namePetaling Jaya geo_continent_codeAS geo_timezoneAsia/Kuala_Lumpur r_cnt:1 campaign_id9968 campaign_id2547 campaign_id1013 campaign_id21493 campaign_id21494 campaign_id5479 campaign_id18887 campaign_id3389 campaign_id22557 campaign_id21037 campaign_id7486 hour13 ua_device_typeMOB geo_region_name12 rate_metricCPC site_id2076 geo_country_code2MY creative_id4816101 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceOla Series:mini ua_nameFacebook ua_osAndroid 5.1 campaign_typeprivate"
+malformed example! '|' or EOL expected after : "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id3625 geo_city_namePetaling Jaya geo_continent_codeAS geo_timezoneAsia/Kuala_Lumpur r_cnt:1 campaign_id9968 campaign_id2547 campaign_id1013 campaign_id21493 campaign_id21494 campaign_id5479 campaign_id18887 campaign_id3389 campaign_id22557 campaign_id21037 campaign_id7486 hour13 ua_device_typeMOB geo_region_name12 rate_metricCPC site_id2076 geo_country_code2MY creative_id4816101 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceOla Series:"in Example #143694646: "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id3625 geo_city_namePetaling Jaya geo_continent_codeAS geo_timezoneAsia/Kuala_Lumpur r_cnt:1 campaign_id9968 campaign_id2547 campaign_id1013 campaign_id21493 campaign_id21494 campaign_id5479 campaign_id18887 campaign_id3389 campaign_id22557 campaign_id21037 campaign_id7486 hour13 ua_device_typeMOB geo_region_name12 rate_metricCPC site_id2076 geo_country_code2MY creative_id4816101 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceOla Series:mini ua_nameFacebook ua_osAndroid 5.1 campaign_typeprivate"
+14_13_part-00023.gz
+14_13_part-00024.gz
+14_13_part-00025.gz
+14_13_part-00026.gz
+malformed example! Float expected after : "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id3625 geo_city_namePetaling Jaya geo_continent_codeAS geo_timezoneAsia/Kuala_Lumpur r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id1013 campaign_id21494 campaign_id18887 campaign_id5479 campaign_id21037 campaign_id3389 campaign_id22557 campaign_id7486 hour13 ua_device_typeMOB geo_region_name12 rate_metricCPC site_id2076 geo_country_code2MY creative_id3340637 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceOla Series:"in Example #145786655: "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id3625 geo_city_namePetaling Jaya geo_continent_codeAS geo_timezoneAsia/Kuala_Lumpur r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id1013 campaign_id21494 campaign_id18887 campaign_id5479 campaign_id21037 campaign_id3389 campaign_id22557 campaign_id7486 hour13 ua_device_typeMOB geo_region_name12 rate_metricCPC site_id2076 geo_country_code2MY creative_id3340637 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceOla Series:mini ua_nameFacebook ua_osAndroid 5.1 campaign_typeprivate"
+malformed example! '|',space, or EOL expected after : "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id3625 geo_city_namePetaling Jaya geo_continent_codeAS geo_timezoneAsia/Kuala_Lumpur r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id1013 campaign_id21494 campaign_id18887 campaign_id5479 campaign_id21037 campaign_id3389 campaign_id22557 campaign_id7486 hour13 ua_device_typeMOB geo_region_name12 rate_metricCPC site_id2076 geo_country_code2MY creative_id3340637 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceOla Series:"in Example #145786655: "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id3625 geo_city_namePetaling Jaya geo_continent_codeAS geo_timezoneAsia/Kuala_Lumpur r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id1013 campaign_id21494 campaign_id18887 campaign_id5479 campaign_id21037 campaign_id3389 campaign_id22557 campaign_id7486 hour13 ua_device_typeMOB geo_region_name12 rate_metricCPC site_id2076 geo_country_code2MY creative_id3340637 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceOla Series:mini ua_nameFacebook ua_osAndroid 5.1 campaign_typeprivate"
+malformed example! '|' or EOL expected after : "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id3625 geo_city_namePetaling Jaya geo_continent_codeAS geo_timezoneAsia/Kuala_Lumpur r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id1013 campaign_id21494 campaign_id18887 campaign_id5479 campaign_id21037 campaign_id3389 campaign_id22557 campaign_id7486 hour13 ua_device_typeMOB geo_region_name12 rate_metricCPC site_id2076 geo_country_code2MY creative_id3340637 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceOla Series:"in Example #145786655: "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id3625 geo_city_namePetaling Jaya geo_continent_codeAS geo_timezoneAsia/Kuala_Lumpur r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id1013 campaign_id21494 campaign_id18887 campaign_id5479 campaign_id21037 campaign_id3389 campaign_id22557 campaign_id7486 hour13 ua_device_typeMOB geo_region_name12 rate_metricCPC site_id2076 geo_country_code2MY creative_id3340637 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceOla Series:mini ua_nameFacebook ua_osAndroid 5.1 campaign_typeprivate"
+14_13_part-00027.gz
+14_13_part-00028.gz
+14_13_part-00029.gz
+14_13_part-00030.gz
+malformed example! Float expected after : "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id3625 geo_city_namePetaling Jaya geo_continent_codeAS geo_timezoneAsia/Kuala_Lumpur r_cnt:1 campaign_id9968 campaign_id2547 campaign_id1013 campaign_id21493 campaign_id21494 campaign_id18887 campaign_id5479 campaign_id21037 campaign_id22557 campaign_id3389 campaign_id7486 hour13 ua_device_typeMOB geo_region_name12 rate_metricCPC site_id2076 geo_country_code2MY creative_id4816109 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceOla Series:"in Example #147376492: "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id3625 geo_city_namePetaling Jaya geo_continent_codeAS geo_timezoneAsia/Kuala_Lumpur r_cnt:1 campaign_id9968 campaign_id2547 campaign_id1013 campaign_id21493 campaign_id21494 campaign_id18887 campaign_id5479 campaign_id21037 campaign_id22557 campaign_id3389 campaign_id7486 hour13 ua_device_typeMOB geo_region_name12 rate_metricCPC site_id2076 geo_country_code2MY creative_id4816109 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceOla Series:mini ua_nameFacebook ua_osAndroid 5.1 campaign_typeprivate"
+malformed example! '|',space, or EOL expected after : "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id3625 geo_city_namePetaling Jaya geo_continent_codeAS geo_timezoneAsia/Kuala_Lumpur r_cnt:1 campaign_id9968 campaign_id2547 campaign_id1013 campaign_id21493 campaign_id21494 campaign_id18887 campaign_id5479 campaign_id21037 campaign_id22557 campaign_id3389 campaign_id7486 hour13 ua_device_typeMOB geo_region_name12 rate_metricCPC site_id2076 geo_country_code2MY creative_id4816109 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceOla Series:"in Example #147376492: "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id3625 geo_city_namePetaling Jaya geo_continent_codeAS geo_timezoneAsia/Kuala_Lumpur r_cnt:1 campaign_id9968 campaign_id2547 campaign_id1013 campaign_id21493 campaign_id21494 campaign_id18887 campaign_id5479 campaign_id21037 campaign_id22557 campaign_id3389 campaign_id7486 hour13 ua_device_typeMOB geo_region_name12 rate_metricCPC site_id2076 geo_country_code2MY creative_id4816109 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceOla Series:mini ua_nameFacebook ua_osAndroid 5.1 campaign_typeprivate"
+malformed example! '|' or EOL expected after : "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id3625 geo_city_namePetaling Jaya geo_continent_codeAS geo_timezoneAsia/Kuala_Lumpur r_cnt:1 campaign_id9968 campaign_id2547 campaign_id1013 campaign_id21493 campaign_id21494 campaign_id18887 campaign_id5479 campaign_id21037 campaign_id22557 campaign_id3389 campaign_id7486 hour13 ua_device_typeMOB geo_region_name12 rate_metricCPC site_id2076 geo_country_code2MY creative_id4816109 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceOla Series:"in Example #147376492: "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id3625 geo_city_namePetaling Jaya geo_continent_codeAS geo_timezoneAsia/Kuala_Lumpur r_cnt:1 campaign_id9968 campaign_id2547 campaign_id1013 campaign_id21493 campaign_id21494 campaign_id18887 campaign_id5479 campaign_id21037 campaign_id22557 campaign_id3389 campaign_id7486 hour13 ua_device_typeMOB geo_region_name12 rate_metricCPC site_id2076 geo_country_code2MY creative_id4816109 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceOla Series:mini ua_nameFacebook ua_osAndroid 5.1 campaign_typeprivate"
+14_13_part-00031.gz
+14_14_part-00000.gz
+14_14_part-00001.gz
+14_14_part-00002.gz
+14_14_part-00003.gz
+14_14_part-00004.gz
+14_14_part-00005.gz
+14_14_part-00006.gz
+14_14_part-00007.gz
+14_14_part-00008.gz
+14_14_part-00009.gz
+14_14_part-00010.gz
+14_14_part-00011.gz
+14_14_part-00012.gz
+14_14_part-00013.gz
+14_14_part-00014.gz
+14_14_part-00015.gz
+14_14_part-00016.gz
+14_14_part-00017.gz
+14_14_part-00018.gz
+14_14_part-00019.gz
+14_14_part-00020.gz
+14_14_part-00021.gz
+14_14_part-00022.gz
+14_14_part-00023.gz
+14_14_part-00024.gz
+14_14_part-00025.gz
+14_14_part-00026.gz
+14_14_part-00027.gz
+14_14_part-00028.gz
+14_14_part-00029.gz
+Warning: Could not download 14/14/part-00030.gz
+14_14_part-00031.gz
+14_15_part-00000.gz
+malformed example! Float expected after : "| pub_network_id734 r_num_ads_third_party:1 exp_mode20 zone_id23580 geo_continent_codeAS geo_timezoneAsia/Kabul r_cnt:1 campaign_id19914 campaign_id20578 campaign_id20579 campaign_id24275 campaign_id2547 campaign_id20868 campaign_id24276 campaign_id18025 campaign_id21037 campaign_id23421 campaign_id3389 campaign_id7486 hour15 ua_device_typeMOB ua_nameChrome Mobile rate_metricCPM site_id11257 geo_country_code2AF creative_id1451682 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceBLU:"in Example #162571968: "| pub_network_id734 r_num_ads_third_party:1 exp_mode20 zone_id23580 geo_continent_codeAS geo_timezoneAsia/Kabul r_cnt:1 campaign_id19914 campaign_id20578 campaign_id20579 campaign_id24275 campaign_id2547 campaign_id20868 campaign_id24276 campaign_id18025 campaign_id21037 campaign_id23421 campaign_id3389 campaign_id7486 hour15 ua_device_typeMOB ua_nameChrome Mobile rate_metricCPM site_id11257 geo_country_code2AF creative_id1451682 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceBLU:SENS ua_osAndroid 4.4 campaign_typethird-party"
+malformed example! '|',space, or EOL expected after : "| pub_network_id734 r_num_ads_third_party:1 exp_mode20 zone_id23580 geo_continent_codeAS geo_timezoneAsia/Kabul r_cnt:1 campaign_id19914 campaign_id20578 campaign_id20579 campaign_id24275 campaign_id2547 campaign_id20868 campaign_id24276 campaign_id18025 campaign_id21037 campaign_id23421 campaign_id3389 campaign_id7486 hour15 ua_device_typeMOB ua_nameChrome Mobile rate_metricCPM site_id11257 geo_country_code2AF creative_id1451682 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceBLU:"in Example #162571968: "| pub_network_id734 r_num_ads_third_party:1 exp_mode20 zone_id23580 geo_continent_codeAS geo_timezoneAsia/Kabul r_cnt:1 campaign_id19914 campaign_id20578 campaign_id20579 campaign_id24275 campaign_id2547 campaign_id20868 campaign_id24276 campaign_id18025 campaign_id21037 campaign_id23421 campaign_id3389 campaign_id7486 hour15 ua_device_typeMOB ua_nameChrome Mobile rate_metricCPM site_id11257 geo_country_code2AF creative_id1451682 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceBLU:SENS ua_osAndroid 4.4 campaign_typethird-party"
+malformed example! '|' or EOL expected after : "| pub_network_id734 r_num_ads_third_party:1 exp_mode20 zone_id23580 geo_continent_codeAS geo_timezoneAsia/Kabul r_cnt:1 campaign_id19914 campaign_id20578 campaign_id20579 campaign_id24275 campaign_id2547 campaign_id20868 campaign_id24276 campaign_id18025 campaign_id21037 campaign_id23421 campaign_id3389 campaign_id7486 hour15 ua_device_typeMOB ua_nameChrome Mobile rate_metricCPM site_id11257 geo_country_code2AF creative_id1451682 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceBLU:"in Example #162571968: "| pub_network_id734 r_num_ads_third_party:1 exp_mode20 zone_id23580 geo_continent_codeAS geo_timezoneAsia/Kabul r_cnt:1 campaign_id19914 campaign_id20578 campaign_id20579 campaign_id24275 campaign_id2547 campaign_id20868 campaign_id24276 campaign_id18025 campaign_id21037 campaign_id23421 campaign_id3389 campaign_id7486 hour15 ua_device_typeMOB ua_nameChrome Mobile rate_metricCPM site_id11257 geo_country_code2AF creative_id1451682 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceBLU:SENS ua_osAndroid 4.4 campaign_typethird-party"
+14_15_part-00001.gz
+14_15_part-00002.gz
+14_15_part-00003.gz
+14_15_part-00004.gz
+14_15_part-00005.gz
+14_15_part-00006.gz
+14_15_part-00007.gz
+14_15_part-00008.gz
+14_15_part-00009.gz
+14_15_part-00010.gz
+14_15_part-00011.gz
+14_15_part-00012.gz
+14_15_part-00013.gz
+14_15_part-00014.gz
+14_15_part-00015.gz
+14_15_part-00016.gz
+14_15_part-00017.gz
+14_15_part-00018.gz
+14_15_part-00019.gz
+14_15_part-00020.gz
+14_15_part-00021.gz
+14_15_part-00022.gz
+14_15_part-00023.gz
+14_15_part-00024.gz
+14_15_part-00025.gz
+malformed example! Float expected after : "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id27341 geo_city_nameBucaramanga geo_continent_codeSA geo_timezoneAmerica/Bogota r_cnt:1 campaign_id9968 campaign_id2547 campaign_id1013 campaign_id21493 campaign_id21494 campaign_id18887 campaign_id21037 campaign_id22557 campaign_id3389 campaign_id11374 campaign_id7486 hour15 ua_device_typeTAB geo_region_name26 rate_metricCPM site_id20375 geo_country_code2CO creative_id42076 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceWM8850:"in Example #174101542: "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id27341 geo_city_nameBucaramanga geo_continent_codeSA geo_timezoneAmerica/Bogota r_cnt:1 campaign_id9968 campaign_id2547 campaign_id1013 campaign_id21493 campaign_id21494 campaign_id18887 campaign_id21037 campaign_id22557 campaign_id3389 campaign_id11374 campaign_id7486 hour15 ua_device_typeTAB geo_region_name26 rate_metricCPM site_id20375 geo_country_code2CO creative_id42076 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceWM8850:X6-10V ua_nameChrome ua_osAndroid 4.1 campaign_typertb"
+malformed example! '|',space, or EOL expected after : "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id27341 geo_city_nameBucaramanga geo_continent_codeSA geo_timezoneAmerica/Bogota r_cnt:1 campaign_id9968 campaign_id2547 campaign_id1013 campaign_id21493 campaign_id21494 campaign_id18887 campaign_id21037 campaign_id22557 campaign_id3389 campaign_id11374 campaign_id7486 hour15 ua_device_typeTAB geo_region_name26 rate_metricCPM site_id20375 geo_country_code2CO creative_id42076 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceWM8850:"in Example #174101542: "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id27341 geo_city_nameBucaramanga geo_continent_codeSA geo_timezoneAmerica/Bogota r_cnt:1 campaign_id9968 campaign_id2547 campaign_id1013 campaign_id21493 campaign_id21494 campaign_id18887 campaign_id21037 campaign_id22557 campaign_id3389 campaign_id11374 campaign_id7486 hour15 ua_device_typeTAB geo_region_name26 rate_metricCPM site_id20375 geo_country_code2CO creative_id42076 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceWM8850:X6-10V ua_nameChrome ua_osAndroid 4.1 campaign_typertb"
+malformed example! '|' or EOL expected after : "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id27341 geo_city_nameBucaramanga geo_continent_codeSA geo_timezoneAmerica/Bogota r_cnt:1 campaign_id9968 campaign_id2547 campaign_id1013 campaign_id21493 campaign_id21494 campaign_id18887 campaign_id21037 campaign_id22557 campaign_id3389 campaign_id11374 campaign_id7486 hour15 ua_device_typeTAB geo_region_name26 rate_metricCPM site_id20375 geo_country_code2CO creative_id42076 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceWM8850:"in Example #174101542: "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id27341 geo_city_nameBucaramanga geo_continent_codeSA geo_timezoneAmerica/Bogota r_cnt:1 campaign_id9968 campaign_id2547 campaign_id1013 campaign_id21493 campaign_id21494 campaign_id18887 campaign_id21037 campaign_id22557 campaign_id3389 campaign_id11374 campaign_id7486 hour15 ua_device_typeTAB geo_region_name26 rate_metricCPM site_id20375 geo_country_code2CO creative_id42076 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceWM8850:X6-10V ua_nameChrome ua_osAndroid 4.1 campaign_typertb"
+14_15_part-00026.gz
+14_15_part-00027.gz
+malformed example! Float expected after : "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id27341 geo_city_nameBucaramanga geo_continent_codeSA geo_timezoneAmerica/Bogota r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id1013 campaign_id21494 campaign_id18887 campaign_id3389 campaign_id22557 campaign_id21037 campaign_id7486 campaign_id11374 hour15 ua_device_typeTAB geo_region_name26 rate_metricCPM site_id20375 geo_country_code2CO creative_id42076 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceWM8850:"in Example #174991381: "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id27341 geo_city_nameBucaramanga geo_continent_codeSA geo_timezoneAmerica/Bogota r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id1013 campaign_id21494 campaign_id18887 campaign_id3389 campaign_id22557 campaign_id21037 campaign_id7486 campaign_id11374 hour15 ua_device_typeTAB geo_region_name26 rate_metricCPM site_id20375 geo_country_code2CO creative_id42076 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceWM8850:X6-10V ua_nameChrome ua_osAndroid 4.1 campaign_typertb"
+malformed example! '|',space, or EOL expected after : "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id27341 geo_city_nameBucaramanga geo_continent_codeSA geo_timezoneAmerica/Bogota r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id1013 campaign_id21494 campaign_id18887 campaign_id3389 campaign_id22557 campaign_id21037 campaign_id7486 campaign_id11374 hour15 ua_device_typeTAB geo_region_name26 rate_metricCPM site_id20375 geo_country_code2CO creative_id42076 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceWM8850:"in Example #174991381: "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id27341 geo_city_nameBucaramanga geo_continent_codeSA geo_timezoneAmerica/Bogota r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id1013 campaign_id21494 campaign_id18887 campaign_id3389 campaign_id22557 campaign_id21037 campaign_id7486 campaign_id11374 hour15 ua_device_typeTAB geo_region_name26 rate_metricCPM site_id20375 geo_country_code2CO creative_id42076 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceWM8850:X6-10V ua_nameChrome ua_osAndroid 4.1 campaign_typertb"
+malformed example! '|' or EOL expected after : "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id27341 geo_city_nameBucaramanga geo_continent_codeSA geo_timezoneAmerica/Bogota r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id1013 campaign_id21494 campaign_id18887 campaign_id3389 campaign_id22557 campaign_id21037 campaign_id7486 campaign_id11374 hour15 ua_device_typeTAB geo_region_name26 rate_metricCPM site_id20375 geo_country_code2CO creative_id42076 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceWM8850:"in Example #174991381: "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id27341 geo_city_nameBucaramanga geo_continent_codeSA geo_timezoneAmerica/Bogota r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id1013 campaign_id21494 campaign_id18887 campaign_id3389 campaign_id22557 campaign_id21037 campaign_id7486 campaign_id11374 hour15 ua_device_typeTAB geo_region_name26 rate_metricCPM site_id20375 geo_country_code2CO creative_id42076 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceWM8850:X6-10V ua_nameChrome ua_osAndroid 4.1 campaign_typertb"
+14_15_part-00028.gz
+14_15_part-00029.gz
+14_15_part-00030.gz
+malformed example! Float expected after : "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id33109 geo_city_nameMedellin geo_continent_codeSA geo_timezoneAmerica/Bogota r_cnt:1 campaign_id9968 campaign_id2547 campaign_id1013 campaign_id21493 campaign_id21494 campaign_id18887 campaign_id22557 campaign_id3389 campaign_id21037 campaign_id11374 campaign_id7486 hour15 ua_device_typeTAB geo_region_name02 rate_metricCPM site_id25155 geo_country_code2CO creative_id42076 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceWM8850:"in Example #176258923: "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id33109 geo_city_nameMedellin geo_continent_codeSA geo_timezoneAmerica/Bogota r_cnt:1 campaign_id9968 campaign_id2547 campaign_id1013 campaign_id21493 campaign_id21494 campaign_id18887 campaign_id22557 campaign_id3389 campaign_id21037 campaign_id11374 campaign_id7486 hour15 ua_device_typeTAB geo_region_name02 rate_metricCPM site_id25155 geo_country_code2CO creative_id42076 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceWM8850:X6-10V ua_nameChrome ua_osAndroid 4.1 campaign_typertb"
+malformed example! '|',space, or EOL expected after : "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id33109 geo_city_nameMedellin geo_continent_codeSA geo_timezoneAmerica/Bogota r_cnt:1 campaign_id9968 campaign_id2547 campaign_id1013 campaign_id21493 campaign_id21494 campaign_id18887 campaign_id22557 campaign_id3389 campaign_id21037 campaign_id11374 campaign_id7486 hour15 ua_device_typeTAB geo_region_name02 rate_metricCPM site_id25155 geo_country_code2CO creative_id42076 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceWM8850:"in Example #176258923: "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id33109 geo_city_nameMedellin geo_continent_codeSA geo_timezoneAmerica/Bogota r_cnt:1 campaign_id9968 campaign_id2547 campaign_id1013 campaign_id21493 campaign_id21494 campaign_id18887 campaign_id22557 campaign_id3389 campaign_id21037 campaign_id11374 campaign_id7486 hour15 ua_device_typeTAB geo_region_name02 rate_metricCPM site_id25155 geo_country_code2CO creative_id42076 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceWM8850:X6-10V ua_nameChrome ua_osAndroid 4.1 campaign_typertb"
+malformed example! '|' or EOL expected after : "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id33109 geo_city_nameMedellin geo_continent_codeSA geo_timezoneAmerica/Bogota r_cnt:1 campaign_id9968 campaign_id2547 campaign_id1013 campaign_id21493 campaign_id21494 campaign_id18887 campaign_id22557 campaign_id3389 campaign_id21037 campaign_id11374 campaign_id7486 hour15 ua_device_typeTAB geo_region_name02 rate_metricCPM site_id25155 geo_country_code2CO creative_id42076 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceWM8850:"in Example #176258923: "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id33109 geo_city_nameMedellin geo_continent_codeSA geo_timezoneAmerica/Bogota r_cnt:1 campaign_id9968 campaign_id2547 campaign_id1013 campaign_id21493 campaign_id21494 campaign_id18887 campaign_id22557 campaign_id3389 campaign_id21037 campaign_id11374 campaign_id7486 hour15 ua_device_typeTAB geo_region_name02 rate_metricCPM site_id25155 geo_country_code2CO creative_id42076 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceWM8850:X6-10V ua_nameChrome ua_osAndroid 4.1 campaign_typertb"
+14_15_part-00031.gz
+14_16_part-00000.gz
+14_16_part-00001.gz
+14_16_part-00002.gz
+malformed example! Float expected after : "| pub_network_id1931 r_num_ads_third_party:0 exp_mode20 zone_id37569 geo_city_nameKuala Lumpur geo_continent_codeAS geo_timezoneAsia/Kuala_Lumpur r_cnt:1 campaign_id2547 campaign_id21493 campaign_id1013 campaign_id21494 campaign_id5479 campaign_id22557 campaign_id21037 campaign_id3389 campaign_id7486 hour16 ua_device_typeMOB geo_region_name14 rate_metricCPM site_id26873 geo_country_code2MY creative_id1815475 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceOla Series:"in Example #178115556: "| pub_network_id1931 r_num_ads_third_party:0 exp_mode20 zone_id37569 geo_city_nameKuala Lumpur geo_continent_codeAS geo_timezoneAsia/Kuala_Lumpur r_cnt:1 campaign_id2547 campaign_id21493 campaign_id1013 campaign_id21494 campaign_id5479 campaign_id22557 campaign_id21037 campaign_id3389 campaign_id7486 hour16 ua_device_typeMOB geo_region_name14 rate_metricCPM site_id26873 geo_country_code2MY creative_id1815475 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceOla Series:mini ua_nameChrome Mobile ua_osAndroid 5.1 campaign_typertb"
+malformed example! '|',space, or EOL expected after : "| pub_network_id1931 r_num_ads_third_party:0 exp_mode20 zone_id37569 geo_city_nameKuala Lumpur geo_continent_codeAS geo_timezoneAsia/Kuala_Lumpur r_cnt:1 campaign_id2547 campaign_id21493 campaign_id1013 campaign_id21494 campaign_id5479 campaign_id22557 campaign_id21037 campaign_id3389 campaign_id7486 hour16 ua_device_typeMOB geo_region_name14 rate_metricCPM site_id26873 geo_country_code2MY creative_id1815475 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceOla Series:"in Example #178115556: "| pub_network_id1931 r_num_ads_third_party:0 exp_mode20 zone_id37569 geo_city_nameKuala Lumpur geo_continent_codeAS geo_timezoneAsia/Kuala_Lumpur r_cnt:1 campaign_id2547 campaign_id21493 campaign_id1013 campaign_id21494 campaign_id5479 campaign_id22557 campaign_id21037 campaign_id3389 campaign_id7486 hour16 ua_device_typeMOB geo_region_name14 rate_metricCPM site_id26873 geo_country_code2MY creative_id1815475 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceOla Series:mini ua_nameChrome Mobile ua_osAndroid 5.1 campaign_typertb"
+malformed example! '|' or EOL expected after : "| pub_network_id1931 r_num_ads_third_party:0 exp_mode20 zone_id37569 geo_city_nameKuala Lumpur geo_continent_codeAS geo_timezoneAsia/Kuala_Lumpur r_cnt:1 campaign_id2547 campaign_id21493 campaign_id1013 campaign_id21494 campaign_id5479 campaign_id22557 campaign_id21037 campaign_id3389 campaign_id7486 hour16 ua_device_typeMOB geo_region_name14 rate_metricCPM site_id26873 geo_country_code2MY creative_id1815475 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceOla Series:"in Example #178115556: "| pub_network_id1931 r_num_ads_third_party:0 exp_mode20 zone_id37569 geo_city_nameKuala Lumpur geo_continent_codeAS geo_timezoneAsia/Kuala_Lumpur r_cnt:1 campaign_id2547 campaign_id21493 campaign_id1013 campaign_id21494 campaign_id5479 campaign_id22557 campaign_id21037 campaign_id3389 campaign_id7486 hour16 ua_device_typeMOB geo_region_name14 rate_metricCPM site_id26873 geo_country_code2MY creative_id1815475 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceOla Series:mini ua_nameChrome Mobile ua_osAndroid 5.1 campaign_typertb"
+14_16_part-00003.gz
+14_16_part-00004.gz
+14_16_part-00005.gz
+14_16_part-00006.gz
+14_16_part-00007.gz
+14_16_part-00008.gz
+14_16_part-00009.gz
+14_16_part-00010.gz
+14_16_part-00011.gz
+14_16_part-00012.gz
+malformed example! Float expected after : "| pub_network_id734 r_num_ads_third_party:1 exp_mode20 zone_id15023 geo_continent_codeEU r_cnt:1 campaign_id14237 campaign_id20578 campaign_id20868 campaign_id5479 campaign_id18025 campaign_id21579 campaign_id21037 campaign_id24275 campaign_id24403 campaign_id24276 campaign_id24987 campaign_id3389 campaign_id23421 campaign_id17565 campaign_id7486 hour16 ua_device_typeTAB ua_nameAndroid rate_metricCPM site_id11257 geo_country_code2UA creative_id262968 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_devicesmart:"in Example #182727733: "| pub_network_id734 r_num_ads_third_party:1 exp_mode20 zone_id15023 geo_continent_codeEU r_cnt:1 campaign_id14237 campaign_id20578 campaign_id20868 campaign_id5479 campaign_id18025 campaign_id21579 campaign_id21037 campaign_id24275 campaign_id24403 campaign_id24276 campaign_id24987 campaign_id3389 campaign_id23421 campaign_id17565 campaign_id7486 hour16 ua_device_typeTAB ua_nameAndroid rate_metricCPM site_id11257 geo_country_code2UA creative_id262968 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_devicesmart:wave 5" HD Dual SIM ua_osAndroid 4.2 campaign_typethird-party"
+malformed example! '|',space, or EOL expected after : "| pub_network_id734 r_num_ads_third_party:1 exp_mode20 zone_id15023 geo_continent_codeEU r_cnt:1 campaign_id14237 campaign_id20578 campaign_id20868 campaign_id5479 campaign_id18025 campaign_id21579 campaign_id21037 campaign_id24275 campaign_id24403 campaign_id24276 campaign_id24987 campaign_id3389 campaign_id23421 campaign_id17565 campaign_id7486 hour16 ua_device_typeTAB ua_nameAndroid rate_metricCPM site_id11257 geo_country_code2UA creative_id262968 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_devicesmart:"in Example #182727733: "| pub_network_id734 r_num_ads_third_party:1 exp_mode20 zone_id15023 geo_continent_codeEU r_cnt:1 campaign_id14237 campaign_id20578 campaign_id20868 campaign_id5479 campaign_id18025 campaign_id21579 campaign_id21037 campaign_id24275 campaign_id24403 campaign_id24276 campaign_id24987 campaign_id3389 campaign_id23421 campaign_id17565 campaign_id7486 hour16 ua_device_typeTAB ua_nameAndroid rate_metricCPM site_id11257 geo_country_code2UA creative_id262968 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_devicesmart:wave 5" HD Dual SIM ua_osAndroid 4.2 campaign_typethird-party"
+malformed example! '|' or EOL expected after : "| pub_network_id734 r_num_ads_third_party:1 exp_mode20 zone_id15023 geo_continent_codeEU r_cnt:1 campaign_id14237 campaign_id20578 campaign_id20868 campaign_id5479 campaign_id18025 campaign_id21579 campaign_id21037 campaign_id24275 campaign_id24403 campaign_id24276 campaign_id24987 campaign_id3389 campaign_id23421 campaign_id17565 campaign_id7486 hour16 ua_device_typeTAB ua_nameAndroid rate_metricCPM site_id11257 geo_country_code2UA creative_id262968 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_devicesmart:"in Example #182727733: "| pub_network_id734 r_num_ads_third_party:1 exp_mode20 zone_id15023 geo_continent_codeEU r_cnt:1 campaign_id14237 campaign_id20578 campaign_id20868 campaign_id5479 campaign_id18025 campaign_id21579 campaign_id21037 campaign_id24275 campaign_id24403 campaign_id24276 campaign_id24987 campaign_id3389 campaign_id23421 campaign_id17565 campaign_id7486 hour16 ua_device_typeTAB ua_nameAndroid rate_metricCPM site_id11257 geo_country_code2UA creative_id262968 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_devicesmart:wave 5" HD Dual SIM ua_osAndroid 4.2 campaign_typethird-party"
+14_16_part-00013.gz
+14_16_part-00014.gz
+14_16_part-00015.gz
+14_16_part-00016.gz
+14_16_part-00017.gz
+14_16_part-00018.gz
+14_16_part-00019.gz
+14_16_part-00020.gz
+14_16_part-00021.gz
+14_16_part-00022.gz
+14_16_part-00023.gz
+14_16_part-00024.gz
+14_16_part-00025.gz
+14_16_part-00026.gz
+14_16_part-00027.gz
+14_16_part-00028.gz
+14_16_part-00029.gz
+14_16_part-00030.gz
+14_16_part-00031.gz
+14_17_part-00000.gz
+14_17_part-00001.gz
+14_17_part-00002.gz
+14_17_part-00003.gz
+14_17_part-00004.gz
+14_17_part-00005.gz
+14_17_part-00006.gz
+14_17_part-00007.gz
+14_17_part-00008.gz
+14_17_part-00009.gz
+14_17_part-00010.gz
+14_17_part-00011.gz
+14_17_part-00012.gz
+14_17_part-00013.gz
+14_17_part-00014.gz
+14_17_part-00015.gz
+14_17_part-00016.gz
+14_17_part-00017.gz
+14_17_part-00018.gz
+14_17_part-00019.gz
+14_17_part-00020.gz
+14_17_part-00021.gz
+14_17_part-00022.gz
+14_17_part-00023.gz
+14_17_part-00024.gz
+14_17_part-00025.gz
+14_17_part-00026.gz
+14_17_part-00027.gz
+14_17_part-00028.gz
+14_17_part-00029.gz
+14_17_part-00030.gz
+14_17_part-00031.gz
+14_18_part-00000.gz
+14_18_part-00001.gz
+14_18_part-00002.gz
+14_18_part-00003.gz
+14_18_part-00004.gz
+14_18_part-00005.gz
+14_18_part-00006.gz
+14_18_part-00007.gz
+14_18_part-00008.gz
+14_18_part-00009.gz
+14_18_part-00010.gz
+14_18_part-00011.gz
+14_18_part-00012.gz
+14_18_part-00013.gz
+14_18_part-00014.gz
+14_18_part-00015.gz
+14_18_part-00016.gz
+14_18_part-00017.gz
+14_18_part-00018.gz
+14_18_part-00019.gz
+14_18_part-00020.gz
+14_18_part-00021.gz
+14_18_part-00022.gz
+14_18_part-00023.gz
+14_18_part-00024.gz
+14_18_part-00025.gz
+14_18_part-00026.gz
+14_18_part-00027.gz
+14_18_part-00028.gz
+14_18_part-00029.gz
+14_18_part-00030.gz
+14_18_part-00031.gz
+14_19_part-00000.gz
+14_19_part-00001.gz
+14_19_part-00002.gz
+14_19_part-00003.gz
+14_19_part-00004.gz
+14_19_part-00005.gz
+14_19_part-00006.gz
+14_19_part-00007.gz
+14_19_part-00008.gz
+14_19_part-00009.gz
+14_19_part-00010.gz
+14_19_part-00011.gz
+14_19_part-00012.gz
+14_19_part-00013.gz
+14_19_part-00014.gz
+14_19_part-00015.gz
+14_19_part-00016.gz
+14_19_part-00017.gz
+14_19_part-00018.gz
+14_19_part-00019.gz
+14_19_part-00020.gz
+14_19_part-00021.gz
+14_19_part-00022.gz
+14_19_part-00023.gz
+14_19_part-00024.gz
+14_19_part-00025.gz
+14_19_part-00026.gz
+14_19_part-00027.gz
+14_19_part-00028.gz
+14_19_part-00029.gz
+14_19_part-00030.gz
+14_19_part-00031.gz
+14_20_part-00000.gz
+14_20_part-00001.gz
+14_20_part-00002.gz
+14_20_part-00003.gz
+14_20_part-00004.gz
+14_20_part-00005.gz
+14_20_part-00006.gz
+14_20_part-00007.gz
+14_20_part-00008.gz
+14_20_part-00009.gz
+14_20_part-00010.gz
+14_20_part-00011.gz
+14_20_part-00012.gz
+14_20_part-00013.gz
+14_20_part-00014.gz
+14_20_part-00015.gz
+14_20_part-00016.gz
+14_20_part-00017.gz
+14_20_part-00018.gz
+14_20_part-00019.gz
+14_20_part-00020.gz
+14_20_part-00021.gz
+14_20_part-00022.gz
+14_20_part-00023.gz
+14_20_part-00024.gz
+14_20_part-00025.gz
+14_20_part-00026.gz
+14_20_part-00027.gz
+14_20_part-00028.gz
+14_20_part-00029.gz
+14_20_part-00030.gz
+14_20_part-00031.gz
+14_21_part-00000.gz
+14_21_part-00001.gz
+14_21_part-00002.gz
+14_21_part-00003.gz
+14_21_part-00004.gz
+14_21_part-00005.gz
+14_21_part-00006.gz
+14_21_part-00007.gz
+14_21_part-00008.gz
+14_21_part-00009.gz
+14_21_part-00010.gz
+14_21_part-00011.gz
+14_21_part-00012.gz
+14_21_part-00013.gz
+14_21_part-00014.gz
+14_21_part-00015.gz
+14_21_part-00016.gz
+14_21_part-00017.gz
+14_21_part-00018.gz
+14_21_part-00019.gz
+14_21_part-00020.gz
+14_21_part-00021.gz
+14_21_part-00022.gz
+14_21_part-00023.gz
+14_21_part-00024.gz
+14_21_part-00025.gz
+14_21_part-00026.gz
+14_21_part-00027.gz
+14_21_part-00028.gz
+14_21_part-00029.gz
+14_21_part-00030.gz
+14_21_part-00031.gz
+14_22_part-00000.gz
+14_22_part-00001.gz
+14_22_part-00002.gz
+14_22_part-00003.gz
+14_22_part-00004.gz
+14_22_part-00005.gz
+14_22_part-00006.gz
+14_22_part-00007.gz
+14_22_part-00008.gz
+14_22_part-00009.gz
+14_22_part-00010.gz
+14_22_part-00011.gz
+14_22_part-00012.gz
+14_22_part-00013.gz
+14_22_part-00014.gz
+14_22_part-00015.gz
+14_22_part-00016.gz
+14_22_part-00017.gz
+14_22_part-00018.gz
+14_22_part-00019.gz
+14_22_part-00020.gz
+14_22_part-00021.gz
+14_22_part-00022.gz
+14_22_part-00023.gz
+14_22_part-00024.gz
+14_22_part-00025.gz
+14_22_part-00026.gz
+14_22_part-00027.gz
+14_22_part-00028.gz
+14_22_part-00029.gz
+14_22_part-00030.gz
+14_22_part-00031.gz
+14_23_part-00000.gz
+14_23_part-00001.gz
+14_23_part-00002.gz
+14_23_part-00003.gz
+14_23_part-00004.gz
+14_23_part-00005.gz
+14_23_part-00006.gz
+14_23_part-00007.gz
+14_23_part-00008.gz
+14_23_part-00009.gz
+14_23_part-00010.gz
+14_23_part-00011.gz
+14_23_part-00012.gz
+14_23_part-00013.gz
+14_23_part-00014.gz
+14_23_part-00015.gz
+14_23_part-00016.gz
+14_23_part-00017.gz
+14_23_part-00018.gz
+14_23_part-00019.gz
+14_23_part-00020.gz
+14_23_part-00021.gz
+14_23_part-00022.gz
+14_23_part-00023.gz
+14_23_part-00024.gz
+14_23_part-00025.gz
+14_23_part-00026.gz
+14_23_part-00027.gz
+14_23_part-00028.gz
+14_23_part-00029.gz
+14_23_part-00030.gz
+14_23_part-00031.gz
+15_00_part-00000.gz
+15_00_part-00001.gz
+15_00_part-00002.gz
+15_00_part-00003.gz
+15_00_part-00004.gz
+15_00_part-00005.gz
+15_00_part-00006.gz
+15_00_part-00007.gz
+15_00_part-00008.gz
+15_00_part-00009.gz
+15_00_part-00010.gz
+15_00_part-00011.gz
+15_00_part-00012.gz
+15_00_part-00013.gz
+15_00_part-00014.gz
+15_00_part-00015.gz
+15_00_part-00016.gz
+15_00_part-00017.gz
+15_00_part-00018.gz
+15_00_part-00019.gz
+15_00_part-00020.gz
+15_00_part-00021.gz
+15_00_part-00022.gz
+15_00_part-00023.gz
+15_00_part-00024.gz
+15_00_part-00025.gz
+15_00_part-00026.gz
+15_00_part-00027.gz
+15_00_part-00028.gz
+15_00_part-00029.gz
+15_00_part-00030.gz
+15_00_part-00031.gz
+15_01_part-00000.gz
+15_01_part-00001.gz
+15_01_part-00002.gz
+15_01_part-00003.gz
+15_01_part-00004.gz
+15_01_part-00005.gz
+15_01_part-00006.gz
+15_01_part-00007.gz
+15_01_part-00008.gz
+malformed example! Float expected after : "| pub_network_id267 r_num_ads_third_party:1 exp_mode3 zone_id24667 geo_continent_codeSA geo_timezoneAmerica/Bogota r_cnt:1 campaign_id9968 campaign_id18887 hour01 ua_device_typeTAB ua_nameChrome rate_metricCPM site_id18150 geo_country_code2CO creative_id1819595 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceWM8850:"in Example #279822488: "| pub_network_id267 r_num_ads_third_party:1 exp_mode3 zone_id24667 geo_continent_codeSA geo_timezoneAmerica/Bogota r_cnt:1 campaign_id9968 campaign_id18887 hour01 ua_device_typeTAB ua_nameChrome rate_metricCPM site_id18150 geo_country_code2CO creative_id1819595 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceWM8850:X6-10V ua_osAndroid 4.1 campaign_typethird-party"
+malformed example! '|',space, or EOL expected after : "| pub_network_id267 r_num_ads_third_party:1 exp_mode3 zone_id24667 geo_continent_codeSA geo_timezoneAmerica/Bogota r_cnt:1 campaign_id9968 campaign_id18887 hour01 ua_device_typeTAB ua_nameChrome rate_metricCPM site_id18150 geo_country_code2CO creative_id1819595 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceWM8850:"in Example #279822488: "| pub_network_id267 r_num_ads_third_party:1 exp_mode3 zone_id24667 geo_continent_codeSA geo_timezoneAmerica/Bogota r_cnt:1 campaign_id9968 campaign_id18887 hour01 ua_device_typeTAB ua_nameChrome rate_metricCPM site_id18150 geo_country_code2CO creative_id1819595 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceWM8850:X6-10V ua_osAndroid 4.1 campaign_typethird-party"
+malformed example! '|' or EOL expected after : "| pub_network_id267 r_num_ads_third_party:1 exp_mode3 zone_id24667 geo_continent_codeSA geo_timezoneAmerica/Bogota r_cnt:1 campaign_id9968 campaign_id18887 hour01 ua_device_typeTAB ua_nameChrome rate_metricCPM site_id18150 geo_country_code2CO creative_id1819595 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceWM8850:"in Example #279822488: "| pub_network_id267 r_num_ads_third_party:1 exp_mode3 zone_id24667 geo_continent_codeSA geo_timezoneAmerica/Bogota r_cnt:1 campaign_id9968 campaign_id18887 hour01 ua_device_typeTAB ua_nameChrome rate_metricCPM site_id18150 geo_country_code2CO creative_id1819595 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceWM8850:X6-10V ua_osAndroid 4.1 campaign_typethird-party"
+15_01_part-00009.gz
+15_01_part-00010.gz
+15_01_part-00011.gz
+15_01_part-00012.gz
+15_01_part-00013.gz
+15_01_part-00014.gz
+15_01_part-00015.gz
+15_01_part-00016.gz
+15_01_part-00017.gz
+15_01_part-00018.gz
+15_01_part-00019.gz
+15_01_part-00020.gz
+15_01_part-00021.gz
+15_01_part-00022.gz
+15_01_part-00023.gz
+15_01_part-00024.gz
+15_01_part-00025.gz
+15_01_part-00026.gz
+15_01_part-00027.gz
+15_01_part-00028.gz
+15_01_part-00029.gz
+15_01_part-00030.gz
+15_01_part-00031.gz
+15_02_part-00000.gz
+15_02_part-00001.gz
+15_02_part-00002.gz
+15_02_part-00003.gz
+15_02_part-00004.gz
+15_02_part-00005.gz
+15_02_part-00006.gz
+15_02_part-00007.gz
+15_02_part-00008.gz
+15_02_part-00009.gz
+15_02_part-00010.gz
+15_02_part-00011.gz
+15_02_part-00012.gz
+15_02_part-00013.gz
+15_02_part-00014.gz
+15_02_part-00015.gz
+15_02_part-00016.gz
+15_02_part-00017.gz
+15_02_part-00018.gz
+15_02_part-00019.gz
+15_02_part-00020.gz
+15_02_part-00021.gz
+15_02_part-00022.gz
+15_02_part-00023.gz
+15_02_part-00024.gz
+15_02_part-00025.gz
+15_02_part-00026.gz
+15_02_part-00027.gz
+15_02_part-00028.gz
+15_02_part-00029.gz
+15_02_part-00030.gz
+15_02_part-00031.gz
+15_03_part-00000.gz
+15_03_part-00001.gz
+15_03_part-00002.gz
+15_03_part-00003.gz
+15_03_part-00004.gz
+15_03_part-00005.gz
+15_03_part-00006.gz
+15_03_part-00007.gz
+15_03_part-00008.gz
+15_03_part-00009.gz
+15_03_part-00010.gz
+15_03_part-00011.gz
+15_03_part-00012.gz
+15_03_part-00013.gz
+15_03_part-00014.gz
+15_03_part-00015.gz
+15_03_part-00016.gz
+15_03_part-00017.gz
+15_03_part-00018.gz
+15_03_part-00019.gz
+15_03_part-00020.gz
+15_03_part-00021.gz
+15_03_part-00022.gz
+15_03_part-00023.gz
+15_03_part-00024.gz
+15_03_part-00025.gz
+15_03_part-00026.gz
+15_03_part-00027.gz
+15_03_part-00028.gz
+15_03_part-00029.gz
+15_03_part-00030.gz
+15_03_part-00031.gz
+15_04_part-00000.gz
+15_04_part-00001.gz
+15_04_part-00002.gz
+15_04_part-00003.gz
+15_04_part-00004.gz
+15_04_part-00005.gz
+15_04_part-00006.gz
+15_04_part-00007.gz
+15_04_part-00008.gz
+15_04_part-00009.gz
+15_04_part-00010.gz
+15_04_part-00011.gz
+15_04_part-00012.gz
+15_04_part-00013.gz
+15_04_part-00014.gz
+15_04_part-00015.gz
+15_04_part-00016.gz
+15_04_part-00017.gz
+15_04_part-00018.gz
+15_04_part-00019.gz
+15_04_part-00020.gz
+15_04_part-00021.gz
+15_04_part-00022.gz
+15_04_part-00023.gz
+15_04_part-00024.gz
+15_04_part-00025.gz
+15_04_part-00026.gz
+15_04_part-00027.gz
+15_04_part-00028.gz
+15_04_part-00029.gz
+15_04_part-00030.gz
+15_04_part-00031.gz
+15_05_part-00000.gz
+15_05_part-00001.gz
+15_05_part-00002.gz
+15_05_part-00003.gz
+15_05_part-00004.gz
+15_05_part-00005.gz
+15_05_part-00006.gz
+15_05_part-00007.gz
+15_05_part-00008.gz
+15_05_part-00009.gz
+15_05_part-00010.gz
+15_05_part-00011.gz
+15_05_part-00012.gz
+15_05_part-00013.gz
+15_05_part-00014.gz
+15_05_part-00015.gz
+15_05_part-00016.gz
+15_05_part-00017.gz
+15_05_part-00018.gz
+15_05_part-00019.gz
+15_05_part-00020.gz
+15_05_part-00021.gz
+15_05_part-00022.gz
+15_05_part-00023.gz
+15_05_part-00024.gz
+15_05_part-00025.gz
+15_05_part-00026.gz
+15_05_part-00027.gz
+Warning: Could not download 15/05/part-00028.gz
+15_05_part-00029.gz
+15_05_part-00030.gz
+15_05_part-00031.gz
+15_06_part-00000.gz
+15_06_part-00001.gz
+15_06_part-00002.gz
+15_06_part-00003.gz
+15_06_part-00004.gz
+15_06_part-00005.gz
+15_06_part-00006.gz
+15_06_part-00007.gz
+15_06_part-00008.gz
+15_06_part-00009.gz
+15_06_part-00010.gz
+15_06_part-00011.gz
+15_06_part-00012.gz
+15_06_part-00013.gz
+15_06_part-00014.gz
+15_06_part-00015.gz
+15_06_part-00016.gz
+15_06_part-00017.gz
+15_06_part-00018.gz
+15_06_part-00019.gz
+15_06_part-00020.gz
+15_06_part-00021.gz
+15_06_part-00022.gz
+15_06_part-00023.gz
+15_06_part-00024.gz
+15_06_part-00025.gz
+15_06_part-00026.gz
+15_06_part-00027.gz
+15_06_part-00028.gz
+15_06_part-00029.gz
+15_06_part-00030.gz
+15_06_part-00031.gz
+15_07_part-00000.gz
+15_07_part-00001.gz
+15_07_part-00002.gz
+15_07_part-00003.gz
+15_07_part-00004.gz
+15_07_part-00005.gz
+15_07_part-00006.gz
+15_07_part-00007.gz
+15_07_part-00008.gz
+15_07_part-00009.gz
+15_07_part-00010.gz
+15_07_part-00011.gz
+15_07_part-00012.gz
+15_07_part-00013.gz
+15_07_part-00014.gz
+15_07_part-00015.gz
+15_07_part-00016.gz
+15_07_part-00017.gz
+15_07_part-00018.gz
+15_07_part-00019.gz
+15_07_part-00020.gz
+15_07_part-00021.gz
+15_07_part-00022.gz
+15_07_part-00023.gz
+15_07_part-00024.gz
+15_07_part-00025.gz
+15_07_part-00026.gz
+15_07_part-00027.gz
+15_07_part-00028.gz
+15_07_part-00029.gz
+15_07_part-00030.gz
+15_07_part-00031.gz
+15_08_part-00000.gz
+15_08_part-00001.gz
+15_08_part-00002.gz
+15_08_part-00003.gz
+15_08_part-00004.gz
+15_08_part-00005.gz
+15_08_part-00006.gz
+15_08_part-00007.gz
+15_08_part-00008.gz
+15_08_part-00009.gz
+15_08_part-00010.gz
+15_08_part-00011.gz
+15_08_part-00012.gz
+15_08_part-00013.gz
+15_08_part-00014.gz
+15_08_part-00015.gz
+15_08_part-00016.gz
+15_08_part-00017.gz
+15_08_part-00018.gz
+15_08_part-00019.gz
+15_08_part-00020.gz
+15_08_part-00021.gz
+15_08_part-00022.gz
+15_08_part-00023.gz
+15_08_part-00024.gz
+15_08_part-00025.gz
+15_08_part-00026.gz
+15_08_part-00027.gz
+15_08_part-00028.gz
+15_08_part-00029.gz
+15_08_part-00030.gz
+15_08_part-00031.gz
+15_09_part-00000.gz
+15_09_part-00001.gz
+15_09_part-00002.gz
+15_09_part-00003.gz
+15_09_part-00004.gz
+15_09_part-00005.gz
+15_09_part-00006.gz
+15_09_part-00007.gz
+15_09_part-00008.gz
+15_09_part-00009.gz
+15_09_part-00010.gz
+15_09_part-00011.gz
+15_09_part-00012.gz
+15_09_part-00013.gz
+15_09_part-00014.gz
+15_09_part-00015.gz
+15_09_part-00016.gz
+15_09_part-00017.gz
+15_09_part-00018.gz
+15_09_part-00019.gz
+15_09_part-00020.gz
+15_09_part-00021.gz
+15_09_part-00022.gz
+15_09_part-00023.gz
+15_09_part-00024.gz
+15_09_part-00025.gz
+15_09_part-00026.gz
+15_09_part-00027.gz
+15_09_part-00028.gz
+15_09_part-00029.gz
+15_09_part-00030.gz
+15_09_part-00031.gz
+15_10_part-00000.gz
+15_10_part-00001.gz
+15_10_part-00002.gz
+15_10_part-00003.gz
+15_10_part-00004.gz
+15_10_part-00005.gz
+15_10_part-00006.gz
+15_10_part-00007.gz
+15_10_part-00008.gz
+15_10_part-00009.gz
+15_10_part-00010.gz
+15_10_part-00011.gz
+15_10_part-00012.gz
+15_10_part-00013.gz
+15_10_part-00014.gz
+15_10_part-00015.gz
+15_10_part-00016.gz
+15_10_part-00017.gz
+15_10_part-00018.gz
+15_10_part-00019.gz
+15_10_part-00020.gz
+15_10_part-00021.gz
+15_10_part-00022.gz
+malformed example! Float expected after : "| pub_network_id734 r_num_ads_third_party:6 exp_mode20 zone_id15023 geo_continent_codeEU geo_timezoneEurope/London r_cnt:1 campaign_id24211 campaign_id24598 campaign_id20957 campaign_id12912 campaign_id12816 campaign_id24555 campaign_id20578 campaign_id20868 campaign_id18025 campaign_id21037 campaign_id12077 campaign_id11374 campaign_id22130 campaign_id24275 campaign_id24276 campaign_id23421 campaign_id17565 campaign_id3389 campaign_id7486 hour10 ua_device_typeTAB ua_nameAndroid rate_metricCPM site_id11257 geo_country_code2GB creative_id2515152 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceSamsung GT-I8200N :"in Example #353945063: "| pub_network_id734 r_num_ads_third_party:6 exp_mode20 zone_id15023 geo_continent_codeEU geo_timezoneEurope/London r_cnt:1 campaign_id24211 campaign_id24598 campaign_id20957 campaign_id12912 campaign_id12816 campaign_id24555 campaign_id20578 campaign_id20868 campaign_id18025 campaign_id21037 campaign_id12077 campaign_id11374 campaign_id22130 campaign_id24275 campaign_id24276 campaign_id23421 campaign_id17565 campaign_id3389 campaign_id7486 hour10 ua_device_typeTAB ua_nameAndroid rate_metricCPM site_id11257 geo_country_code2GB creative_id2515152 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceSamsung GT-I8200N :D ua_osAndroid 4.2 campaign_typethird-party"
+malformed example! '|',space, or EOL expected after : "| pub_network_id734 r_num_ads_third_party:6 exp_mode20 zone_id15023 geo_continent_codeEU geo_timezoneEurope/London r_cnt:1 campaign_id24211 campaign_id24598 campaign_id20957 campaign_id12912 campaign_id12816 campaign_id24555 campaign_id20578 campaign_id20868 campaign_id18025 campaign_id21037 campaign_id12077 campaign_id11374 campaign_id22130 campaign_id24275 campaign_id24276 campaign_id23421 campaign_id17565 campaign_id3389 campaign_id7486 hour10 ua_device_typeTAB ua_nameAndroid rate_metricCPM site_id11257 geo_country_code2GB creative_id2515152 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceSamsung GT-I8200N :"in Example #353945063: "| pub_network_id734 r_num_ads_third_party:6 exp_mode20 zone_id15023 geo_continent_codeEU geo_timezoneEurope/London r_cnt:1 campaign_id24211 campaign_id24598 campaign_id20957 campaign_id12912 campaign_id12816 campaign_id24555 campaign_id20578 campaign_id20868 campaign_id18025 campaign_id21037 campaign_id12077 campaign_id11374 campaign_id22130 campaign_id24275 campaign_id24276 campaign_id23421 campaign_id17565 campaign_id3389 campaign_id7486 hour10 ua_device_typeTAB ua_nameAndroid rate_metricCPM site_id11257 geo_country_code2GB creative_id2515152 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceSamsung GT-I8200N :D ua_osAndroid 4.2 campaign_typethird-party"
+malformed example! '|' or EOL expected after : "| pub_network_id734 r_num_ads_third_party:6 exp_mode20 zone_id15023 geo_continent_codeEU geo_timezoneEurope/London r_cnt:1 campaign_id24211 campaign_id24598 campaign_id20957 campaign_id12912 campaign_id12816 campaign_id24555 campaign_id20578 campaign_id20868 campaign_id18025 campaign_id21037 campaign_id12077 campaign_id11374 campaign_id22130 campaign_id24275 campaign_id24276 campaign_id23421 campaign_id17565 campaign_id3389 campaign_id7486 hour10 ua_device_typeTAB ua_nameAndroid rate_metricCPM site_id11257 geo_country_code2GB creative_id2515152 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceSamsung GT-I8200N :"in Example #353945063: "| pub_network_id734 r_num_ads_third_party:6 exp_mode20 zone_id15023 geo_continent_codeEU geo_timezoneEurope/London r_cnt:1 campaign_id24211 campaign_id24598 campaign_id20957 campaign_id12912 campaign_id12816 campaign_id24555 campaign_id20578 campaign_id20868 campaign_id18025 campaign_id21037 campaign_id12077 campaign_id11374 campaign_id22130 campaign_id24275 campaign_id24276 campaign_id23421 campaign_id17565 campaign_id3389 campaign_id7486 hour10 ua_device_typeTAB ua_nameAndroid rate_metricCPM site_id11257 geo_country_code2GB creative_id2515152 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceSamsung GT-I8200N :D ua_osAndroid 4.2 campaign_typethird-party"
+15_10_part-00023.gz
+15_10_part-00024.gz
+15_10_part-00025.gz
+15_10_part-00026.gz
+15_10_part-00027.gz
+15_10_part-00028.gz
+15_10_part-00029.gz
+15_10_part-00030.gz
+15_10_part-00031.gz
+15_11_part-00000.gz
+15_11_part-00001.gz
+15_11_part-00002.gz
+15_11_part-00003.gz
+15_11_part-00004.gz
+15_11_part-00005.gz
+15_11_part-00006.gz
+15_11_part-00007.gz
+15_11_part-00008.gz
+15_11_part-00009.gz
+malformed example! Float expected after : "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id39888 geo_city_namePatna geo_continent_codeAS geo_timezoneAsia/Calcutta r_cnt:1 campaign_id9968 campaign_id2547 campaign_id1013 campaign_id21493 campaign_id21494 campaign_id18887 campaign_id3389 campaign_id22557 campaign_id21037 campaign_id11374 campaign_id7486 hour11 ua_device_typeMOB geo_region_name34 rate_metricCPM site_id30995 geo_country_code2IN creative_id1815475 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_device :"in Example #361406526: "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id39888 geo_city_namePatna geo_continent_codeAS geo_timezoneAsia/Calcutta r_cnt:1 campaign_id9968 campaign_id2547 campaign_id1013 campaign_id21493 campaign_id21494 campaign_id18887 campaign_id3389 campaign_id22557 campaign_id21037 campaign_id11374 campaign_id7486 hour11 ua_device_typeMOB geo_region_name34 rate_metricCPM site_id30995 geo_country_code2IN creative_id1815475 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_device :) ua_nameFacebook ua_osAndroid 8.0 campaign_typertb"
+malformed example! '|',space, or EOL expected after : "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id39888 geo_city_namePatna geo_continent_codeAS geo_timezoneAsia/Calcutta r_cnt:1 campaign_id9968 campaign_id2547 campaign_id1013 campaign_id21493 campaign_id21494 campaign_id18887 campaign_id3389 campaign_id22557 campaign_id21037 campaign_id11374 campaign_id7486 hour11 ua_device_typeMOB geo_region_name34 rate_metricCPM site_id30995 geo_country_code2IN creative_id1815475 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_device :"in Example #361406526: "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id39888 geo_city_namePatna geo_continent_codeAS geo_timezoneAsia/Calcutta r_cnt:1 campaign_id9968 campaign_id2547 campaign_id1013 campaign_id21493 campaign_id21494 campaign_id18887 campaign_id3389 campaign_id22557 campaign_id21037 campaign_id11374 campaign_id7486 hour11 ua_device_typeMOB geo_region_name34 rate_metricCPM site_id30995 geo_country_code2IN creative_id1815475 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_device :) ua_nameFacebook ua_osAndroid 8.0 campaign_typertb"
+malformed example! '|' or EOL expected after : "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id39888 geo_city_namePatna geo_continent_codeAS geo_timezoneAsia/Calcutta r_cnt:1 campaign_id9968 campaign_id2547 campaign_id1013 campaign_id21493 campaign_id21494 campaign_id18887 campaign_id3389 campaign_id22557 campaign_id21037 campaign_id11374 campaign_id7486 hour11 ua_device_typeMOB geo_region_name34 rate_metricCPM site_id30995 geo_country_code2IN creative_id1815475 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_device :"in Example #361406526: "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id39888 geo_city_namePatna geo_continent_codeAS geo_timezoneAsia/Calcutta r_cnt:1 campaign_id9968 campaign_id2547 campaign_id1013 campaign_id21493 campaign_id21494 campaign_id18887 campaign_id3389 campaign_id22557 campaign_id21037 campaign_id11374 campaign_id7486 hour11 ua_device_typeMOB geo_region_name34 rate_metricCPM site_id30995 geo_country_code2IN creative_id1815475 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_device :) ua_nameFacebook ua_osAndroid 8.0 campaign_typertb"
+15_11_part-00010.gz
+15_11_part-00011.gz
+15_11_part-00012.gz
+15_11_part-00013.gz
+15_11_part-00014.gz
+15_11_part-00015.gz
+15_11_part-00016.gz
+15_11_part-00017.gz
+15_11_part-00018.gz
+15_11_part-00019.gz
+15_11_part-00020.gz
+15_11_part-00021.gz
+15_11_part-00022.gz
+15_11_part-00023.gz
+15_11_part-00024.gz
+15_11_part-00025.gz
+15_11_part-00026.gz
+15_11_part-00027.gz
+15_11_part-00028.gz
+15_11_part-00029.gz
+15_11_part-00030.gz
+15_11_part-00031.gz
+15_12_part-00000.gz
+15_12_part-00001.gz
+15_12_part-00002.gz
+15_12_part-00003.gz
+15_12_part-00004.gz
+15_12_part-00005.gz
+15_12_part-00006.gz
+malformed example! '|',space, or EOL expected after : "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id33268 geo_city_nameAthens geo_continent_codeEU geo_timezoneEurope/Athens r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id21494 campaign_id12055 campaign_id5479 campaign_id3389 campaign_id21037 campaign_id22557 campaign_id7486 hour12 geo_region_name35 rate_metricCPC site_id25311 geo_country_code2GR creative_id4509349 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameFirefox OS ad_type['story'] ua_deviceAlcatel One Touch 4019X SVN:02010"in Example #372968294: "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id33268 geo_city_nameAthens geo_continent_codeEU geo_timezoneEurope/Athens r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id21494 campaign_id12055 campaign_id5479 campaign_id3389 campaign_id21037 campaign_id22557 campaign_id7486 hour12 geo_region_name35 rate_metricCPC site_id25311 geo_country_code2GR creative_id4509349 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameFirefox OS ad_type['story'] ua_deviceAlcatel One Touch 4019X SVN:02010S MMS:1.1 ua_nameFirefox Mobile ua_osFirefox OS 2.0 campaign_typeprivate"
+malformed example! '|' or EOL expected after : "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id33268 geo_city_nameAthens geo_continent_codeEU geo_timezoneEurope/Athens r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id21494 campaign_id12055 campaign_id5479 campaign_id3389 campaign_id21037 campaign_id22557 campaign_id7486 hour12 geo_region_name35 rate_metricCPC site_id25311 geo_country_code2GR creative_id4509349 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameFirefox OS ad_type['story'] ua_deviceAlcatel One Touch 4019X SVN:02010"in Example #372968294: "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id33268 geo_city_nameAthens geo_continent_codeEU geo_timezoneEurope/Athens r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id21494 campaign_id12055 campaign_id5479 campaign_id3389 campaign_id21037 campaign_id22557 campaign_id7486 hour12 geo_region_name35 rate_metricCPC site_id25311 geo_country_code2GR creative_id4509349 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameFirefox OS ad_type['story'] ua_deviceAlcatel One Touch 4019X SVN:02010S MMS:1.1 ua_nameFirefox Mobile ua_osFirefox OS 2.0 campaign_typeprivate"
+15_12_part-00007.gz
+15_12_part-00008.gz
+15_12_part-00009.gz
+15_12_part-00010.gz
+15_12_part-00011.gz
+15_12_part-00012.gz
+15_12_part-00013.gz
+15_12_part-00014.gz
+15_12_part-00015.gz
+15_12_part-00016.gz
+15_12_part-00017.gz
+15_12_part-00018.gz
+15_12_part-00019.gz
+15_12_part-00020.gz
+malformed example! '|',space, or EOL expected after : "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id33268 geo_city_nameAthens geo_continent_codeEU geo_timezoneEurope/Athens r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id21494 campaign_id12055 campaign_id5479 campaign_id3389 campaign_id22557 campaign_id21037 campaign_id7486 hour12 geo_region_name35 rate_metricCPC site_id25311 geo_country_code2GR creative_id2086135 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameFirefox OS ad_type['story'] ua_deviceAlcatel One Touch 4019X SVN:02010"in Example #378769290: "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id33268 geo_city_nameAthens geo_continent_codeEU geo_timezoneEurope/Athens r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id21494 campaign_id12055 campaign_id5479 campaign_id3389 campaign_id22557 campaign_id21037 campaign_id7486 hour12 geo_region_name35 rate_metricCPC site_id25311 geo_country_code2GR creative_id2086135 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameFirefox OS ad_type['story'] ua_deviceAlcatel One Touch 4019X SVN:02010S MMS:1.1 ua_nameFirefox Mobile ua_osFirefox OS 2.0 campaign_typeprivate"
+malformed example! '|' or EOL expected after : "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id33268 geo_city_nameAthens geo_continent_codeEU geo_timezoneEurope/Athens r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id21494 campaign_id12055 campaign_id5479 campaign_id3389 campaign_id22557 campaign_id21037 campaign_id7486 hour12 geo_region_name35 rate_metricCPC site_id25311 geo_country_code2GR creative_id2086135 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameFirefox OS ad_type['story'] ua_deviceAlcatel One Touch 4019X SVN:02010"in Example #378769290: "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id33268 geo_city_nameAthens geo_continent_codeEU geo_timezoneEurope/Athens r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id21494 campaign_id12055 campaign_id5479 campaign_id3389 campaign_id22557 campaign_id21037 campaign_id7486 hour12 geo_region_name35 rate_metricCPC site_id25311 geo_country_code2GR creative_id2086135 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameFirefox OS ad_type['story'] ua_deviceAlcatel One Touch 4019X SVN:02010S MMS:1.1 ua_nameFirefox Mobile ua_osFirefox OS 2.0 campaign_typeprivate"
+15_12_part-00021.gz
+15_12_part-00022.gz
+15_12_part-00023.gz
+15_12_part-00024.gz
+15_12_part-00025.gz
+15_12_part-00026.gz
+15_12_part-00027.gz
+15_12_part-00028.gz
+15_12_part-00029.gz
+15_12_part-00030.gz
+15_12_part-00031.gz
+15_13_part-00000.gz
+15_13_part-00001.gz
+malformed example! Float expected after : "| pub_network_id267 r_num_ads_third_party:1 exp_mode20 zone_id33780 geo_continent_codeAF geo_timezoneAfrica/Luanda r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id1013 campaign_id21494 campaign_id18887 campaign_id3389 campaign_id22557 campaign_id21037 campaign_id7486 hour13 ua_device_typeMOB ua_nameFacebook rate_metricCPM site_id25745 geo_country_code2AO creative_id164969 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceOne:"in Example #384244229: "| pub_network_id267 r_num_ads_third_party:1 exp_mode20 zone_id33780 geo_continent_codeAF geo_timezoneAfrica/Luanda r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id1013 campaign_id21494 campaign_id18887 campaign_id3389 campaign_id22557 campaign_id21037 campaign_id7486 hour13 ua_device_typeMOB ua_nameFacebook rate_metricCPM site_id25745 geo_country_code2AO creative_id164969 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceOne:Papa Wemba ua_osAndroid 5.1 campaign_typethird-party"
+malformed example! '|',space, or EOL expected after : "| pub_network_id267 r_num_ads_third_party:1 exp_mode20 zone_id33780 geo_continent_codeAF geo_timezoneAfrica/Luanda r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id1013 campaign_id21494 campaign_id18887 campaign_id3389 campaign_id22557 campaign_id21037 campaign_id7486 hour13 ua_device_typeMOB ua_nameFacebook rate_metricCPM site_id25745 geo_country_code2AO creative_id164969 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceOne:"in Example #384244229: "| pub_network_id267 r_num_ads_third_party:1 exp_mode20 zone_id33780 geo_continent_codeAF geo_timezoneAfrica/Luanda r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id1013 campaign_id21494 campaign_id18887 campaign_id3389 campaign_id22557 campaign_id21037 campaign_id7486 hour13 ua_device_typeMOB ua_nameFacebook rate_metricCPM site_id25745 geo_country_code2AO creative_id164969 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceOne:Papa Wemba ua_osAndroid 5.1 campaign_typethird-party"
+malformed example! '|' or EOL expected after : "| pub_network_id267 r_num_ads_third_party:1 exp_mode20 zone_id33780 geo_continent_codeAF geo_timezoneAfrica/Luanda r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id1013 campaign_id21494 campaign_id18887 campaign_id3389 campaign_id22557 campaign_id21037 campaign_id7486 hour13 ua_device_typeMOB ua_nameFacebook rate_metricCPM site_id25745 geo_country_code2AO creative_id164969 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceOne:"in Example #384244229: "| pub_network_id267 r_num_ads_third_party:1 exp_mode20 zone_id33780 geo_continent_codeAF geo_timezoneAfrica/Luanda r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id1013 campaign_id21494 campaign_id18887 campaign_id3389 campaign_id22557 campaign_id21037 campaign_id7486 hour13 ua_device_typeMOB ua_nameFacebook rate_metricCPM site_id25745 geo_country_code2AO creative_id164969 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceOne:Papa Wemba ua_osAndroid 5.1 campaign_typethird-party"
+15_13_part-00002.gz
+15_13_part-00003.gz
+15_13_part-00004.gz
+15_13_part-00005.gz
+15_13_part-00006.gz
+15_13_part-00007.gz
+15_13_part-00008.gz
+15_13_part-00009.gz
+15_13_part-00010.gz
+15_13_part-00011.gz
+15_13_part-00012.gz
+15_13_part-00013.gz
+15_13_part-00014.gz
+15_13_part-00015.gz
+15_13_part-00016.gz
+15_13_part-00017.gz
+15_13_part-00018.gz
+15_13_part-00019.gz
+15_13_part-00020.gz
+15_13_part-00021.gz
+15_13_part-00022.gz
+15_13_part-00023.gz
+15_13_part-00024.gz
+15_13_part-00025.gz
+15_13_part-00026.gz
+15_13_part-00027.gz
+15_13_part-00028.gz
+15_13_part-00029.gz
+15_13_part-00030.gz
+15_13_part-00031.gz
+15_14_part-00000.gz
+malformed example! '|',space, or EOL expected after : "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id26567 geo_city_nameRdos geo_continent_codeEU geo_timezoneEurope/Athens r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id21494 campaign_id5479 campaign_id12055 campaign_id22557 campaign_id21037 campaign_id3389 campaign_id7486 hour14 geo_region_name47 rate_metricCPM site_id19698 geo_country_code2GR creative_id42076 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameFirefox OS ad_type['story'] ua_deviceAlcatel One Touch 4019X SVN:02010"in Example #397971500: "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id26567 geo_city_nameRdos geo_continent_codeEU geo_timezoneEurope/Athens r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id21494 campaign_id5479 campaign_id12055 campaign_id22557 campaign_id21037 campaign_id3389 campaign_id7486 hour14 geo_region_name47 rate_metricCPM site_id19698 geo_country_code2GR creative_id42076 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameFirefox OS ad_type['story'] ua_deviceAlcatel One Touch 4019X SVN:02010S MMS:1.1 ua_nameFirefox Mobile ua_osFirefox OS 2.0 campaign_typertb"
+malformed example! '|' or EOL expected after : "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id26567 geo_city_nameRdos geo_continent_codeEU geo_timezoneEurope/Athens r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id21494 campaign_id5479 campaign_id12055 campaign_id22557 campaign_id21037 campaign_id3389 campaign_id7486 hour14 geo_region_name47 rate_metricCPM site_id19698 geo_country_code2GR creative_id42076 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameFirefox OS ad_type['story'] ua_deviceAlcatel One Touch 4019X SVN:02010"in Example #397971500: "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id26567 geo_city_nameRdos geo_continent_codeEU geo_timezoneEurope/Athens r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id21494 campaign_id5479 campaign_id12055 campaign_id22557 campaign_id21037 campaign_id3389 campaign_id7486 hour14 geo_region_name47 rate_metricCPM site_id19698 geo_country_code2GR creative_id42076 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameFirefox OS ad_type['story'] ua_deviceAlcatel One Touch 4019X SVN:02010S MMS:1.1 ua_nameFirefox Mobile ua_osFirefox OS 2.0 campaign_typertb"
+15_14_part-00001.gz
+15_14_part-00002.gz
+15_14_part-00003.gz
+15_14_part-00004.gz
+15_14_part-00005.gz
+15_14_part-00006.gz
+15_14_part-00007.gz
+15_14_part-00008.gz
+15_14_part-00009.gz
+15_14_part-00010.gz
+15_14_part-00011.gz
+15_14_part-00012.gz
+15_14_part-00013.gz
+15_14_part-00014.gz
+15_14_part-00015.gz
+malformed example! '|',space, or EOL expected after : "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id26567 geo_city_nameRdos geo_continent_codeEU geo_timezoneEurope/Athens r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id21494 campaign_id12055 campaign_id5479 campaign_id21037 campaign_id22557 campaign_id3389 campaign_id7486 hour14 geo_region_name47 rate_metricCPC site_id19698 geo_country_code2GR creative_id4848257 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameFirefox OS ad_type['story'] ua_deviceAlcatel One Touch 4019X SVN:02010"in Example #404625691: "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id26567 geo_city_nameRdos geo_continent_codeEU geo_timezoneEurope/Athens r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id21494 campaign_id12055 campaign_id5479 campaign_id21037 campaign_id22557 campaign_id3389 campaign_id7486 hour14 geo_region_name47 rate_metricCPC site_id19698 geo_country_code2GR creative_id4848257 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameFirefox OS ad_type['story'] ua_deviceAlcatel One Touch 4019X SVN:02010S MMS:1.1 ua_nameFirefox Mobile ua_osFirefox OS 2.0 campaign_typeprivate"
+malformed example! '|' or EOL expected after : "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id26567 geo_city_nameRdos geo_continent_codeEU geo_timezoneEurope/Athens r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id21494 campaign_id12055 campaign_id5479 campaign_id21037 campaign_id22557 campaign_id3389 campaign_id7486 hour14 geo_region_name47 rate_metricCPC site_id19698 geo_country_code2GR creative_id4848257 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameFirefox OS ad_type['story'] ua_deviceAlcatel One Touch 4019X SVN:02010"in Example #404625691: "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id26567 geo_city_nameRdos geo_continent_codeEU geo_timezoneEurope/Athens r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id21494 campaign_id12055 campaign_id5479 campaign_id21037 campaign_id22557 campaign_id3389 campaign_id7486 hour14 geo_region_name47 rate_metricCPC site_id19698 geo_country_code2GR creative_id4848257 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameFirefox OS ad_type['story'] ua_deviceAlcatel One Touch 4019X SVN:02010S MMS:1.1 ua_nameFirefox Mobile ua_osFirefox OS 2.0 campaign_typeprivate"
+15_14_part-00016.gz
+15_14_part-00017.gz
+15_14_part-00018.gz
+15_14_part-00019.gz
+15_14_part-00020.gz
+15_14_part-00021.gz
+15_14_part-00022.gz
+15_14_part-00023.gz
+15_14_part-00024.gz
+15_14_part-00025.gz
+15_14_part-00026.gz
+15_14_part-00027.gz
+15_14_part-00028.gz
+15_14_part-00029.gz
+15_14_part-00030.gz
+15_14_part-00031.gz
+15_15_part-00000.gz
+15_15_part-00001.gz
+15_15_part-00002.gz
+15_15_part-00003.gz
+15_15_part-00004.gz
+malformed example! '|',space, or EOL expected after : "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id26567 geo_city_nameRdos geo_continent_codeEU geo_timezoneEurope/Athens r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id21494 campaign_id12055 campaign_id5479 campaign_id3389 campaign_id22557 campaign_id21037 campaign_id7486 hour15 geo_region_name47 rate_metricCPM site_id19698 geo_country_code2GR creative_id42076 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameFirefox OS ad_type['story'] ua_deviceAlcatel One Touch 4019X SVN:02010"in Example #414533326: "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id26567 geo_city_nameRdos geo_continent_codeEU geo_timezoneEurope/Athens r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id21494 campaign_id12055 campaign_id5479 campaign_id3389 campaign_id22557 campaign_id21037 campaign_id7486 hour15 geo_region_name47 rate_metricCPM site_id19698 geo_country_code2GR creative_id42076 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameFirefox OS ad_type['story'] ua_deviceAlcatel One Touch 4019X SVN:02010S MMS:1.1 ua_nameFirefox Mobile ua_osFirefox OS 2.0 campaign_typertb"
+malformed example! '|' or EOL expected after : "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id26567 geo_city_nameRdos geo_continent_codeEU geo_timezoneEurope/Athens r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id21494 campaign_id12055 campaign_id5479 campaign_id3389 campaign_id22557 campaign_id21037 campaign_id7486 hour15 geo_region_name47 rate_metricCPM site_id19698 geo_country_code2GR creative_id42076 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameFirefox OS ad_type['story'] ua_deviceAlcatel One Touch 4019X SVN:02010"in Example #414533326: "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id26567 geo_city_nameRdos geo_continent_codeEU geo_timezoneEurope/Athens r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id21494 campaign_id12055 campaign_id5479 campaign_id3389 campaign_id22557 campaign_id21037 campaign_id7486 hour15 geo_region_name47 rate_metricCPM site_id19698 geo_country_code2GR creative_id42076 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameFirefox OS ad_type['story'] ua_deviceAlcatel One Touch 4019X SVN:02010S MMS:1.1 ua_nameFirefox Mobile ua_osFirefox OS 2.0 campaign_typertb"
+15_15_part-00005.gz
+15_15_part-00006.gz
+15_15_part-00007.gz
+15_15_part-00008.gz
+15_15_part-00009.gz
+15_15_part-00010.gz
+15_15_part-00011.gz
+15_15_part-00012.gz
+15_15_part-00013.gz
+15_15_part-00014.gz
+15_15_part-00015.gz
+15_15_part-00016.gz
+15_15_part-00017.gz
+15_15_part-00018.gz
+15_15_part-00019.gz
+15_15_part-00020.gz
+malformed example! '|',space, or EOL expected after : "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id26567 geo_city_nameRdos geo_continent_codeEU geo_timezoneEurope/Athens r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id21494 campaign_id5479 campaign_id12055 campaign_id3389 campaign_id22557 campaign_id21037 campaign_id7486 hour15 geo_region_name47 rate_metricCPC site_id19698 geo_country_code2GR creative_id4848257 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameFirefox OS ad_type['story'] ua_deviceAlcatel One Touch 4019X SVN:02010"in Example #421813412: "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id26567 geo_city_nameRdos geo_continent_codeEU geo_timezoneEurope/Athens r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id21494 campaign_id5479 campaign_id12055 campaign_id3389 campaign_id22557 campaign_id21037 campaign_id7486 hour15 geo_region_name47 rate_metricCPC site_id19698 geo_country_code2GR creative_id4848257 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameFirefox OS ad_type['story'] ua_deviceAlcatel One Touch 4019X SVN:02010S MMS:1.1 ua_nameFirefox Mobile ua_osFirefox OS 2.0 campaign_typeprivate"
+malformed example! '|' or EOL expected after : "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id26567 geo_city_nameRdos geo_continent_codeEU geo_timezoneEurope/Athens r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id21494 campaign_id5479 campaign_id12055 campaign_id3389 campaign_id22557 campaign_id21037 campaign_id7486 hour15 geo_region_name47 rate_metricCPC site_id19698 geo_country_code2GR creative_id4848257 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameFirefox OS ad_type['story'] ua_deviceAlcatel One Touch 4019X SVN:02010"in Example #421813412: "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id26567 geo_city_nameRdos geo_continent_codeEU geo_timezoneEurope/Athens r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id21494 campaign_id5479 campaign_id12055 campaign_id3389 campaign_id22557 campaign_id21037 campaign_id7486 hour15 geo_region_name47 rate_metricCPC site_id19698 geo_country_code2GR creative_id4848257 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameFirefox OS ad_type['story'] ua_deviceAlcatel One Touch 4019X SVN:02010S MMS:1.1 ua_nameFirefox Mobile ua_osFirefox OS 2.0 campaign_typeprivate"
+15_15_part-00021.gz
+15_15_part-00022.gz
+15_15_part-00023.gz
+15_15_part-00024.gz
+15_15_part-00025.gz
+15_15_part-00026.gz
+15_15_part-00027.gz
+15_15_part-00028.gz
+15_15_part-00029.gz
+15_15_part-00030.gz
+15_15_part-00031.gz
+15_16_part-00000.gz
+15_16_part-00001.gz
+15_16_part-00002.gz
+15_16_part-00003.gz
+15_16_part-00004.gz
+15_16_part-00005.gz
+15_16_part-00006.gz
+15_16_part-00007.gz
+15_16_part-00008.gz
+15_16_part-00009.gz
+15_16_part-00010.gz
+15_16_part-00011.gz
+15_16_part-00012.gz
+15_16_part-00013.gz
+Warning: Could not download 15/16/part-00014.gz
+Warning: Could not download 15/16/part-00015.gz
+15_16_part-00016.gz
+15_16_part-00017.gz
+15_16_part-00018.gz
+15_16_part-00019.gz
+15_16_part-00020.gz
+15_16_part-00021.gz
+15_16_part-00022.gz
+15_16_part-00023.gz
+15_16_part-00024.gz
+15_16_part-00025.gz
+15_16_part-00026.gz
+15_16_part-00027.gz
+15_16_part-00028.gz
+15_16_part-00029.gz
+15_16_part-00030.gz
+15_16_part-00031.gz
+15_17_part-00000.gz
+15_17_part-00001.gz
+malformed example! '|',space, or EOL expected after : "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id26567 geo_city_nameRdos geo_continent_codeEU geo_timezoneEurope/Athens r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id21494 campaign_id5479 campaign_id12055 campaign_id3389 campaign_id22557 campaign_id21037 campaign_id7486 hour17 geo_region_name47 rate_metricCPM site_id19698 geo_country_code2GR creative_id42076 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameFirefox OS ad_type['story'] ua_deviceAlcatel One Touch 4019X SVN:02010"in Example #441611261: "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id26567 geo_city_nameRdos geo_continent_codeEU geo_timezoneEurope/Athens r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id21494 campaign_id5479 campaign_id12055 campaign_id3389 campaign_id22557 campaign_id21037 campaign_id7486 hour17 geo_region_name47 rate_metricCPM site_id19698 geo_country_code2GR creative_id42076 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameFirefox OS ad_type['story'] ua_deviceAlcatel One Touch 4019X SVN:02010S MMS:1.1 ua_nameFirefox Mobile ua_osFirefox OS 2.0 campaign_typertb"
+malformed example! '|' or EOL expected after : "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id26567 geo_city_nameRdos geo_continent_codeEU geo_timezoneEurope/Athens r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id21494 campaign_id5479 campaign_id12055 campaign_id3389 campaign_id22557 campaign_id21037 campaign_id7486 hour17 geo_region_name47 rate_metricCPM site_id19698 geo_country_code2GR creative_id42076 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameFirefox OS ad_type['story'] ua_deviceAlcatel One Touch 4019X SVN:02010"in Example #441611261: "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id26567 geo_city_nameRdos geo_continent_codeEU geo_timezoneEurope/Athens r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id21494 campaign_id5479 campaign_id12055 campaign_id3389 campaign_id22557 campaign_id21037 campaign_id7486 hour17 geo_region_name47 rate_metricCPM site_id19698 geo_country_code2GR creative_id42076 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameFirefox OS ad_type['story'] ua_deviceAlcatel One Touch 4019X SVN:02010S MMS:1.1 ua_nameFirefox Mobile ua_osFirefox OS 2.0 campaign_typertb"
+15_17_part-00002.gz
+15_17_part-00003.gz
+malformed example! '|',space, or EOL expected after : "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id26567 geo_city_nameRdos geo_continent_codeEU geo_timezoneEurope/Athens r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id21494 campaign_id12055 campaign_id5479 campaign_id22557 campaign_id3389 campaign_id21037 campaign_id7486 hour17 geo_region_name47 rate_metricCPM site_id19698 geo_country_code2GR creative_id42076 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameFirefox OS ad_type['story'] ua_deviceAlcatel One Touch 4019X SVN:02010"in Example #442598743: "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id26567 geo_city_nameRdos geo_continent_codeEU geo_timezoneEurope/Athens r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id21494 campaign_id12055 campaign_id5479 campaign_id22557 campaign_id3389 campaign_id21037 campaign_id7486 hour17 geo_region_name47 rate_metricCPM site_id19698 geo_country_code2GR creative_id42076 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameFirefox OS ad_type['story'] ua_deviceAlcatel One Touch 4019X SVN:02010S MMS:1.1 ua_nameFirefox Mobile ua_osFirefox OS 2.0 campaign_typertb"
+malformed example! '|' or EOL expected after : "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id26567 geo_city_nameRdos geo_continent_codeEU geo_timezoneEurope/Athens r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id21494 campaign_id12055 campaign_id5479 campaign_id22557 campaign_id3389 campaign_id21037 campaign_id7486 hour17 geo_region_name47 rate_metricCPM site_id19698 geo_country_code2GR creative_id42076 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameFirefox OS ad_type['story'] ua_deviceAlcatel One Touch 4019X SVN:02010"in Example #442598743: "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id26567 geo_city_nameRdos geo_continent_codeEU geo_timezoneEurope/Athens r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id21494 campaign_id12055 campaign_id5479 campaign_id22557 campaign_id3389 campaign_id21037 campaign_id7486 hour17 geo_region_name47 rate_metricCPM site_id19698 geo_country_code2GR creative_id42076 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameFirefox OS ad_type['story'] ua_deviceAlcatel One Touch 4019X SVN:02010S MMS:1.1 ua_nameFirefox Mobile ua_osFirefox OS 2.0 campaign_typertb"
+15_17_part-00004.gz
+15_17_part-00005.gz
+15_17_part-00006.gz
+15_17_part-00007.gz
+15_17_part-00008.gz
+malformed example! Float expected after : "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id30253 geo_city_nameJuiz De Fora geo_continent_codeSA geo_timezoneAmerica/Sao_Paulo r_cnt:1 campaign_id9968 campaign_id2547 campaign_id1013 campaign_id21493 campaign_id21494 campaign_id5479 campaign_id18887 campaign_id3389 campaign_id21037 campaign_id22557 campaign_id7486 hour17 ua_device_typeTAB geo_region_name15 rate_metricCPM site_id22783 geo_country_code2BR creative_id1815475 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceMarca:"in Example #444741276: "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id30253 geo_city_nameJuiz De Fora geo_continent_codeSA geo_timezoneAmerica/Sao_Paulo r_cnt:1 campaign_id9968 campaign_id2547 campaign_id1013 campaign_id21493 campaign_id21494 campaign_id5479 campaign_id18887 campaign_id3389 campaign_id21037 campaign_id22557 campaign_id7486 hour17 ua_device_typeTAB geo_region_name15 rate_metricCPM site_id22783 geo_country_code2BR creative_id1815475 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceMarca:GBR.Modelo.I-Aluno.MID ua_nameChrome ua_osAndroid 4.2 campaign_typertb"
+malformed example! '|',space, or EOL expected after : "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id30253 geo_city_nameJuiz De Fora geo_continent_codeSA geo_timezoneAmerica/Sao_Paulo r_cnt:1 campaign_id9968 campaign_id2547 campaign_id1013 campaign_id21493 campaign_id21494 campaign_id5479 campaign_id18887 campaign_id3389 campaign_id21037 campaign_id22557 campaign_id7486 hour17 ua_device_typeTAB geo_region_name15 rate_metricCPM site_id22783 geo_country_code2BR creative_id1815475 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceMarca:"in Example #444741276: "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id30253 geo_city_nameJuiz De Fora geo_continent_codeSA geo_timezoneAmerica/Sao_Paulo r_cnt:1 campaign_id9968 campaign_id2547 campaign_id1013 campaign_id21493 campaign_id21494 campaign_id5479 campaign_id18887 campaign_id3389 campaign_id21037 campaign_id22557 campaign_id7486 hour17 ua_device_typeTAB geo_region_name15 rate_metricCPM site_id22783 geo_country_code2BR creative_id1815475 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceMarca:GBR.Modelo.I-Aluno.MID ua_nameChrome ua_osAndroid 4.2 campaign_typertb"
+malformed example! '|' or EOL expected after : "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id30253 geo_city_nameJuiz De Fora geo_continent_codeSA geo_timezoneAmerica/Sao_Paulo r_cnt:1 campaign_id9968 campaign_id2547 campaign_id1013 campaign_id21493 campaign_id21494 campaign_id5479 campaign_id18887 campaign_id3389 campaign_id21037 campaign_id22557 campaign_id7486 hour17 ua_device_typeTAB geo_region_name15 rate_metricCPM site_id22783 geo_country_code2BR creative_id1815475 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceMarca:"in Example #444741276: "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id30253 geo_city_nameJuiz De Fora geo_continent_codeSA geo_timezoneAmerica/Sao_Paulo r_cnt:1 campaign_id9968 campaign_id2547 campaign_id1013 campaign_id21493 campaign_id21494 campaign_id5479 campaign_id18887 campaign_id3389 campaign_id21037 campaign_id22557 campaign_id7486 hour17 ua_device_typeTAB geo_region_name15 rate_metricCPM site_id22783 geo_country_code2BR creative_id1815475 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceMarca:GBR.Modelo.I-Aluno.MID ua_nameChrome ua_osAndroid 4.2 campaign_typertb"
+15_17_part-00009.gz
+15_17_part-00010.gz
+15_17_part-00011.gz
+15_17_part-00012.gz
+15_17_part-00013.gz
+malformed example! Float expected after : "| pub_network_id734 r_num_ads_third_party:7 exp_mode20 zone_id15023 geo_city_nameLondon geo_continent_codeEU geo_timezoneEurope/London r_cnt:1 campaign_id24211 campaign_id24598 campaign_id20957 campaign_id12912 campaign_id12816 campaign_id24555 campaign_id14237 campaign_id20578 campaign_id20868 campaign_id18025 campaign_id21037 campaign_id12077 campaign_id11374 campaign_id22130 campaign_id24275 campaign_id24276 campaign_id3389 campaign_id23421 campaign_id17565 campaign_id7486 hour17 ua_device_typeTAB geo_region_nameH9 rate_metricCPM site_id11257 geo_country_code2GB creative_id2515152 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceSamsung GT-I8200N :"in Example #447333519: "| pub_network_id734 r_num_ads_third_party:7 exp_mode20 zone_id15023 geo_city_nameLondon geo_continent_codeEU geo_timezoneEurope/London r_cnt:1 campaign_id24211 campaign_id24598 campaign_id20957 campaign_id12912 campaign_id12816 campaign_id24555 campaign_id14237 campaign_id20578 campaign_id20868 campaign_id18025 campaign_id21037 campaign_id12077 campaign_id11374 campaign_id22130 campaign_id24275 campaign_id24276 campaign_id3389 campaign_id23421 campaign_id17565 campaign_id7486 hour17 ua_device_typeTAB geo_region_nameH9 rate_metricCPM site_id11257 geo_country_code2GB creative_id2515152 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceSamsung GT-I8200N :D ua_nameAndroid ua_osAndroid 4.2 campaign_typethird-party"
+malformed example! '|',space, or EOL expected after : "| pub_network_id734 r_num_ads_third_party:7 exp_mode20 zone_id15023 geo_city_nameLondon geo_continent_codeEU geo_timezoneEurope/London r_cnt:1 campaign_id24211 campaign_id24598 campaign_id20957 campaign_id12912 campaign_id12816 campaign_id24555 campaign_id14237 campaign_id20578 campaign_id20868 campaign_id18025 campaign_id21037 campaign_id12077 campaign_id11374 campaign_id22130 campaign_id24275 campaign_id24276 campaign_id3389 campaign_id23421 campaign_id17565 campaign_id7486 hour17 ua_device_typeTAB geo_region_nameH9 rate_metricCPM site_id11257 geo_country_code2GB creative_id2515152 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceSamsung GT-I8200N :"in Example #447333519: "| pub_network_id734 r_num_ads_third_party:7 exp_mode20 zone_id15023 geo_city_nameLondon geo_continent_codeEU geo_timezoneEurope/London r_cnt:1 campaign_id24211 campaign_id24598 campaign_id20957 campaign_id12912 campaign_id12816 campaign_id24555 campaign_id14237 campaign_id20578 campaign_id20868 campaign_id18025 campaign_id21037 campaign_id12077 campaign_id11374 campaign_id22130 campaign_id24275 campaign_id24276 campaign_id3389 campaign_id23421 campaign_id17565 campaign_id7486 hour17 ua_device_typeTAB geo_region_nameH9 rate_metricCPM site_id11257 geo_country_code2GB creative_id2515152 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceSamsung GT-I8200N :D ua_nameAndroid ua_osAndroid 4.2 campaign_typethird-party"
+malformed example! '|' or EOL expected after : "| pub_network_id734 r_num_ads_third_party:7 exp_mode20 zone_id15023 geo_city_nameLondon geo_continent_codeEU geo_timezoneEurope/London r_cnt:1 campaign_id24211 campaign_id24598 campaign_id20957 campaign_id12912 campaign_id12816 campaign_id24555 campaign_id14237 campaign_id20578 campaign_id20868 campaign_id18025 campaign_id21037 campaign_id12077 campaign_id11374 campaign_id22130 campaign_id24275 campaign_id24276 campaign_id3389 campaign_id23421 campaign_id17565 campaign_id7486 hour17 ua_device_typeTAB geo_region_nameH9 rate_metricCPM site_id11257 geo_country_code2GB creative_id2515152 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceSamsung GT-I8200N :"in Example #447333519: "| pub_network_id734 r_num_ads_third_party:7 exp_mode20 zone_id15023 geo_city_nameLondon geo_continent_codeEU geo_timezoneEurope/London r_cnt:1 campaign_id24211 campaign_id24598 campaign_id20957 campaign_id12912 campaign_id12816 campaign_id24555 campaign_id14237 campaign_id20578 campaign_id20868 campaign_id18025 campaign_id21037 campaign_id12077 campaign_id11374 campaign_id22130 campaign_id24275 campaign_id24276 campaign_id3389 campaign_id23421 campaign_id17565 campaign_id7486 hour17 ua_device_typeTAB geo_region_nameH9 rate_metricCPM site_id11257 geo_country_code2GB creative_id2515152 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceSamsung GT-I8200N :D ua_nameAndroid ua_osAndroid 4.2 campaign_typethird-party"
+malformed example! Float expected after : "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id30253 geo_city_nameJuiz De Fora geo_continent_codeSA geo_timezoneAmerica/Sao_Paulo r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id1013 campaign_id21494 campaign_id18887 campaign_id5479 campaign_id3389 campaign_id22557 campaign_id21037 campaign_id7486 hour17 ua_device_typeTAB geo_region_name15 rate_metricCPM site_id22783 geo_country_code2BR creative_id1815475 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceMarca:"in Example #447337213: "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id30253 geo_city_nameJuiz De Fora geo_continent_codeSA geo_timezoneAmerica/Sao_Paulo r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id1013 campaign_id21494 campaign_id18887 campaign_id5479 campaign_id3389 campaign_id22557 campaign_id21037 campaign_id7486 hour17 ua_device_typeTAB geo_region_name15 rate_metricCPM site_id22783 geo_country_code2BR creative_id1815475 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceMarca:GBR.Modelo.I-Aluno.MID ua_nameChrome ua_osAndroid 4.2 campaign_typertb"
+malformed example! '|',space, or EOL expected after : "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id30253 geo_city_nameJuiz De Fora geo_continent_codeSA geo_timezoneAmerica/Sao_Paulo r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id1013 campaign_id21494 campaign_id18887 campaign_id5479 campaign_id3389 campaign_id22557 campaign_id21037 campaign_id7486 hour17 ua_device_typeTAB geo_region_name15 rate_metricCPM site_id22783 geo_country_code2BR creative_id1815475 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceMarca:"in Example #447337213: "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id30253 geo_city_nameJuiz De Fora geo_continent_codeSA geo_timezoneAmerica/Sao_Paulo r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id1013 campaign_id21494 campaign_id18887 campaign_id5479 campaign_id3389 campaign_id22557 campaign_id21037 campaign_id7486 hour17 ua_device_typeTAB geo_region_name15 rate_metricCPM site_id22783 geo_country_code2BR creative_id1815475 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceMarca:GBR.Modelo.I-Aluno.MID ua_nameChrome ua_osAndroid 4.2 campaign_typertb"
+malformed example! '|' or EOL expected after : "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id30253 geo_city_nameJuiz De Fora geo_continent_codeSA geo_timezoneAmerica/Sao_Paulo r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id1013 campaign_id21494 campaign_id18887 campaign_id5479 campaign_id3389 campaign_id22557 campaign_id21037 campaign_id7486 hour17 ua_device_typeTAB geo_region_name15 rate_metricCPM site_id22783 geo_country_code2BR creative_id1815475 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceMarca:"in Example #447337213: "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id30253 geo_city_nameJuiz De Fora geo_continent_codeSA geo_timezoneAmerica/Sao_Paulo r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id1013 campaign_id21494 campaign_id18887 campaign_id5479 campaign_id3389 campaign_id22557 campaign_id21037 campaign_id7486 hour17 ua_device_typeTAB geo_region_name15 rate_metricCPM site_id22783 geo_country_code2BR creative_id1815475 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceMarca:GBR.Modelo.I-Aluno.MID ua_nameChrome ua_osAndroid 4.2 campaign_typertb"
+15_17_part-00014.gz
+15_17_part-00015.gz
+15_17_part-00016.gz
+15_17_part-00017.gz
+15_17_part-00018.gz
+15_17_part-00019.gz
+15_17_part-00020.gz
+15_17_part-00021.gz
+15_17_part-00022.gz
+15_17_part-00023.gz
+15_17_part-00024.gz
+malformed example! Float expected after : "| pub_network_id734 r_num_ads_third_party:7 exp_mode20 zone_id15023 geo_city_nameLondon geo_continent_codeEU geo_timezoneEurope/London r_cnt:1 campaign_id24211 campaign_id24598 campaign_id20957 campaign_id12912 campaign_id12816 campaign_id24555 campaign_id14237 campaign_id20578 campaign_id20868 campaign_id18025 campaign_id12077 campaign_id21037 campaign_id11374 campaign_id22130 campaign_id24275 campaign_id24276 campaign_id3389 campaign_id23421 campaign_id17565 campaign_id7486 hour17 ua_device_typeTAB geo_region_nameH9 rate_metricCPM site_id11257 geo_country_code2GB creative_id2515152 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceSamsung GT-I8200N :"in Example #452578578: "| pub_network_id734 r_num_ads_third_party:7 exp_mode20 zone_id15023 geo_city_nameLondon geo_continent_codeEU geo_timezoneEurope/London r_cnt:1 campaign_id24211 campaign_id24598 campaign_id20957 campaign_id12912 campaign_id12816 campaign_id24555 campaign_id14237 campaign_id20578 campaign_id20868 campaign_id18025 campaign_id12077 campaign_id21037 campaign_id11374 campaign_id22130 campaign_id24275 campaign_id24276 campaign_id3389 campaign_id23421 campaign_id17565 campaign_id7486 hour17 ua_device_typeTAB geo_region_nameH9 rate_metricCPM site_id11257 geo_country_code2GB creative_id2515152 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceSamsung GT-I8200N :D ua_nameAndroid ua_osAndroid 4.2 campaign_typethird-party"
+malformed example! '|',space, or EOL expected after : "| pub_network_id734 r_num_ads_third_party:7 exp_mode20 zone_id15023 geo_city_nameLondon geo_continent_codeEU geo_timezoneEurope/London r_cnt:1 campaign_id24211 campaign_id24598 campaign_id20957 campaign_id12912 campaign_id12816 campaign_id24555 campaign_id14237 campaign_id20578 campaign_id20868 campaign_id18025 campaign_id12077 campaign_id21037 campaign_id11374 campaign_id22130 campaign_id24275 campaign_id24276 campaign_id3389 campaign_id23421 campaign_id17565 campaign_id7486 hour17 ua_device_typeTAB geo_region_nameH9 rate_metricCPM site_id11257 geo_country_code2GB creative_id2515152 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceSamsung GT-I8200N :"in Example #452578578: "| pub_network_id734 r_num_ads_third_party:7 exp_mode20 zone_id15023 geo_city_nameLondon geo_continent_codeEU geo_timezoneEurope/London r_cnt:1 campaign_id24211 campaign_id24598 campaign_id20957 campaign_id12912 campaign_id12816 campaign_id24555 campaign_id14237 campaign_id20578 campaign_id20868 campaign_id18025 campaign_id12077 campaign_id21037 campaign_id11374 campaign_id22130 campaign_id24275 campaign_id24276 campaign_id3389 campaign_id23421 campaign_id17565 campaign_id7486 hour17 ua_device_typeTAB geo_region_nameH9 rate_metricCPM site_id11257 geo_country_code2GB creative_id2515152 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceSamsung GT-I8200N :D ua_nameAndroid ua_osAndroid 4.2 campaign_typethird-party"
+malformed example! '|' or EOL expected after : "| pub_network_id734 r_num_ads_third_party:7 exp_mode20 zone_id15023 geo_city_nameLondon geo_continent_codeEU geo_timezoneEurope/London r_cnt:1 campaign_id24211 campaign_id24598 campaign_id20957 campaign_id12912 campaign_id12816 campaign_id24555 campaign_id14237 campaign_id20578 campaign_id20868 campaign_id18025 campaign_id12077 campaign_id21037 campaign_id11374 campaign_id22130 campaign_id24275 campaign_id24276 campaign_id3389 campaign_id23421 campaign_id17565 campaign_id7486 hour17 ua_device_typeTAB geo_region_nameH9 rate_metricCPM site_id11257 geo_country_code2GB creative_id2515152 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceSamsung GT-I8200N :"in Example #452578578: "| pub_network_id734 r_num_ads_third_party:7 exp_mode20 zone_id15023 geo_city_nameLondon geo_continent_codeEU geo_timezoneEurope/London r_cnt:1 campaign_id24211 campaign_id24598 campaign_id20957 campaign_id12912 campaign_id12816 campaign_id24555 campaign_id14237 campaign_id20578 campaign_id20868 campaign_id18025 campaign_id12077 campaign_id21037 campaign_id11374 campaign_id22130 campaign_id24275 campaign_id24276 campaign_id3389 campaign_id23421 campaign_id17565 campaign_id7486 hour17 ua_device_typeTAB geo_region_nameH9 rate_metricCPM site_id11257 geo_country_code2GB creative_id2515152 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceSamsung GT-I8200N :D ua_nameAndroid ua_osAndroid 4.2 campaign_typethird-party"
+15_17_part-00025.gz
+15_17_part-00026.gz
+15_17_part-00027.gz
+15_17_part-00028.gz
+15_17_part-00029.gz
+15_17_part-00030.gz
+15_17_part-00031.gz
+15_18_part-00000.gz
+15_18_part-00001.gz
+15_18_part-00002.gz
+15_18_part-00003.gz
+15_18_part-00004.gz
+15_18_part-00005.gz
+15_18_part-00006.gz
+15_18_part-00007.gz
+15_18_part-00008.gz
+15_18_part-00009.gz
+15_18_part-00010.gz
+15_18_part-00011.gz
+malformed example! Float expected after : "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id30253 geo_city_nameJuiz De Fora geo_continent_codeSA geo_timezoneAmerica/Sao_Paulo r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id1013 campaign_id21494 campaign_id5479 campaign_id18887 campaign_id21037 campaign_id3389 campaign_id22557 campaign_id7486 hour18 ua_device_typeTAB geo_region_name15 rate_metricCPM site_id22783 geo_country_code2BR creative_id1815475 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceMarca:"in Example #460918618: "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id30253 geo_city_nameJuiz De Fora geo_continent_codeSA geo_timezoneAmerica/Sao_Paulo r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id1013 campaign_id21494 campaign_id5479 campaign_id18887 campaign_id21037 campaign_id3389 campaign_id22557 campaign_id7486 hour18 ua_device_typeTAB geo_region_name15 rate_metricCPM site_id22783 geo_country_code2BR creative_id1815475 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceMarca:GBR.Modelo.I-Aluno.MID ua_nameChrome ua_osAndroid 4.2 campaign_typertb"
+malformed example! '|',space, or EOL expected after : "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id30253 geo_city_nameJuiz De Fora geo_continent_codeSA geo_timezoneAmerica/Sao_Paulo r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id1013 campaign_id21494 campaign_id5479 campaign_id18887 campaign_id21037 campaign_id3389 campaign_id22557 campaign_id7486 hour18 ua_device_typeTAB geo_region_name15 rate_metricCPM site_id22783 geo_country_code2BR creative_id1815475 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceMarca:"in Example #460918618: "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id30253 geo_city_nameJuiz De Fora geo_continent_codeSA geo_timezoneAmerica/Sao_Paulo r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id1013 campaign_id21494 campaign_id5479 campaign_id18887 campaign_id21037 campaign_id3389 campaign_id22557 campaign_id7486 hour18 ua_device_typeTAB geo_region_name15 rate_metricCPM site_id22783 geo_country_code2BR creative_id1815475 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceMarca:GBR.Modelo.I-Aluno.MID ua_nameChrome ua_osAndroid 4.2 campaign_typertb"
+malformed example! '|' or EOL expected after : "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id30253 geo_city_nameJuiz De Fora geo_continent_codeSA geo_timezoneAmerica/Sao_Paulo r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id1013 campaign_id21494 campaign_id5479 campaign_id18887 campaign_id21037 campaign_id3389 campaign_id22557 campaign_id7486 hour18 ua_device_typeTAB geo_region_name15 rate_metricCPM site_id22783 geo_country_code2BR creative_id1815475 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceMarca:"in Example #460918618: "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id30253 geo_city_nameJuiz De Fora geo_continent_codeSA geo_timezoneAmerica/Sao_Paulo r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id1013 campaign_id21494 campaign_id5479 campaign_id18887 campaign_id21037 campaign_id3389 campaign_id22557 campaign_id7486 hour18 ua_device_typeTAB geo_region_name15 rate_metricCPM site_id22783 geo_country_code2BR creative_id1815475 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameAndroid ad_type['story'] ua_deviceMarca:GBR.Modelo.I-Aluno.MID ua_nameChrome ua_osAndroid 4.2 campaign_typertb"
+15_18_part-00012.gz
+15_18_part-00013.gz
+15_18_part-00014.gz
+15_18_part-00015.gz
+15_18_part-00016.gz
+15_18_part-00017.gz
+15_18_part-00018.gz
+15_18_part-00019.gz
+15_18_part-00020.gz
+15_18_part-00021.gz
+15_18_part-00022.gz
+15_18_part-00023.gz
+15_18_part-00024.gz
+15_18_part-00025.gz
+15_18_part-00026.gz
+15_18_part-00027.gz
+15_18_part-00028.gz
+15_18_part-00029.gz
+15_18_part-00030.gz
+15_18_part-00031.gz
+15_19_part-00000.gz
+15_19_part-00001.gz
+15_19_part-00002.gz
+15_19_part-00003.gz
+15_19_part-00004.gz
+15_19_part-00005.gz
+15_19_part-00006.gz
+15_19_part-00007.gz
+15_19_part-00008.gz
+15_19_part-00009.gz
+15_19_part-00010.gz
+15_19_part-00011.gz
+15_19_part-00012.gz
+15_19_part-00013.gz
+15_19_part-00014.gz
+15_19_part-00015.gz
+15_19_part-00016.gz
+15_19_part-00017.gz
+15_19_part-00018.gz
+15_19_part-00019.gz
+15_19_part-00020.gz
+15_19_part-00021.gz
+15_19_part-00022.gz
+15_19_part-00023.gz
+15_19_part-00024.gz
+15_19_part-00025.gz
+15_19_part-00026.gz
+15_19_part-00027.gz
+15_19_part-00028.gz
+15_19_part-00029.gz
+15_19_part-00030.gz
+15_19_part-00031.gz
+15_20_part-00000.gz
+15_20_part-00001.gz
+15_20_part-00002.gz
+15_20_part-00003.gz
+15_20_part-00004.gz
+15_20_part-00005.gz
+15_20_part-00006.gz
+15_20_part-00007.gz
+15_20_part-00008.gz
+15_20_part-00009.gz
+15_20_part-00010.gz
+15_20_part-00011.gz
+15_20_part-00012.gz
+15_20_part-00013.gz
+15_20_part-00014.gz
+15_20_part-00015.gz
+15_20_part-00016.gz
+15_20_part-00017.gz
+15_20_part-00018.gz
+15_20_part-00019.gz
+15_20_part-00020.gz
+15_20_part-00021.gz
+15_20_part-00022.gz
+15_20_part-00023.gz
+15_20_part-00024.gz
+15_20_part-00025.gz
+15_20_part-00026.gz
+15_20_part-00027.gz
+15_20_part-00028.gz
+15_20_part-00029.gz
+15_20_part-00030.gz
+15_20_part-00031.gz
+15_21_part-00000.gz
+15_21_part-00001.gz
+15_21_part-00002.gz
+15_21_part-00003.gz
+15_21_part-00004.gz
+15_21_part-00005.gz
+15_21_part-00006.gz
+15_21_part-00007.gz
+15_21_part-00008.gz
+15_21_part-00009.gz
+15_21_part-00010.gz
+15_21_part-00011.gz
+15_21_part-00012.gz
+15_21_part-00013.gz
+15_21_part-00014.gz
+15_21_part-00015.gz
+15_21_part-00016.gz
+15_21_part-00017.gz
+15_21_part-00018.gz
+15_21_part-00019.gz
+15_21_part-00020.gz
+15_21_part-00021.gz
+15_21_part-00022.gz
+15_21_part-00023.gz
+15_21_part-00024.gz
+15_21_part-00025.gz
+15_21_part-00026.gz
+15_21_part-00027.gz
+15_21_part-00028.gz
+15_21_part-00029.gz
+15_21_part-00030.gz
+15_21_part-00031.gz
+15_22_part-00000.gz
+15_22_part-00001.gz
+15_22_part-00002.gz
+15_22_part-00003.gz
+15_22_part-00004.gz
+15_22_part-00005.gz
+15_22_part-00006.gz
+malformed example! '|',space, or EOL expected after : "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id33268 geo_city_nameAthens geo_continent_codeEU geo_timezoneEurope/Athens r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id21494 campaign_id5479 campaign_id12055 campaign_id21037 campaign_id3389 campaign_id22557 campaign_id7486 hour22 geo_region_name35 rate_metricCPC site_id25311 geo_country_code2GR creative_id2045364 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameFirefox OS ad_type['story'] ua_deviceAlcatel One Touch 4019X SVN:02010"in Example #505387501: "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id33268 geo_city_nameAthens geo_continent_codeEU geo_timezoneEurope/Athens r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id21494 campaign_id5479 campaign_id12055 campaign_id21037 campaign_id3389 campaign_id22557 campaign_id7486 hour22 geo_region_name35 rate_metricCPC site_id25311 geo_country_code2GR creative_id2045364 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameFirefox OS ad_type['story'] ua_deviceAlcatel One Touch 4019X SVN:02010S MMS:1.1 ua_nameFirefox Mobile ua_osFirefox OS 2.0 campaign_typemarketplace"
+malformed example! '|' or EOL expected after : "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id33268 geo_city_nameAthens geo_continent_codeEU geo_timezoneEurope/Athens r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id21494 campaign_id5479 campaign_id12055 campaign_id21037 campaign_id3389 campaign_id22557 campaign_id7486 hour22 geo_region_name35 rate_metricCPC site_id25311 geo_country_code2GR creative_id2045364 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameFirefox OS ad_type['story'] ua_deviceAlcatel One Touch 4019X SVN:02010"in Example #505387501: "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id33268 geo_city_nameAthens geo_continent_codeEU geo_timezoneEurope/Athens r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id21494 campaign_id5479 campaign_id12055 campaign_id21037 campaign_id3389 campaign_id22557 campaign_id7486 hour22 geo_region_name35 rate_metricCPC site_id25311 geo_country_code2GR creative_id2045364 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameFirefox OS ad_type['story'] ua_deviceAlcatel One Touch 4019X SVN:02010S MMS:1.1 ua_nameFirefox Mobile ua_osFirefox OS 2.0 campaign_typemarketplace"
+15_22_part-00007.gz
+15_22_part-00008.gz
+15_22_part-00009.gz
+15_22_part-00010.gz
+15_22_part-00011.gz
+malformed example! '|',space, or EOL expected after : "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id33268 geo_city_nameAthens geo_continent_codeEU geo_timezoneEurope/Athens r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id21494 campaign_id12055 campaign_id5479 campaign_id22557 campaign_id3389 campaign_id21037 campaign_id7486 hour22 geo_region_name35 rate_metricCPC site_id25311 geo_country_code2GR creative_id4509349 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameFirefox OS ad_type['story'] ua_deviceAlcatel One Touch 4019X SVN:02010"in Example #506643367: "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id33268 geo_city_nameAthens geo_continent_codeEU geo_timezoneEurope/Athens r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id21494 campaign_id12055 campaign_id5479 campaign_id22557 campaign_id3389 campaign_id21037 campaign_id7486 hour22 geo_region_name35 rate_metricCPC site_id25311 geo_country_code2GR creative_id4509349 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameFirefox OS ad_type['story'] ua_deviceAlcatel One Touch 4019X SVN:02010S MMS:1.1 ua_nameFirefox Mobile ua_osFirefox OS 2.0 campaign_typeprivate"
+malformed example! '|' or EOL expected after : "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id33268 geo_city_nameAthens geo_continent_codeEU geo_timezoneEurope/Athens r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id21494 campaign_id12055 campaign_id5479 campaign_id22557 campaign_id3389 campaign_id21037 campaign_id7486 hour22 geo_region_name35 rate_metricCPC site_id25311 geo_country_code2GR creative_id4509349 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameFirefox OS ad_type['story'] ua_deviceAlcatel One Touch 4019X SVN:02010"in Example #506643367: "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id33268 geo_city_nameAthens geo_continent_codeEU geo_timezoneEurope/Athens r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id21494 campaign_id12055 campaign_id5479 campaign_id22557 campaign_id3389 campaign_id21037 campaign_id7486 hour22 geo_region_name35 rate_metricCPC site_id25311 geo_country_code2GR creative_id4509349 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameFirefox OS ad_type['story'] ua_deviceAlcatel One Touch 4019X SVN:02010S MMS:1.1 ua_nameFirefox Mobile ua_osFirefox OS 2.0 campaign_typeprivate"
+15_22_part-00012.gz
+15_22_part-00013.gz
+15_22_part-00014.gz
+15_22_part-00015.gz
+15_22_part-00016.gz
+15_22_part-00017.gz
+15_22_part-00018.gz
+15_22_part-00019.gz
+15_22_part-00020.gz
+15_22_part-00021.gz
+15_22_part-00022.gz
+15_22_part-00023.gz
+15_22_part-00024.gz
+15_22_part-00025.gz
+15_22_part-00026.gz
+15_22_part-00027.gz
+15_22_part-00028.gz
+15_22_part-00029.gz
+15_22_part-00030.gz
+15_22_part-00031.gz
+15_23_part-00000.gz
+15_23_part-00001.gz
+15_23_part-00002.gz
+15_23_part-00003.gz
+15_23_part-00004.gz
+15_23_part-00005.gz
+15_23_part-00006.gz
+15_23_part-00007.gz
+15_23_part-00008.gz
+15_23_part-00009.gz
+15_23_part-00010.gz
+15_23_part-00011.gz
+15_23_part-00012.gz
+15_23_part-00013.gz
+15_23_part-00014.gz
+15_23_part-00015.gz
+malformed example! '|',space, or EOL expected after : "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id9239 geo_city_nameAthens geo_continent_codeEU geo_timezoneEurope/Athens r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id21494 campaign_id5479 campaign_id12055 campaign_id21037 campaign_id22557 campaign_id3389 campaign_id7486 hour23 geo_region_name35 rate_metricCPC site_id6604 geo_country_code2GR creative_id4848257 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameFirefox OS ad_type['story'] ua_deviceAlcatel One Touch 4019X SVN:02010"in Example #514987259: "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id9239 geo_city_nameAthens geo_continent_codeEU geo_timezoneEurope/Athens r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id21494 campaign_id5479 campaign_id12055 campaign_id21037 campaign_id22557 campaign_id3389 campaign_id7486 hour23 geo_region_name35 rate_metricCPC site_id6604 geo_country_code2GR creative_id4848257 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameFirefox OS ad_type['story'] ua_deviceAlcatel One Touch 4019X SVN:02010S MMS:1.1 ua_nameFirefox Mobile ua_osFirefox OS 2.0 campaign_typeprivate"
+malformed example! '|' or EOL expected after : "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id9239 geo_city_nameAthens geo_continent_codeEU geo_timezoneEurope/Athens r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id21494 campaign_id5479 campaign_id12055 campaign_id21037 campaign_id22557 campaign_id3389 campaign_id7486 hour23 geo_region_name35 rate_metricCPC site_id6604 geo_country_code2GR creative_id4848257 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameFirefox OS ad_type['story'] ua_deviceAlcatel One Touch 4019X SVN:02010"in Example #514987259: "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id9239 geo_city_nameAthens geo_continent_codeEU geo_timezoneEurope/Athens r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id21494 campaign_id5479 campaign_id12055 campaign_id21037 campaign_id22557 campaign_id3389 campaign_id7486 hour23 geo_region_name35 rate_metricCPC site_id6604 geo_country_code2GR creative_id4848257 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameFirefox OS ad_type['story'] ua_deviceAlcatel One Touch 4019X SVN:02010S MMS:1.1 ua_nameFirefox Mobile ua_osFirefox OS 2.0 campaign_typeprivate"
+15_23_part-00016.gz
+15_23_part-00017.gz
+15_23_part-00018.gz
+15_23_part-00019.gz
+15_23_part-00020.gz
+15_23_part-00021.gz
+15_23_part-00022.gz
+15_23_part-00023.gz
+15_23_part-00024.gz
+15_23_part-00025.gz
+malformed example! '|',space, or EOL expected after : "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id9239 geo_city_nameAthens geo_continent_codeEU geo_timezoneEurope/Athens r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id21494 campaign_id12055 campaign_id5479 campaign_id3389 campaign_id22557 campaign_id21037 campaign_id7486 hour23 geo_region_name35 rate_metricCPC site_id6604 geo_country_code2GR creative_id4509453 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameFirefox OS ad_type['story'] ua_deviceAlcatel One Touch 4019X SVN:02010"in Example #517039794: "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id9239 geo_city_nameAthens geo_continent_codeEU geo_timezoneEurope/Athens r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id21494 campaign_id12055 campaign_id5479 campaign_id3389 campaign_id22557 campaign_id21037 campaign_id7486 hour23 geo_region_name35 rate_metricCPC site_id6604 geo_country_code2GR creative_id4509453 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameFirefox OS ad_type['story'] ua_deviceAlcatel One Touch 4019X SVN:02010S MMS:1.1 ua_nameFirefox Mobile ua_osFirefox OS 2.0 campaign_typeprivate"
+malformed example! '|' or EOL expected after : "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id9239 geo_city_nameAthens geo_continent_codeEU geo_timezoneEurope/Athens r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id21494 campaign_id12055 campaign_id5479 campaign_id3389 campaign_id22557 campaign_id21037 campaign_id7486 hour23 geo_region_name35 rate_metricCPC site_id6604 geo_country_code2GR creative_id4509453 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameFirefox OS ad_type['story'] ua_deviceAlcatel One Touch 4019X SVN:02010"in Example #517039794: "| pub_network_id267 r_num_ads_third_party:0 exp_mode20 zone_id9239 geo_city_nameAthens geo_continent_codeEU geo_timezoneEurope/Athens r_cnt:1 campaign_id9968 campaign_id2547 campaign_id21493 campaign_id21494 campaign_id12055 campaign_id5479 campaign_id3389 campaign_id22557 campaign_id21037 campaign_id7486 hour23 geo_region_name35 rate_metricCPC site_id6604 geo_country_code2GR creative_id4509453 r_num_ads_requested:1 geo_dma_code0 geo_area_code0 ua_os_nameFirefox OS ad_type['story'] ua_deviceAlcatel One Touch 4019X SVN:02010S MMS:1.1 ua_nameFirefox Mobile ua_osFirefox OS 2.0 campaign_typeprivate"
+15_23_part-00026.gz
+15_23_part-00027.gz
+15_23_part-00028.gz
+15_23_part-00029.gz
+15_23_part-00030.gz
+15_23_part-00031.gz
+-------------------------------------------
+GT (High Revenue)
+-------------------------------------------
+Total Revenue: 173456.89183443095
+Auction Count: 518420532
+Auction Count (non-null): 300064887
+Price Floor Engaged (non-null): 18.32%
+Price Floor Too High (non-null): 80.70%
+Average Revenue: 0.00033458723396864027
+Average Revenue (not-null): 0.000578064609853638
+Average Bid Count: 0.954231081650138
+Average Bid Count (non-null): 1.648620036638942
+Average Bid Amount: 0.0028150392288430067
+Average Bid Amount (non-null): 0.004863528516142781
+Time taken: 3210.94 seconds
+-------------------------------------------
+GT (Low Overshoot)
+-------------------------------------------
+Total Revenue: 128692.85353058047
+Auction Count: 518420532
+Auction Count (non-null): 300064887
+Price Floor Engaged (non-null): 26.47%
+Price Floor Too High (non-null): 70.62%
+Average Revenue: 0.0002482402713374409
+Average Revenue (not-null): 0.0004288834152413857
+Average Bid Count: 0.954231081650138
+Average Bid Count (non-null): 1.648620036638942
+Average Bid Amount: 0.0028150392288430067
+Average Bid Amount (non-null): 0.004863528516142781
+Time taken: 2129.12 seconds
+-------------------------------------------
+MultiShot
+-------------------------------------------
+Total Revenue: 3172.0886840572643
+Auction Count: 518420532
+Auction Count (non-null): 300064887
+Price Floor Engaged (non-null): 0.03%
+Price Floor Too High (non-null): 99.97%
+Average Revenue: 6.118755890743279e-06
+Average Revenue (not-null): 1.0571342471194454e-05
+Average Bid Count: 0.954231081650138
+Average Bid Count (non-null): 1.648620036638942
+Average Bid Amount: 0.0028150392288430067
+Average Bid Amount (non-null): 0.004863528516142781
+Time taken: 7415.88 seconds
+-------------------------------------------
+MultiShot (no ceiling)
+-------------------------------------------
+Total Revenue: 3172.0886840572643
+Auction Count: 518420532
+Auction Count (non-null): 300064887
+Price Floor Engaged (non-null): 0.03%
+Price Floor Too High (non-null): 99.97%
+Average Revenue: 6.118755890743279e-06
+Average Revenue (not-null): 1.0571342471194454e-05
+Average Bid Count: 0.954231081650138
+Average Bid Count (non-null): 1.648620036638942
+Average Bid Amount: 0.0028150392288430067
+Average Bid Amount (non-null): 0.004863528516142781
+Time taken: 4289.91 seconds
+-------------------------------------------
+VW (Multiplier: 3.0)
+-------------------------------------------
+Total Revenue: 223703.76598257778
+Auction Count: 518420532
+Auction Count (non-null): 300064887
+Price Floor Engaged (non-null): 43.89%
+Price Floor Too High (non-null): 25.92%
+Average Revenue: 0.0004315102357531198
+Average Revenue (not-null): 0.0007455179718597924
+Average Bid Count: 0.954231081650138
+Average Bid Count (non-null): 1.648620036638942
+Average Bid Amount: 0.0028150392288430067
+Average Bid Amount (non-null): 0.004863528516142781
+Time taken: 80963.03 seconds
+-------------------------------------------
+Basic Running Average
+-------------------------------------------
+Total Revenue: 485298.0741042547
+Auction Count: 518420532
+Auction Count (non-null): 300064887
+Price Floor Engaged (non-null): 7.73%
+Price Floor Too High (non-null): 92.27%
+Average Revenue: 0.0009361089003015311
+Average Revenue (not-null): 0.0016173104389393441
+Average Bid Count: 0.954231081650138
+Average Bid Count (non-null): 1.648620036638942
+Average Bid Amount: 0.0028150392288430067
+Average Bid Amount (non-null): 0.004863528516142781
+Time taken: 2206.47 seconds
+-------------------------------------------
+No Price Floor
+-------------------------------------------
+Total Revenue: 49862.79423966399
+Auction Count: 518420532
+Auction Count (non-null): 300064887
+Price Floor Engaged (non-null): 61.56%
+Price Floor Too High (non-null): 0.00%
+Average Revenue: 9.618213624236625e-05
+Average Revenue (not-null): 0.0001661733724934767
+Average Bid Count: 0.954231081650138
+Average Bid Count (non-null): 1.648620036638942
+Average Bid Amount: 0.0028150392288430067
+Average Bid Amount (non-null): 0.004863528516142781
+Time taken: 866.40 seconds

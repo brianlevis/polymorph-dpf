@@ -8,9 +8,9 @@ s3client = boto3.client('s3')
 
 cb_bucket_name = 'codebase-pm-dpf'
 
-TEMP_INPUT_FILE_NAME_1 = 'temp_in0.gz'
-TEMP_INPUT_FILE_NAME_2 = 'temp_in1.gz'
-TEMP_OUTPUT_FILE_NAME = 'temp_out.gz'
+TEMP_INPUT_FILE_NAME_1 = 'c_temp_in0.gz'
+TEMP_INPUT_FILE_NAME_2 = 'c_temp_in1.gz'
+TEMP_OUTPUT_FILE_NAME = 'c_temp_out.gz'
 
 # Total Files: 15,360 -> 7,680
 START_INDEX = 0

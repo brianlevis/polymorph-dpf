@@ -65,7 +65,7 @@ def calculate_revenue(bids, price_floor):
     return bids[1]
 
 
-def get_line_iterator(start=(11, 0), stop=(11, 0), limit=None, dictionary=True, download=True, delete=True):
+def get_line_iterator(start=(11, 0), stop=(15, 23), limit=None, dictionary=True, download=True, delete=True):
     """
     :param start: (day, hour), inclusive
     :param stop: (day, hour), inclusive
@@ -108,6 +108,7 @@ def get_line_iterator(start=(11, 0), stop=(11, 0), limit=None, dictionary=True, 
             print("if you can see this, fix the code yourself :D just replace IOError with the one you got")
             continue
         print(file_name)
+        sys.stdout.flush()
         for line in lines:
             yield json.loads(line) if dictionary else line
         if delete:
