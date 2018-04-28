@@ -50,7 +50,7 @@ class LinearProgramming(simulator.Simulator):
             self.upper,
             bounds=self.bounds
         )
-        print(results.status)
+
         if results.success:
             print(results.fun)
             return results.x[0] * self.discount
