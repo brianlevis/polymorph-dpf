@@ -137,5 +137,5 @@ if __name__ == '__main__':
         'discount': 1,
         'default': 0.1 / 1000
     }
-    test = LinearHeuristic(**settings, limit=1, download=True, delete=False)
+    test = LinearHeuristic(limit=1, download=True, delete=False, **settings)
     test.run_simulation()
