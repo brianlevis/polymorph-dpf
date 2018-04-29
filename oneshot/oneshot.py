@@ -1,6 +1,6 @@
 class OneShot:
 
-    def __init__(self, price_floor=0.0002, eps=1.0, lamb_h=0.05, lamb_e=0.46, lamb_l=0.1, time=0, M=5, pf_ceil=.005):
+    def __init__(self, price_floor=0.001, eps=1.0, lamb_h=0.1, lamb_e=0.1, lamb_l=0.1, time=0, M=5, pf_ceil=.1):
         self.price_floor = price_floor
         self.eps = eps
         self.lamb_h = lamb_h
@@ -13,7 +13,7 @@ class OneShot:
         self.time = time
         self.M = M
         self.revenues = []
-        self.oneshot_min_n = 2
+        self.oneshot_min_n = 0
         self.log = [0]*3
         self.pf_ceil = pf_ceil
         self.over = []
@@ -72,9 +72,6 @@ class OneShot:
         return self.price_floor
 
     def update(self, bids, price_floor):
-        if len(bids) == 0:
-            self.oneshot(0, 0)
-            return 0
         first, second = self.max2(bids)
         revenue = self.calculate_revenue_helper(first, second, price_floor)
         diff = self.calculate_differential(first, second, price_floor)
