@@ -35,17 +35,17 @@ class LinearHeuristic(simulator.Simulator):
         self.matrix = self._create_matrix(memory, up, down)
         self.upper = np.zeros(2 * memory)
 
-        self.highs = collections.deque()
+        self.position = 0
+        self.complete = False
 
     def calculate_price_floor(self, input_features):
         """
         :param input_features: {str: obj} provided feature information
         :return: (float) the price floor to set
         """
-        if len(self.highs) < self.memory:
+        if not self.complete:
             return self.default
 
-        self._fill_upper_bound()
         results = optimize.linprog(
             self.objective,
             self.matrix,
@@ -66,21 +66,15 @@ class LinearHeuristic(simulator.Simulator):
         """
         if not bids:
             return
-        highest = sorted(bids, reverse=True)[0]
-        self.highs.append(highest)
-        if len(self.highs) > self.memory:
-            self.highs.popleft()
+        highest = max(bids)
+        self.upper[2 * self.position] = highest * (1 - self.up_slope)
+        self.upper[2 * self.position + 1] = highest * (1 - self.down_slope)
 
-    def _fill_upper_bound(self):
-        """
-        :return: (None) updates the upper bound vector to encode the bounds set
-            by the bids kept track of by self.highs deque; note that this only
-            uses a fixed number more most recent bids, set by the self.memory
-            attribute
-        """
-        for pos, bid in enumerate(self.highs):
-            self.upper[2 * pos] = bid * (1 - self.up_slope)
-            self.upper[2 * pos + 1] = bid * (1 - self.down_slope)
+        self.position += 1
+        if self.position == self.memory:
+            self.complete = True
+            self.position = 0
+
 
     @staticmethod
     def _create_objective(size):
@@ -137,5 +131,5 @@ if __name__ == '__main__':
         'discount': 1,
         'default': 0.1 / 1000
     }
-    test = LinearHeuristic(limit=1, download=True, delete=False, **settings)
+    test = LinearHeuristic(limit=1, download=False, delete=False, **settings)
     test.run_simulation()
