@@ -6,25 +6,35 @@ import numpy as np
 
 min_over = 100
 max_revenue = 0
-over_hyper_h = 0
-over_hyper_e = 0
-over_hyper_l = 0
 
-lambda_min = 0.1
-lambda_max = 0.9
 range_step = 5
-range_min = int(lambda_min * 100)
-range_max = int(lambda_max * 100)
 
-for h in range(range_min, range_max, range_step):
-    for e in range(range_min, range_max, range_step):
-        for l in range(range_min, range_max, range_step):
-            print("h: " + str(0.01 * h), " e: " + str(0.01 * e) + " l: " + str(0.01 * l))
-            oneshot_args = {'price_floor': 0.0002, 'eps': 1.0, 'lamb_h': 0.01 * h, 'lamb_e': 0.01 * e, 'lamb_l': 0.01 * l, 'time': 0, 'M': 5}
-            oneshot = MultiShot(1, oneshot_args=oneshot_args, limit=3)
-            queue_simulator(oneshot, "Multishot (1 bucket): (h=%.2f, e=%.2f, l=%.2f)" % (0.01 * h, 0.01 * e, 0.01 * l))
-            oneshot = MultiShot(2, oneshot_args=oneshot_args, limit=3)
-            queue_simulator(oneshot, "Multishot (2 buckets): (h=%.2f, e=%.2f, l=%.2f)" % (0.01 * h, 0.01 * e, 0.01 * l))
+lambda_h_min = 0.1
+lambda_h_max = 0.3
+range_h_min = int(lambda_h_min * 100)
+range_h_max = int(lambda_h_max * 100)
+
+lambda_e_min = 0.5
+lambda_e_max = 0.9
+range_e_min = int(lambda_e_min * 100)
+range_e_max = int(lambda_e_max * 100)
+
+lambda_l_min = 0.5
+lambda_l_max = 0.9
+range_l_min = int(lambda_l_min * 100)
+range_l_max = int(lambda_l_max * 100)
+
+bucket_min = 1
+bucket_max = 10
+
+for h in range(range_h_min, range_h_max, range_step):
+    for e in range(range_e_min, range_e_max, range_step):
+        for l in range(range_l_min, range_l_max, range_step):
+            for i in range(bucket_min, bucket_max):
+                print("h: " + str(0.01 * h), " e: " + str(0.01 * e) + " l: " + str(0.01 * l) + " bucket(s): " + str(i))
+                oneshot_args = {'price_floor': 0.0002, 'eps': 1.0, 'lamb_h': 0.01 * h, 'lamb_e': 0.01 * e, 'lamb_l': 0.01 * l, 'time': 0, 'M': 5}
+                oneshot = MultiShot(i, oneshot_args=oneshot_args, limit=3)
+                queue_simulator(oneshot, "Multishot (%d bucket(s)): (h=%.2f, e=%.2f, l=%.2f)" % (i, 0.01 * h, 0.01 * e, 0.01 * l))
 
 # for i in range(1, 10):
 #     oneshot_args = {}
@@ -37,20 +47,23 @@ index = 0
 for h in range(range_min, range_max, range_step):
     for e in range(range_min, range_max, range_step):
         for l in range(range_min, range_max, range_step):
-            stats = results[index][1].stats
-            over_percent = 100 * stats.price_floor_too_high_count / stats.auction_count_non_null
-            revenue = stats.total_revenue
-            if over_percent < min_over:
-                min_over = over_percent
-                over_hyper_h = 0.01 * h
-                over_hyper_e = 0.01 * e
-                over_hyper_l = 0.01 * l
-            if revenue > max_revenue:
-                max_revenue = revenue
-                revenue_hyper_h = 0.01 * h
-                revenue_hyper_e = 0.01 * e
-                revenue_hyper_l = 0.01 * l
-            index += 1
+            for i in range(bucket_min, bucket_max):
+                stats = results[index][1].stats
+                over_percent = 100 * stats.price_floor_too_high_count / stats.auction_count_non_null
+                revenue = stats.total_revenue
+                if over_percent < min_over:
+                    min_over = over_percent
+                    over_hyper_h = 0.01 * h
+                    over_hyper_e = 0.01 * e
+                    over_hyper_l = 0.01 * l
+                    over_bucket = i
+                if revenue > max_revenue:
+                    max_revenue = revenue
+                    revenue_hyper_h = 0.01 * h
+                    revenue_hyper_e = 0.01 * e
+                    revenue_hyper_l = 0.01 * l
+                    revenue_bucket = i
+                index += 1
 
             # one_shot = oneshot.oneshots[0]
             # print(one_shot.log)
@@ -61,5 +74,5 @@ for h in range(range_min, range_max, range_step):
 
 
 # print("best h: " + str(0.01 * h), " best e: " + str(0.01 * e) + " best l: " + str(0.01 * l))
-print("overshooting best h: %f best e: %f best l: %f" % (over_hyper_h, over_hyper_e, over_hyper_l))
-print("revenue best h: %f best e: %f best l: %f" % (revenue_hyper_h, revenue_hyper_e, revenue_hyper_l))
+print("overshooting best h: %f best e: %f best l: %f best bucket(s): %d" % (over_hyper_h, over_hyper_e, over_hyper_l, over_bucket))
+print("revenue best h: %f best e: %f best l: %f best bucket(s): %d" % (revenue_hyper_h, revenue_hyper_e, revenue_hyper_l, revenue_bucket))
