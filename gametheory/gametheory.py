@@ -97,9 +97,15 @@ class AverageSingleID(sim.Simulator):
 
     def process_line(self, line, input_features, bids):
         key = input_features[self.id]
+        if key in self.averages:
+            reserve = self.averages[key]
+        else:
+            # If site_id has never been seen before and auction has 0 bids
+            reserve = DEFAULT_FLOOR
+
         low, high = 0, 0
         if len(bids) == 0:
-            high = self.averages[key]
+            high = reserve
             low = high * self.simBid
         elif len(bids) == 1:
             high = bids[0]
