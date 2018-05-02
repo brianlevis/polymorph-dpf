@@ -1,0 +1,504 @@
+===========================================
+Number of MultiShot buckets: 1
+Total Revenue: 863.9600332391849
+Auction Count: 540430
+Auction Count (non-null): 324972
+Price Floor Engaged (non-null): 9.02%
+Price Floor Too High (non-null): 90.97%
+Average Revenue: 0.001598652986028135
+Average Revenue (not-null): 0.0026585676096377068
+Average Bid Count: 0.9085950076790704
+Average Bid Count (non-null): 1.5109978705857736
+Average Bid Amount: 0.003332777777402482
+Average Bid Amount (non-null): 0.005542425483554348
+Time taken: 2.93 seconds
+===========================================
+Number of MultiShot buckets: 2
+Total Revenue: 646.1780838435022
+Auction Count: 540430
+Auction Count (non-null): 324972
+Price Floor Engaged (non-null): 9.31%
+Price Floor Too High (non-null): 90.66%
+Average Revenue: 0.0011956739704374335
+Average Revenue (not-null): 0.0019884115672842654
+Average Bid Count: 0.9085950076790704
+Average Bid Count (non-null): 1.5109978705857736
+Average Bid Amount: 0.003332777777402482
+Average Bid Amount (non-null): 0.005542425483554348
+Time taken: 3.40 seconds
+===========================================
+Number of MultiShot buckets: 3
+Total Revenue: 511.9967805041915
+Auction Count: 540430
+Auction Count (non-null): 324972
+Price Floor Engaged (non-null): 9.65%
+Price Floor Too High (non-null): 90.20%
+Average Revenue: 0.0009473877847347325
+Average Revenue (not-null): 0.001575510445528204
+Average Bid Count: 0.9085950076790704
+Average Bid Count (non-null): 1.5109978705857736
+Average Bid Amount: 0.003332777777402482
+Average Bid Amount (non-null): 0.005542425483554348
+Time taken: 2.58 seconds
+===========================================
+Number of MultiShot buckets: 4
+Total Revenue: 566.0425067316432
+Auction Count: 540430
+Auction Count (non-null): 324972
+Price Floor Engaged (non-null): 9.67%
+Price Floor Too High (non-null): 90.14%
+Average Revenue: 0.0010473928292871293
+Average Revenue (not-null): 0.0017418193159153504
+Average Bid Count: 0.9085950076790704
+Average Bid Count (non-null): 1.5109978705857736
+Average Bid Amount: 0.003332777777402482
+Average Bid Amount (non-null): 0.005542425483554348
+Time taken: 3.77 seconds
+===========================================
+Number of MultiShot buckets: 5
+Total Revenue: 593.2219254428805
+Auction Count: 540430
+Auction Count (non-null): 324972
+Price Floor Engaged (non-null): 9.76%
+Price Floor Too High (non-null): 90.01%
+Average Revenue: 0.0010976850386597349
+Average Revenue (not-null): 0.0018254555021444325
+Average Bid Count: 0.9085950076790704
+Average Bid Count (non-null): 1.5109978705857736
+Average Bid Amount: 0.003332777777402482
+Average Bid Amount (non-null): 0.005542425483554348
+Time taken: 7.24 seconds
+===========================================
+Number of MultiShot buckets: 6
+Total Revenue: 569.7491455279632
+Auction Count: 540430
+Auction Count (non-null): 324972
+Price Floor Engaged (non-null): 9.64%
+Price Floor Too High (non-null): 90.16%
+Average Revenue: 0.0010542515136612756
+Average Revenue (not-null): 0.0017532253410384993
+Average Bid Count: 0.9085950076790704
+Average Bid Count (non-null): 1.5109978705857736
+Average Bid Amount: 0.003332777777402482
+Average Bid Amount (non-null): 0.005542425483554348
+Time taken: 7.43 seconds
+===========================================
+Number of MultiShot buckets: 7
+Total Revenue: 538.4324124539806
+Auction Count: 540430
+Auction Count (non-null): 324972
+Price Floor Engaged (non-null): 9.70%
+Price Floor Too High (non-null): 90.11%
+Average Revenue: 0.000996303707147976
+Average Revenue (not-null): 0.0016568578599201796
+Average Bid Count: 0.9085950076790704
+Average Bid Count (non-null): 1.5109978705857736
+Average Bid Amount: 0.003332777777402482
+Average Bid Amount (non-null): 0.005542425483554348
+Time taken: 6.93 seconds
+===========================================
+Number of MultiShot buckets: 8
+Total Revenue: 596.6947054503629
+Auction Count: 540430
+Auction Count (non-null): 324972
+Price Floor Engaged (non-null): 9.74%
+Price Floor Too High (non-null): 90.06%
+Average Revenue: 0.0011041109957818087
+Average Revenue (not-null): 0.0018361418997647886
+Average Bid Count: 0.9085950076790704
+Average Bid Count (non-null): 1.5109978705857736
+Average Bid Amount: 0.003332777777402482
+Average Bid Amount (non-null): 0.005542425483554348
+Time taken: 2.71 seconds
+===========================================
+Number of MultiShot buckets: 9
+Total Revenue: 577.83095993787
+Auction Count: 540430
+Auction Count (non-null): 324972
+Price Floor Engaged (non-null): 9.69%
+Price Floor Too High (non-null): 90.13%
+Average Revenue: 0.0010692059284974373
+Average Revenue (not-null): 0.0017780946048824822
+Average Bid Count: 0.9085950076790704
+Average Bid Count (non-null): 1.5109978705857736
+Average Bid Amount: 0.003332777777402482
+Average Bid Amount (non-null): 0.005542425483554348
+Time taken: 5.14 seconds
+===========================================
+Number of MultiShot buckets: 10
+Total Revenue: 537.0161905330168
+Auction Count: 540430
+Auction Count (non-null): 324972
+Price Floor Engaged (non-null): 9.74%
+Price Floor Too High (non-null): 90.09%
+Average Revenue: 0.0009936831606924426
+Average Revenue (not-null): 0.0016524998785526655
+Average Bid Count: 0.9085950076790704
+Average Bid Count (non-null): 1.5109978705857736
+Average Bid Amount: 0.003332777777402482
+Average Bid Amount (non-null): 0.005542425483554348
+Time taken: 5.94 seconds
+===========================================
+Number of MultiShot buckets: 20
+Total Revenue: 583.4542567969228
+Auction Count: 540430
+Auction Count (non-null): 324972
+Price Floor Engaged (non-null): 9.81%
+Price Floor Too High (non-null): 89.97%
+Average Revenue: 0.0010796111555556184
+Average Revenue (not-null): 0.001795398547557706
+Average Bid Count: 0.9085950076790704
+Average Bid Count (non-null): 1.5109978705857736
+Average Bid Amount: 0.003332777777402482
+Average Bid Amount (non-null): 0.005542425483554348
+Time taken: 6.07 seconds
+===========================================
+Number of MultiShot buckets: 30
+Total Revenue: 557.2316642823805
+Auction Count: 540430
+Auction Count (non-null): 324972
+Price Floor Engaged (non-null): 9.89%
+Price Floor Too High (non-null): 89.83%
+Average Revenue: 0.0010310894367122115
+Average Revenue (not-null): 0.001714706695599561
+Average Bid Count: 0.9085950076790704
+Average Bid Count (non-null): 1.5109978705857736
+Average Bid Amount: 0.003332777777402482
+Average Bid Amount (non-null): 0.005542425483554348
+Time taken: 2.59 seconds
+===========================================
+Number of MultiShot buckets: 40
+Total Revenue: 536.4780732826935
+Auction Count: 540430
+Auction Count (non-null): 324972
+Price Floor Engaged (non-null): 9.95%
+Price Floor Too High (non-null): 89.75%
+Average Revenue: 0.0009926874401544946
+Average Revenue (not-null): 0.0016508439905059311
+Average Bid Count: 0.9085950076790704
+Average Bid Count (non-null): 1.5109978705857736
+Average Bid Amount: 0.003332777777402482
+Average Bid Amount (non-null): 0.005542425483554348
+Time taken: 4.74 seconds
+===========================================
+Number of MultiShot buckets: 50
+Total Revenue: 560.625374640709
+Auction Count: 540430
+Auction Count (non-null): 324972
+Price Floor Engaged (non-null): 10.01%
+Price Floor Too High (non-null): 89.66%
+Average Revenue: 0.001037369085063207
+Average Revenue (not-null): 0.00172514978102947
+Average Bid Count: 0.9085950076790704
+Average Bid Count (non-null): 1.5109978705857736
+Average Bid Amount: 0.003332777777402482
+Average Bid Amount (non-null): 0.005542425483554348
+Time taken: 8.49 seconds
+===========================================
+Number of MultiShot buckets: 60
+Total Revenue: 551.9421023794997
+Auction Count: 540430
+Auction Count (non-null): 324972
+Price Floor Engaged (non-null): 10.02%
+Price Floor Too High (non-null): 89.62%
+Average Revenue: 0.0010213017456090516
+Average Revenue (not-null): 0.0016984297181895662
+Average Bid Count: 0.9085950076790704
+Average Bid Count (non-null): 1.5109978705857736
+Average Bid Amount: 0.003332777777402482
+Average Bid Amount (non-null): 0.005542425483554348
+Time taken: 10.27 seconds
+===========================================
+Number of MultiShot buckets: 70
+Total Revenue: 532.3958269402605
+Auction Count: 540430
+Auction Count (non-null): 324972
+Price Floor Engaged (non-null): 10.07%
+Price Floor Too High (non-null): 89.55%
+Average Revenue: 0.0009851337396892482
+Average Revenue (not-null): 0.0016382821502783638
+Average Bid Count: 0.9085950076790704
+Average Bid Count (non-null): 1.5109978705857736
+Average Bid Amount: 0.003332777777402482
+Average Bid Amount (non-null): 0.005542425483554348
+Time taken: 10.71 seconds
+===========================================
+Number of MultiShot buckets: 80
+Total Revenue: 534.1555717070602
+Auction Count: 540430
+Auction Count (non-null): 324972
+Price Floor Engaged (non-null): 10.12%
+Price Floor Too High (non-null): 89.48%
+Average Revenue: 0.0009883899333994416
+Average Revenue (not-null): 0.0016436972160895713
+Average Bid Count: 0.9085950076790704
+Average Bid Count (non-null): 1.5109978705857736
+Average Bid Amount: 0.003332777777402482
+Average Bid Amount (non-null): 0.005542425483554348
+Time taken: 7.02 seconds
+===========================================
+Number of MultiShot buckets: 90
+Total Revenue: 504.4853039265399
+Auction Count: 540430
+Auction Count (non-null): 324972
+Price Floor Engaged (non-null): 10.28%
+Price Floor Too High (non-null): 89.28%
+Average Revenue: 0.0009334887107054381
+Average Revenue (not-null): 0.0015523962185251036
+Average Bid Count: 0.9085950076790704
+Average Bid Count (non-null): 1.5109978705857736
+Average Bid Amount: 0.003332777777402482
+Average Bid Amount (non-null): 0.005542425483554348
+Time taken: 8.19 seconds
+===========================================
+Number of MultiShot buckets: 100
+Total Revenue: 519.1113291894071
+Auction Count: 540430
+Auction Count (non-null): 324972
+Price Floor Engaged (non-null): 10.19%
+Price Floor Too High (non-null): 89.38%
+Average Revenue: 0.0009605523919645599
+Average Revenue (not-null): 0.0015974032507090061
+Average Bid Count: 0.9085950076790704
+Average Bid Count (non-null): 1.5109978705857736
+Average Bid Amount: 0.003332777777402482
+Average Bid Amount (non-null): 0.005542425483554348
+Time taken: 8.65 seconds
+===========================================
+Number of MultiShot buckets: 200
+Total Revenue: 461.6862834866617
+Auction Count: 540430
+Auction Count (non-null): 324972
+Price Floor Engaged (non-null): 10.62%
+Price Floor Too High (non-null): 88.82%
+Average Revenue: 0.0008542943276403266
+Average Revenue (not-null): 0.0014206955783472475
+Average Bid Count: 0.9085950076790704
+Average Bid Count (non-null): 1.5109978705857736
+Average Bid Amount: 0.003332777777402482
+Average Bid Amount (non-null): 0.005542425483554348
+Time taken: 8.46 seconds
+===========================================
+Number of MultiShot buckets: 300
+Total Revenue: 441.55310926048656
+Auction Count: 540430
+Auction Count (non-null): 324972
+Price Floor Engaged (non-null): 10.80%
+Price Floor Too High (non-null): 88.58%
+Average Revenue: 0.0008170403368807922
+Average Revenue (not-null): 0.0013587420124210289
+Average Bid Count: 0.9085950076790704
+Average Bid Count (non-null): 1.5109978705857736
+Average Bid Amount: 0.003332777777402482
+Average Bid Amount (non-null): 0.005542425483554348
+Time taken: 7.55 seconds
+===========================================
+Number of MultiShot buckets: 400
+Total Revenue: 434.28993109873556
+Auction Count: 540430
+Auction Count (non-null): 324972
+Price Floor Engaged (non-null): 10.93%
+Price Floor Too High (non-null): 88.42%
+Average Revenue: 0.0008036007088776263
+Average Revenue (not-null): 0.001336391846370566
+Average Bid Count: 0.9085950076790704
+Average Bid Count (non-null): 1.5109978705857736
+Average Bid Amount: 0.003332777777402482
+Average Bid Amount (non-null): 0.005542425483554348
+Time taken: 7.64 seconds
+===========================================
+Number of MultiShot buckets: 500
+Total Revenue: 434.9369668160466
+Auction Count: 540430
+Auction Count (non-null): 324972
+Price Floor Engaged (non-null): 10.95%
+Price Floor Too High (non-null): 88.40%
+Average Revenue: 0.0008047979697945092
+Average Revenue (not-null): 0.0013383828970374267
+Average Bid Count: 0.9085950076790704
+Average Bid Count (non-null): 1.5109978705857736
+Average Bid Amount: 0.003332777777402482
+Average Bid Amount (non-null): 0.005542425483554348
+Time taken: 7.10 seconds
+===========================================
+Number of MultiShot buckets: 600
+Total Revenue: 430.61169448857765
+Auction Count: 540430
+Auction Count (non-null): 324972
+Price Floor Engaged (non-null): 11.04%
+Price Floor Too High (non-null): 88.29%
+Average Revenue: 0.0007967945792953345
+Average Revenue (not-null): 0.001325073220119203
+Average Bid Count: 0.9085950076790704
+Average Bid Count (non-null): 1.5109978705857736
+Average Bid Amount: 0.003332777777402482
+Average Bid Amount (non-null): 0.005542425483554348
+Time taken: 5.84 seconds
+===========================================
+Number of MultiShot buckets: 700
+Total Revenue: 426.6869170647402
+Auction Count: 540430
+Auction Count (non-null): 324972
+Price Floor Engaged (non-null): 11.07%
+Price Floor Too High (non-null): 88.25%
+Average Revenue: 0.0007895322559161042
+Average Revenue (not-null): 0.0013129959413879972
+Average Bid Count: 0.9085950076790704
+Average Bid Count (non-null): 1.5109978705857736
+Average Bid Amount: 0.003332777777402482
+Average Bid Amount (non-null): 0.005542425483554348
+Time taken: 3.70 seconds
+===========================================
+Number of MultiShot buckets: 800
+Total Revenue: 425.82390331866935
+Auction Count: 540430
+Auction Count (non-null): 324972
+Price Floor Engaged (non-null): 11.14%
+Price Floor Too High (non-null): 88.16%
+Average Revenue: 0.0007879353539194148
+Average Revenue (not-null): 0.0013103402856820567
+Average Bid Count: 0.9085950076790704
+Average Bid Count (non-null): 1.5109978705857736
+Average Bid Amount: 0.003332777777402482
+Average Bid Amount (non-null): 0.005542425483554348
+Time taken: 2.79 seconds
+===========================================
+Number of MultiShot buckets: 900
+Total Revenue: 426.2715707565926
+Auction Count: 540430
+Auction Count (non-null): 324972
+Price Floor Engaged (non-null): 11.14%
+Price Floor Too High (non-null): 88.16%
+Average Revenue: 0.0007887637080779983
+Average Revenue (not-null): 0.0013117178426344197
+Average Bid Count: 0.9085950076790704
+Average Bid Count (non-null): 1.5109978705857736
+Average Bid Amount: 0.003332777777402482
+Average Bid Amount (non-null): 0.005542425483554348
+Time taken: 2.79 seconds
+===========================================
+Number of MultiShot buckets: 1000
+Total Revenue: 425.7257215664206
+Auction Count: 540430
+Auction Count (non-null): 324972
+Price Floor Engaged (non-null): 11.14%
+Price Floor Too High (non-null): 88.17%
+Average Revenue: 0.0007877536805255456
+Average Revenue (not-null): 0.0013100381619537086
+Average Bid Count: 0.9085950076790704
+Average Bid Count (non-null): 1.5109978705857736
+Average Bid Amount: 0.003332777777402482
+Average Bid Amount (non-null): 0.005542425483554348
+Time taken: 2.65 seconds
+===========================================
+Number of MultiShot buckets: 2000
+Total Revenue: 427.14152522762595
+Auction Count: 540430
+Auction Count (non-null): 324972
+Price Floor Engaged (non-null): 11.12%
+Price Floor Too High (non-null): 88.19%
+Average Revenue: 0.0007903734530422551
+Average Revenue (not-null): 0.0013143948562572344
+Average Bid Count: 0.9085950076790704
+Average Bid Count (non-null): 1.5109978705857736
+Average Bid Amount: 0.003332777777402482
+Average Bid Amount (non-null): 0.005542425483554348
+Time taken: 4.12 seconds
+===========================================
+Number of MultiShot buckets: 3000
+Total Revenue: 426.4842365613637
+Auction Count: 540430
+Auction Count (non-null): 324972
+Price Floor Engaged (non-null): 11.14%
+Price Floor Too High (non-null): 88.16%
+Average Revenue: 0.0007891572202900721
+Average Revenue (not-null): 0.0013123722553369634
+Average Bid Count: 0.9085950076790704
+Average Bid Count (non-null): 1.5109978705857736
+Average Bid Amount: 0.003332777777402482
+Average Bid Amount (non-null): 0.005542425483554348
+Time taken: 3.73 seconds
+===========================================
+Number of MultiShot buckets: 4000
+Total Revenue: 425.88220313086197
+Auction Count: 540430
+Auction Count (non-null): 324972
+Price Floor Engaged (non-null): 11.15%
+Price Floor Too High (non-null): 88.15%
+Average Revenue: 0.0007880432306327591
+Average Revenue (not-null): 0.001310519685175529
+Average Bid Count: 0.9085950076790704
+Average Bid Count (non-null): 1.5109978705857736
+Average Bid Amount: 0.003332777777402482
+Average Bid Amount (non-null): 0.005542425483554348
+Time taken: 2.39 seconds
+===========================================
+Number of MultiShot buckets: 5000
+Total Revenue: 426.7298264005042
+Auction Count: 540430
+Auction Count (non-null): 324972
+Price Floor Engaged (non-null): 11.14%
+Price Floor Too High (non-null): 88.15%
+Average Revenue: 0.0007896116544242625
+Average Revenue (not-null): 0.0013131279814891873
+Average Bid Count: 0.9085950076790704
+Average Bid Count (non-null): 1.5109978705857736
+Average Bid Amount: 0.003332777777402482
+Average Bid Amount (non-null): 0.005542425483554348
+Time taken: 2.59 seconds
+===========================================
+Number of MultiShot buckets: 6000
+Total Revenue: 429.10042794032
+Auction Count: 540430
+Auction Count (non-null): 324972
+Price Floor Engaged (non-null): 11.11%
+Price Floor Too High (non-null): 88.18%
+Average Revenue: 0.0007939981643141943
+Average Revenue (not-null): 0.001320422768547198
+Average Bid Count: 0.9085950076790704
+Average Bid Count (non-null): 1.5109978705857736
+Average Bid Amount: 0.003332777777402482
+Average Bid Amount (non-null): 0.005542425483554348
+Time taken: 2.79 seconds
+===========================================
+Number of MultiShot buckets: 7000
+Total Revenue: 425.0370762334142
+Auction Count: 540430
+Auction Count (non-null): 324972
+Price Floor Engaged (non-null): 11.15%
+Price Floor Too High (non-null): 88.14%
+Average Revenue: 0.0007864794260744485
+Average Revenue (not-null): 0.0013079190706689013
+Average Bid Count: 0.9085950076790704
+Average Bid Count (non-null): 1.5109978705857736
+Average Bid Amount: 0.003332777777402482
+Average Bid Amount (non-null): 0.005542425483554348
+Time taken: 2.96 seconds
+===========================================
+Number of MultiShot buckets: 8000
+Total Revenue: 425.2866537139012
+Auction Count: 540430
+Auction Count (non-null): 324972
+Price Floor Engaged (non-null): 11.14%
+Price Floor Too High (non-null): 88.15%
+Average Revenue: 0.0007869412388540629
+Average Revenue (not-null): 0.0013086870675439767
+Average Bid Count: 0.9085950076790704
+Average Bid Count (non-null): 1.5109978705857736
+Average Bid Amount: 0.003332777777402482
+Average Bid Amount (non-null): 0.005542425483554348
+Time taken: 2.90 seconds
+===========================================
+Number of MultiShot buckets: 9000
+Total Revenue: 426.58565343622485
+Auction Count: 540430
+Auction Count (non-null): 324972
+Price Floor Engaged (non-null): 11.13%
+Price Floor Too High (non-null): 88.17%
+Average Revenue: 0.0007893448798849524
+Average Revenue (not-null): 0.001312684334146403
+Average Bid Count: 0.9085950076790704
+Average Bid Count (non-null): 1.5109978705857736
+Average Bid Amount: 0.003332777777402482
+Average Bid Amount (non-null): 0.005542425483554348
+Time taken: 2.57 seconds

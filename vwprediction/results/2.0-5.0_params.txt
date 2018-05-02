@@ -1,0 +1,139 @@
+14_00_part-00000.gz
+14_00_part-00001.gz
+14_00_part-00002.gz
+14_00_part-00003.gz
+14_00_part-00004.gz
+14_00_part-00005.gz
+14_00_part-00006.gz
+14_00_part-00007.gz
+14_00_part-00008.gz
+14_00_part-00009.gz
+14_00_part-00010.gz
+14_00_part-00011.gz
+14_00_part-00012.gz
+14_00_part-00013.gz
+14_00_part-00014.gz
+14_00_part-00015.gz
+14_00_part-00016.gz
+14_00_part-00017.gz
+14_00_part-00018.gz
+14_00_part-00019.gz
+14_00_part-00020.gz
+14_00_part-00021.gz
+14_00_part-00022.gz
+14_00_part-00023.gz
+14_00_part-00024.gz
+14_00_part-00025.gz
+14_00_part-00026.gz
+14_00_part-00027.gz
+14_00_part-00028.gz
+14_00_part-00029.gz
+14_00_part-00030.gz
+14_00_part-00031.gz
+14_01_part-00000.gz
+14_01_part-00001.gz
+14_01_part-00002.gz
+14_01_part-00003.gz
+14_01_part-00004.gz
+14_01_part-00005.gz
+14_01_part-00006.gz
+14_01_part-00007.gz
+14_01_part-00008.gz
+14_01_part-00009.gz
+14_01_part-00010.gz
+14_01_part-00011.gz
+14_01_part-00012.gz
+14_01_part-00013.gz
+14_01_part-00014.gz
+14_01_part-00015.gz
+14_01_part-00016.gz
+14_01_part-00017.gz
+14_01_part-00018.gz
+14_01_part-00019.gz
+14_01_part-00020.gz
+14_01_part-00021.gz
+14_01_part-00022.gz
+14_01_part-00023.gz
+14_01_part-00024.gz
+14_01_part-00025.gz
+14_01_part-00026.gz
+14_01_part-00027.gz
+14_01_part-00028.gz
+14_01_part-00029.gz
+14_01_part-00030.gz
+14_01_part-00031.gz
+-------------------------------------------
+VW (Model: 1, Multiplier: 2.0)
+-------------------------------------------
+Total Revenue: 11183.736386796
+Auction Count: 14316436
+Auction Count (non-null): 8952194
+Price Floor Engaged (non-null): 43.04%
+Price Floor Too High (non-null): 26.48%
+Average Revenue: 0.0007811816549857559
+Average Revenue (not-null): 0.0012492732381353664
+Average Bid Count: 1.056398254425892
+Average Bid Count (non-null): 1.6894023967755838
+Average Bid Amount: 0.004669767416280927
+Average Bid Amount (non-null): 0.007467937619545695
+Time taken: 2523.71 seconds
+-------------------------------------------
+VW (Model: 1, Multiplier: 2.5)
+-------------------------------------------
+Total Revenue: 11694.984981019315
+Auction Count: 14316436
+Auction Count (non-null): 8952194
+Price Floor Engaged (non-null): 42.31%
+Price Floor Too High (non-null): 27.24%
+Average Revenue: 0.0008168922627050181
+Average Revenue (not-null): 0.001306381986473854
+Average Bid Count: 1.056398254425892
+Average Bid Count (non-null): 1.6894023967755838
+Average Bid Amount: 0.004669767416280927
+Average Bid Amount (non-null): 0.007467937619545695
+Time taken: 2496.60 seconds
+-------------------------------------------
+VW (Model: 1, Multiplier: 3.0)
+-------------------------------------------
+Total Revenue: 11789.785752071564
+Auction Count: 14316436
+Auction Count (non-null): 8952194
+Price Floor Engaged (non-null): 41.72%
+Price Floor Too High (non-null): 27.86%
+Average Revenue: 0.0008235140767985581
+Average Revenue (not-null): 0.00131697165544799
+Average Bid Count: 1.056398254425892
+Average Bid Count (non-null): 1.6894023967755838
+Average Bid Amount: 0.004669767416280927
+Average Bid Amount (non-null): 0.007467937619545695
+Time taken: 2465.23 seconds
+-------------------------------------------
+VW (Model: 1, Multiplier: 3.5)
+-------------------------------------------
+Total Revenue: 11246.784592254136
+Auction Count: 14316436
+Auction Count (non-null): 8952194
+Price Floor Engaged (non-null): 41.14%
+Price Floor Too High (non-null): 28.46%
+Average Revenue: 0.0007855855589924542
+Average Revenue (not-null): 0.0012563160039040862
+Average Bid Count: 1.056398254425892
+Average Bid Count (non-null): 1.6894023967755838
+Average Bid Amount: 0.004669767416280927
+Average Bid Amount (non-null): 0.007467937619545695
+Time taken: 2477.63 seconds
+-------------------------------------------
+VW (Model: 1, Multiplier: 4.0)
+-------------------------------------------
+Total Revenue: 10333.792355476864
+Auction Count: 14316436
+Auction Count (non-null): 8952194
+Price Floor Engaged (non-null): 40.56%
+Price Floor Too High (non-null): 29.06%
+Average Revenue: 0.000721813241597986
+Average Revenue (not-null): 0.0011543306987624334
+Average Bid Count: 1.056398254425892
+Average Bid Count (non-null): 1.6894023967755838
+Average Bid Amount: 0.004669767416280927
+Average Bid Amount (non-null): 0.007467937619545695
+Time taken: 2456.21 seconds

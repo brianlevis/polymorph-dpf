@@ -6,6 +6,10 @@ from scipy import optimize
 
 
 class LinearProgramming(simulator.Simulator):
+    """
+    An linear programming approach to direct revenue optimization. (Currently
+    does not work.)
+    """
     def __init__(self, memory, delta, discount, default, *args, **kwargs):
         """
         :param memory: (int) the number of previous bids to remember; the space
@@ -46,7 +50,7 @@ class LinearProgramming(simulator.Simulator):
             self.upper,
             bounds=self.bounds
         )
-        print(results.status)
+
         if results.success:
             print(results.fun)
             return results.x[0] * self.discount
@@ -84,10 +88,6 @@ class LinearProgramming(simulator.Simulator):
             of the optimization problem
         """
         dimension = 2 * size + 1
-        # objective = np.zeros(dimension)
-        # for pos in range(1, dimension, 2):
-        #     objective[pos] = 1
-        #     objective[pos + 1] = -1
         objective = np.ones(dimension)
         objective[0] = 0
         return objective
