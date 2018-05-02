@@ -1,4 +1,4 @@
-from gametheory import AverageSingleID
+from gametheory import AverageSimulateBid
 from oneshot import MultiShot
 from vwprediction.simulate import VWSimulator
 from simulator import *
@@ -71,27 +71,30 @@ class RunningAverageWithBuckets(Simulator):
 # queue_simulator(lp_simulator_5, 'LP-5')
 
 # --- Test All ---
-# Running average
-queue_simulator(AverageSingleID(500, 0.6, 0.3, "site_id"), 'GT (High Revenue)')
+queue_simulator(AverageSimulateBid(500, 0.6, 0.3), 'GT (High Revenue)')
+queue_simulator(AverageSimulateBid(500, 0.8, 0.2), 'GT (Low Overshoot)')
 
-oneshot_args = {'price_floor': 0.0002, 'eps': 1.0, 'lamb_h': 0.02, 'lamb_e': 0.9, 'lamb_l': 0.88, 'time': 0, 'M': 5}
-queue_simulator(MultiShot(84, oneshot_args=oneshot_args), 'MultiShot')
+oneshot_args = {'price_floor': 0.0002, 'eps': 1.0, 'lamb_h': 0.1, 'lamb_e': 0.1, 'lamb_l': 0.1, 'time': 0, 'M': 5}
+oneshot_args_no_ceiling = oneshot_args.copy()
+oneshot_args_no_ceiling['pf_ceil'] = 0.1
+queue_simulator(MultiShot(1, oneshot_args=oneshot_args), 'MultiShot')
+queue_simulator(MultiShot(1, oneshot_args=oneshot_args_no_ceiling), 'MultiShot (no ceiling)')
 
-# socket_num = 12345
-# model_name = '~/polymorph-dpf/vwprediction/models/1_pass'
-# multiplier = 3.0
-# os.system("pkill -9 -f 'vw.*--port {0}'".format(socket_num))
-# os.system("~/vowpal_wabbit/vowpalwabbit/vw --daemon --port {0} --quiet -i {1}.model -t --num_children 1".format(socket_num, model_name))
-# socket = sock.socket(sock.AF_INET, sock.SOCK_STREAM)
-# socket.connect(('localhost', socket_num))
-# queue_simulator(VWSimulator(socket, multiplier), 'VW (Multiplier: {0})'.format(multiplier))
+socket_num = 12345
+model_name = '~/polymorph-dpf/vwprediction/models/1_pass'
+multiplier = 3.0
+os.system("pkill -9 -f 'vw.*--port {0}'".format(socket_num))
+os.system("~/vowpal_wabbit/vowpalwabbit/vw --daemon --port {0} --quiet -i {1}.model -t --num_children 1".format(socket_num, model_name))
+socket = sock.socket(sock.AF_INET, sock.SOCK_STREAM)
+socket.connect(('localhost', socket_num))
+queue_simulator(VWSimulator(socket, multiplier), 'VW (Multiplier: {0})'.format(multiplier))
 
 queue_simulator(GlobalRunningAverage(), 'Basic Running Average')
-# queue_simulator(NoFloor(), 'No Price Floor')
+queue_simulator(NoFloor(), 'No Price Floor')
 
 results = run_queue(start=(14, 0))
 
-# os.system("pkill -9 -f 'vw.*--port {0}'".format(socket_num))
+os.system("pkill -9 -f 'vw.*--port {0}'".format(socket_num))
 
 # --- Test OneShot Bucket distribution
 # num_buckets = 20
