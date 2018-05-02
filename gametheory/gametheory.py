@@ -79,10 +79,11 @@ class AverageSingleID(sim.Simulator):
     pub_network_id, but not bid_requests).
     """
 
-    def __init__(self, window, weight, param_id, **kwargs):
+    def __init__(self, window, weight, sim_bid, param_id, **kwargs):
         sim.Simulator.__init__(self, **kwargs)
         self.window = window
         self.weight = weight
+        self.simBid = sim_bid
         self.id = param_id
         self.averages = {}
         self.counts = {}
@@ -95,10 +96,18 @@ class AverageSingleID(sim.Simulator):
             return DEFAULT_FLOOR
 
     def process_line(self, line, input_features, bids):
-        if len(bids) < 2:
-            return
+        low, high = 0, 0
+        if len(bids) == 0:
+            high = self.reserve
+            low = high * self.simBid
+        elif len(bids) == 1:
+            high = bids[0]
+            low = high * self.simBid
+        else:
+            high = bids[0]
+            low = bids[1]
+
         key = input_features[self.id]
-        low, high = bids[1], bids[0]
         weighted_avg = low * self.weight + high * (1 - self.weight)
         if key in self.averages:
             n = min(self.counts[key] + 1, self.window)
