@@ -96,9 +96,10 @@ class AverageSingleID(sim.Simulator):
             return DEFAULT_FLOOR
 
     def process_line(self, line, input_features, bids):
+        key = input_features[self.id]
         low, high = 0, 0
         if len(bids) == 0:
-            high = self.reserve
+            high = self.averages[key]
             low = high * self.simBid
         elif len(bids) == 1:
             high = bids[0]
@@ -107,7 +108,6 @@ class AverageSingleID(sim.Simulator):
             high = bids[0]
             low = bids[1]
 
-        key = input_features[self.id]
         weighted_avg = low * self.weight + high * (1 - self.weight)
         if key in self.averages:
             n = min(self.counts[key] + 1, self.window)
