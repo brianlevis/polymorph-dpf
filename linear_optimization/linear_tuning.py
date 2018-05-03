@@ -26,5 +26,5 @@ def test_heuristic(slope_range, discount_range):
 
 if __name__ == '__main__':
     slopes = np.linspace(-3, -1, 20)
-    discounts = np.linspace(0, 1, 20)
+    discounts = np.linspace(1, 1, 1)
     test_heuristic(slopes, discounts)
