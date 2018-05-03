@@ -9,7 +9,7 @@ class MultiShot(Simulator):
     """oneshots[0] holds sites w/ returns from init_return to init_return+init_gap
     oneshots[1] similarly for init_return+init_gap to init_return+2*init_gap, etc
     """
-    def __init__(self, num_shots, *args, init_return=0.0, init_gap=.00005, oneshot_args={}, **kwargs):
+    def __init__(self, num_shots, *args, init_return=0.0, init_gap=.0005, oneshot_args={}, **kwargs):
         super(MultiShot, self).__init__(*args, **kwargs)
         self.num_shots = num_shots
         self.init_return = init_return
@@ -21,7 +21,6 @@ class MultiShot(Simulator):
     def calculate_price_floor(self, input_features):
         site_id, num_bids = input_features['site_id'], len(input_features['bid_requests'])
         if site_id not in self.ids:
-            # can also try using average return instead of random
             oneshot = self.oneshots[randint(0, self.num_shots-1)]
             pf = oneshot.calculate_price_floor(num_bids)
             idx = self.get_idx(pf) 

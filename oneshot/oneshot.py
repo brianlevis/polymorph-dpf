@@ -1,24 +1,18 @@
 class OneShot:
 
-    def __init__(self, price_floor=0.001, eps=1.0, lamb_h=0.1, lamb_e=0.1, lamb_l=0.1, time=0, M=5, pf_ceil=.1):
+    def __init__(self, price_floor=0.001, eps=1.0, lamb_h=0.1, lamb_e=0.1, lamb_l=0.1, time=0, pf_ceil=.1):
         self.price_floor = price_floor
         self.eps = eps
         self.lamb_h = lamb_h
         self.lamb_e = lamb_e
         self.lamb_l = lamb_l
-        self._lamb_h = lamb_h
-        self._lamb_e = lamb_e
-        self._lamb_l = lamb_l
-        self._price_floor = price_floor
-        self.time = time
-        self.M = M
         self.revenues = []
-        self.oneshot_min_n = 0
         self.log = [0]*3
         self.pf_ceil = pf_ceil
         self.over = []
-        self.max_bids = []
         self.max_bid = 0
+        self.oneshot_min_n = 0
+        self.time = time
 
 
     def oneshot(self, first, second):
@@ -28,7 +22,6 @@ class OneShot:
         if self.price_floor > first:
             self.log[0] += 1
             self.over.append(self.price_floor)
-            self.max_bids.append(first)
             self.price_floor = (1 - (self.eps**self.time)*self.lamb_h)*self.price_floor
         elif self.price_floor > second:
             self.log[1] += 1
@@ -37,13 +30,6 @@ class OneShot:
             self.log[2] += 1
             self.price_floor = (1 + (self.eps**self.time)*self.lamb_l)*self.price_floor
         self.price_floor = min(self.price_floor, self.pf_ceil)
-        self.time += 1
-        # if self.time > 1000000:
-        #     self.lamb_h = self._lamb_h
-        #     self.lamb_e = self._lamb_e
-        #     self.lamb_l = self._lamb_l
-        #     self.price_floor = self._price_floor
-        #     self.time = 0
 
     def max2(self, bids):
         max1 = max2 = 0
@@ -75,7 +61,6 @@ class OneShot:
         first, second = self.max2(bids)
         revenue = self.calculate_revenue_helper(first, second, price_floor)
         diff = self.calculate_differential(first, second, price_floor)
-        # print(first, second, price_floor, revenue, diff, self.revenues)
         if len(bids) >= self.oneshot_min_n:
             self.oneshot(first, second)
         else:
