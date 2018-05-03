@@ -20,7 +20,7 @@ def test_heuristic(slope_range, discount_range):
             description = 'Linear: (down={:.2f}, discount={:.2f})'.format(
                 down_slope, discount)
             queue_simulator(test, description)
-    results = run_queue(limit=3)
+    results = run_queue(limit=1)
     return results
 
 
