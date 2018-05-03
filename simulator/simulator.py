@@ -74,7 +74,8 @@ class SimulatorStats:
         print("Average Bid Amount:", self.average_bid_amount)
         print("Average Bid Amount (non-null):", self.average_bid_amount_non_null)
         print("Average Price Floor:", self.average_price_floor)
-        print("Time taken: %.2f seconds" % self.timer)
+        time_per_auction = self.timer * 1000 / self.auction_count
+        print("Time taken: %.2f seconds (%.3f milliseconds per auction)" % (self.timer, time_per_auction))
 
 
 class Simulator(ABC):
