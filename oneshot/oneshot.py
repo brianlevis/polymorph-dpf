@@ -12,6 +12,7 @@ class OneShot:
         self.over = []
         self.max_bid = 0
         self.oneshot_min_n = 0
+        self.time = time
 
 
     def oneshot(self, first, second):
