@@ -31,7 +31,7 @@ sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 sock.connect(('localhost', socket_num))
 queue_simulator(VWSimulator(sock, multiplier), 'VW (Multiplier: {0})'.format(multiplier))
 
-# Run all in parallell
-results = run_queue(start=(14, 0), limit=5)
+# Run all in parallel
+results = run_queue(start=(14, 0), limit=5) # remove limit to run on all files. See the docstring of this function for details!
 
 os.system("pkill -9 -f 'vw.*--port {0}'".format(socket_num))
