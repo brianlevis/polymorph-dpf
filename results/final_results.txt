@@ -1,0 +1,107 @@
+-------------------------------------------
+GT site_id
+-------------------------------------------
+Total Revenue: 424276.93237573805
+Auction Count: 518420532
+Auction Count (non-null): 300064887
+Price Floor Engaged (non-null): 30.63%
+Price Floor Too High (non-null): 64.70%
+Average Revenue: 0.0008184030264753057
+Average Revenue (not-null): 0.0014139506178733204
+Average Bid Count: 0.954231081650138
+Average Bid Count (non-null): 1.648620036638942
+Average Bid Amount: 0.0028150392288430067
+Average Bid Amount (non-null): 0.004863528516142781
+Average Price Floor: 0.002432278846190381
+Time taken: 1196.38 seconds (0.002 milliseconds per auction)
+-------------------------------------------
+GT pub_network_id
+-------------------------------------------
+Total Revenue: 227656.77194918026
+Auction Count: 518420532
+Auction Count (non-null): 300064887
+Price Floor Engaged (non-null): 25.24%
+Price Floor Too High (non-null): 69.67%
+Average Revenue: 0.00043913533106204264
+Average Revenue (not-null): 0.000758691809045889
+Average Bid Count: 0.954231081650138
+Average Bid Count (non-null): 1.648620036638942
+Average Bid Amount: 0.0028150392288430067
+Average Bid Amount (non-null): 0.004863528516142781
+Average Price Floor: 0.0028786333704231702
+Time taken: 1072.62 seconds (0.002 milliseconds per auction)
+-------------------------------------------
+MultiShot
+-------------------------------------------
+Total Revenue: 3172.0886840572643
+Auction Count: 518420532
+Auction Count (non-null): 300064887
+Price Floor Engaged (non-null): 0.03%
+Price Floor Too High (non-null): 99.97%
+Average Revenue: 6.118755890743279e-06
+Average Revenue (not-null): 1.0571342471194454e-05
+Average Bid Count: 0.954231081650138
+Average Bid Count (non-null): 1.648620036638942
+Average Bid Amount: 0.0028150392288430067
+Average Bid Amount (non-null): 0.004863528516142781
+Time taken: 7415.88 seconds
+-------------------------------------------
+MultiShot (no ceiling)
+-------------------------------------------
+Total Revenue: 3172.0886840572643
+Auction Count: 518420532
+Auction Count (non-null): 300064887
+Price Floor Engaged (non-null): 0.03%
+Price Floor Too High (non-null): 99.97%
+Average Revenue: 6.118755890743279e-06
+Average Revenue (not-null): 1.0571342471194454e-05
+Average Bid Count: 0.954231081650138
+Average Bid Count (non-null): 1.648620036638942
+Average Bid Amount: 0.0028150392288430067
+Average Bid Amount (non-null): 0.004863528516142781
+Time taken: 4289.91 seconds
+-------------------------------------------
+VW (Multiplier: 3.0)
+-------------------------------------------
+Total Revenue: 223703.76598257778
+Auction Count: 518420532
+Auction Count (non-null): 300064887
+Price Floor Engaged (non-null): 43.89%
+Price Floor Too High (non-null): 25.92%
+Average Revenue: 0.0004315102357531198
+Average Revenue (not-null): 0.0007455179718597924
+Average Bid Count: 0.954231081650138
+Average Bid Count (non-null): 1.648620036638942
+Average Bid Amount: 0.0028150392288430067
+Average Bid Amount (non-null): 0.004863528516142781
+Time taken: 80963.03 seconds
+-------------------------------------------
+Basic Running Average
+-------------------------------------------
+Total Revenue: 485298.0741042547
+Auction Count: 518420532
+Auction Count (non-null): 300064887
+Price Floor Engaged (non-null): 7.73%
+Price Floor Too High (non-null): 92.27%
+Average Revenue: 0.0009361089003015311
+Average Revenue (not-null): 0.0016173104389393441
+Average Bid Count: 0.954231081650138
+Average Bid Count (non-null): 1.648620036638942
+Average Bid Amount: 0.0028150392288430067
+Average Bid Amount (non-null): 0.004863528516142781
+Time taken: 2206.47 seconds
+-------------------------------------------
+No Price Floor
+-------------------------------------------
+Total Revenue: 49862.79423966399
+Auction Count: 518420532
+Auction Count (non-null): 300064887
+Price Floor Engaged (non-null): 61.56%
+Price Floor Too High (non-null): 0.00%
+Average Revenue: 9.618213624236625e-05
+Average Revenue (not-null): 0.0001661733724934767
+Average Bid Count: 0.954231081650138
+Average Bid Count (non-null): 1.648620036638942
+Average Bid Amount: 0.0028150392288430067
+Average Bid Amount (non-null): 0.004863528516142781
+Time taken: 866.40 seconds
