@@ -7,24 +7,24 @@ import numpy as np
 min_over = 100
 max_revenue = 0
 
-range_step = 5
+range_step = 10
 
-lambda_h_min = 0.1
-lambda_h_max = 0.3
+lambda_h_min = 0.2
+lambda_h_max = 0.5
 range_h_min = int(lambda_h_min * 100)
 range_h_max = int(lambda_h_max * 100)
 
-lambda_e_min = 0.5
-lambda_e_max = 0.9
+lambda_e_min = 0.3
+lambda_e_max = 0.6
 range_e_min = int(lambda_e_min * 100)
 range_e_max = int(lambda_e_max * 100)
 
-lambda_l_min = 0.5
-lambda_l_max = 0.9
+lambda_l_min = 0.3
+lambda_l_max = 0.6
 range_l_min = int(lambda_l_min * 100)
 range_l_max = int(lambda_l_max * 100)
 
-bucket_min = 1
+bucket_min = 5
 bucket_max = 10
 
 for h in range(range_h_min, range_h_max, range_step):
@@ -41,12 +41,12 @@ for h in range(range_h_min, range_h_max, range_step):
 #     oneshot = MultiShot(i, oneshot_args=oneshot_args, limit=3)
 #     queue_simulator(oneshot, "Multishot: %d buckets" % (i))
 
-results = run_queue(limit=5)  # <- take away the 'none' too print stats
+results = run_queue(limit=1)  # <- take away the 'none' too print stats
 
 index = 0
-for h in range(range_min, range_max, range_step):
-    for e in range(range_min, range_max, range_step):
-        for l in range(range_min, range_max, range_step):
+for h in range(range_h_min, range_h_max, range_step):
+    for e in range(range_e_min, range_e_max, range_step):
+        for l in range(range_l_min, range_l_max, range_step):
             for i in range(bucket_min, bucket_max):
                 stats = results[index][1].stats
                 over_percent = 100 * stats.price_floor_too_high_count / stats.auction_count_non_null
