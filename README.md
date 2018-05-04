@@ -20,6 +20,8 @@ Relevant Files:
 * `testing.py` is used to tune for the optimal multiplier values and models.
 * `tuning.py` was used to train VW models on bids between two times.
 * The `models` folder contains the final models we used, with 1-5 passes through data.
+## /running_average/
+Includes optimized classes in `runnning_average.py` for experimenting with global and separated running averages.
 ## /simulator/
 This is where the simulator engine is located. The methods are detailed by the docstrings in simulator.py.
 ## /results/
