@@ -1,11 +1,7 @@
 from collections import deque
 
-from gametheory import AverageSingleID
-from oneshot import MultiShot
-from vwprediction.simulate import VWSimulator
 from simulator import *
-
-import socket as sock
+import boto3
 
 
 class RunningAverageWithZeros(Simulator):
@@ -66,7 +62,7 @@ class BucketedRunningAverageWithZeros(Simulator):
 class BucketedRunningAverageWithoutZeros(Simulator):
     """Represents a simple running average floor."""
 
-    def __init__(self, *args, history_len=25, weight=0.45, feature='site_id', **kwargs):
+    def __init__(self, *args, history_len=8, weight=1.6, feature='site_id', **kwargs):
         super().__init__(*args, **kwargs)
         self.history_len = history_len
         self.feature = feature
@@ -87,10 +83,10 @@ class BucketedRunningAverageWithoutZeros(Simulator):
 
 
 # # --- Tune running average ---
-for w in [21, 23, 25, 27, 29]:
-    for h in [200, 250]:
-        queue_simulator(RunningAverageWithZeros(history_len=h, weight=w), 'Avg: h=%d, w=%f' % (h, w))
-run_queue(start=(13, 12), stop=(13, 12), limit=5)
+for w in range(8, 11, 1):
+    for h in range(5, 25, 5):
+        queue_simulator(BucketedRunningAverageWithZeros(history_len=h, weight=w/10.0), 'Bucketed Without Average Avg: h=%d, w=%f' % (h, w/10.0))
+run_queue(limit=2)
 
 # default_simulator = DefaultSimulator(stop=(11, 23))
 # naive_simulator_100 = NaiveSimulator(history_len=100)
