@@ -5,7 +5,9 @@ Contains code for the weighted running average strategy. See gametheory.py for s
 ## /linear_optimization/
 
 ## /oneshot/
-
+Relevant Files:
+* `oneshot.py` contains the oneshot algorithm 
+* `multishot.py` contains the multishot algorithm
 ## /randomForest/
 
 ## /vwprediction/
