@@ -18,7 +18,7 @@ queue_simulator(BucketedRunningAverageWithZeros(), "Bucketed Running Average Wit
 queue_simulator(AverageSingleID(500, 0.6, 0.3, "site_id"), 'GT (High Revenue)')
 
 # OneShot
-oneshot_args = {'price_floor': 0.0002, 'eps': 1.0, 'lamb_h': 0.02, 'lamb_e': 0.9, 'lamb_l': 0.88, 'time': 0, 'M': 5}
+oneshot_args = {'price_floor': 0.0002, 'eps': 1.0, 'lamb_h': 0.02, 'lamb_e': 0.9, 'lamb_l': 0.88, 'time': 0}
 queue_simulator(MultiShot(84, oneshot_args=oneshot_args), 'MultiShot with 84 Buckets')
 
 # Vowpal Wabbit
