@@ -76,7 +76,7 @@ Average Bid Amount: 0.0028150392288430067
 Average Bid Amount (non-null): 0.004863528516142781
 Time taken: 80963.03 seconds
 -------------------------------------------
-Basic Running Average
+Running Average Without Zeros
 -------------------------------------------
 Total Revenue: 485298.0741042547
 Auction Count: 518420532
@@ -89,7 +89,56 @@ Average Bid Count: 0.954231081650138
 Average Bid Count (non-null): 1.648620036638942
 Average Bid Amount: 0.0028150392288430067
 Average Bid Amount (non-null): 0.004863528516142781
-Time taken: 2206.47 seconds
+Average Price Floor: 0.02089341090786549
+Time taken: 1598.51 seconds (0.003 milliseconds per auction)
+-------------------------------------------
+Running Average With Zeros
+-------------------------------------------
+Total Revenue: 633231.2406333139
+Auction Count: 518420532
+Auction Count (non-null): 300064887
+Price Floor Engaged (non-null): 5.69%
+Price Floor Too High (non-null): 94.31%
+Average Revenue: 0.0012214625030192937
+Average Revenue (not-null): 0.0021103143622176425
+Average Bid Count: 0.954231081650138
+Average Bid Count (non-null): 1.648620036638942
+Average Bid Amount: 0.0028150392288430067
+Average Bid Amount (non-null): 0.004863528516142781
+Average Price Floor: 0.039357196287724196
+Time taken: 2126.88 seconds (0.004 milliseconds per auction)
+-------------------------------------------
+Bucketed Running Average Without Zeros
+-------------------------------------------
+Total Revenue: 585769.6258170931
+Auction Count: 518420532
+Auction Count (non-null): 300064887
+Price Floor Engaged (non-null): 35.06%
+Price Floor Too High (non-null): 55.92%
+Average Revenue: 0.0011299120880827558
+Average Revenue (not-null): 0.0019521431903396717
+Average Bid Count: 0.954231081650138
+Average Bid Count (non-null): 1.648620036638942
+Average Bid Amount: 0.0028150392288430067
+Average Bid Amount (non-null): 0.004863528516142781
+Average Price Floor: 0.003797489056934269
+Time taken: 1838.94 seconds (0.004 milliseconds per auction)
+-------------------------------------------
+Bucketed Running Average With Zeros
+-------------------------------------------
+Total Revenue: 522279.7293835765
+Auction Count: 518420532
+Auction Count (non-null): 300064887
+Price Floor Engaged (non-null): 12.94%
+Price Floor Too High (non-null): 86.30%
+Average Revenue: 0.0010074441445609575
+Average Revenue (not-null): 0.0017405559664286094
+Average Bid Count: 0.954231081650138
+Average Bid Count (non-null): 1.648620036638942
+Average Bid Amount: 0.0028150392288430067
+Average Bid Amount (non-null): 0.004863528516142781
+Average Price Floor: 0.023950225675991713
+Time taken: 1978.64 seconds (0.004 milliseconds per auction)
 -------------------------------------------
 No Price Floor
 -------------------------------------------
