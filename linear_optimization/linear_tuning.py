@@ -20,11 +20,11 @@ def test_heuristic(slope_range, discount_range):
             description = 'Linear: (down={:.2f}, discount={:.2f})'.format(
                 down_slope, discount)
             queue_simulator(test, description)
-    results = run_queue(limit=3)
+    results = run_queue(limit=1)
     return results
 
 
 if __name__ == '__main__':
     slopes = np.linspace(-3, -1, 20)
-    discounts = np.linspace(0, 1, 20)
+    discounts = np.linspace(1, 1, 1)
     test_heuristic(slopes, discounts)

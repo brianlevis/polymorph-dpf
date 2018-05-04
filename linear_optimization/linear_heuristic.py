@@ -1,5 +1,4 @@
 import simulator
-import collections
 import numpy as np
 import itertools
 from scipy import optimize
@@ -74,7 +73,6 @@ class LinearHeuristic(simulator.Simulator):
         if self.position == self.memory:
             self.complete = True
             self.position = 0
-
 
     @staticmethod
     def _create_objective(size):

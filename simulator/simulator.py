@@ -22,6 +22,8 @@ class SimulatorStats:
         self.average_revenue = 0
         self.average_revenue_non_null = 0
 
+        self.average_price_floor = 0.0
+
         self._total_bid_count = 0
         self._total_bid_amount = 0
         self.average_bid_count = 0
@@ -52,6 +54,7 @@ class SimulatorStats:
         self._total_bid_amount += sum(bids)
         self.average_bid_count = self._total_bid_count / self.auction_count
         self.average_bid_amount = self._total_bid_amount / self.auction_count
+        self.average_price_floor = (self.average_price_floor*(self.auction_count-1) + price_floor) / self.auction_count
         if len(bids) > 0:
             self.average_revenue_non_null = self.total_revenue / self.auction_count_non_null
             self.average_revenue = self.total_revenue / self.auction_count
@@ -70,7 +73,9 @@ class SimulatorStats:
         print("Average Bid Count (non-null):", self.average_bid_count_non_null)
         print("Average Bid Amount:", self.average_bid_amount)
         print("Average Bid Amount (non-null):", self.average_bid_amount_non_null)
-        print("Time taken: %.2f seconds" % self.timer)
+        print("Average Price Floor:", self.average_price_floor)
+        time_per_auction = self.timer * 1000 / self.auction_count
+        print("Time taken: %.2f seconds (%.3f milliseconds per auction)" % (self.timer, time_per_auction))
 
 
 class Simulator(ABC):
