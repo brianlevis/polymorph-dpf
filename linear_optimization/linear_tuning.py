@@ -24,7 +24,20 @@ def test_heuristic(slope_range, discount_range):
     return results
 
 
+def test_single_heuristic(slope):
+    settings = {
+        'memory': 30,
+        'up': 1,
+        'down': slope,
+        'discount': 1.0,
+        'default': 0.1 / 1000
+    }
+    test = LinearHeuristic(**settings)
+    test.run_simulation()
+    test.stats.print_stats()
+
+
 if __name__ == '__main__':
-    slopes = np.linspace(-3, -1, 20)
-    discounts = np.linspace(1, 1, 1)
-    test_heuristic(slopes, discounts)
+    input_slope = float(sys.argv[1])
+    print(input_slope)
+    test_single_heuristic(input_slope)
