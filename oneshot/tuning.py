@@ -32,7 +32,7 @@ for h in range(range_h_min, range_h_max, range_step):
         for l in range(range_l_min, range_l_max, range_step):
             for i in range(bucket_min, bucket_max):
                 print("h: " + str(0.01 * h), " e: " + str(0.01 * e) + " l: " + str(0.01 * l) + " bucket(s): " + str(i))
-                oneshot_args = {'price_floor': 0.0002, 'eps': 1.0, 'lamb_h': 0.01 * h, 'lamb_e': 0.01 * e, 'lamb_l': 0.01 * l, 'time': 0, 'M': 5}
+                oneshot_args = {'price_floor': 0.0002, 'eps': 1.0, 'lamb_h': 0.01 * h, 'lamb_e': 0.01 * e, 'lamb_l': 0.01 * l, 'time': 0}
                 oneshot = MultiShot(i, oneshot_args=oneshot_args, limit=3)
                 queue_simulator(oneshot, "Multishot (%d bucket(s)): (h=%.2f, e=%.2f, l=%.2f)" % (i, 0.01 * h, 0.01 * e, 0.01 * l))
 
