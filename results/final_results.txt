@@ -31,50 +31,37 @@ Average Bid Amount (non-null): 0.004863528516142781
 Average Price Floor: 0.0028786333704231702
 Time taken: 1072.62 seconds (0.002 milliseconds per auction)
 -------------------------------------------
-MultiShot
+MultiShot with 84 Buckets
 -------------------------------------------
-Total Revenue: 3172.0886840572643
+Total Revenue: 339306.1161881846
 Auction Count: 518420532
 Auction Count (non-null): 300064887
-Price Floor Engaged (non-null): 0.03%
-Price Floor Too High (non-null): 99.97%
-Average Revenue: 6.118755890743279e-06
-Average Revenue (not-null): 1.0571342471194454e-05
+Price Floor Engaged (non-null): 5.27%
+Price Floor Too High (non-null): 94.71%
+Average Revenue: 0.0006544997646585969
+Average Revenue (not-null): 0.0011307758117936157
 Average Bid Count: 0.954231081650138
 Average Bid Count (non-null): 1.648620036638942
 Average Bid Amount: 0.0028150392288430067
 Average Bid Amount (non-null): 0.004863528516142781
-Time taken: 7415.88 seconds
--------------------------------------------
-MultiShot (no ceiling)
--------------------------------------------
-Total Revenue: 3172.0886840572643
-Auction Count: 518420532
-Auction Count (non-null): 300064887
-Price Floor Engaged (non-null): 0.03%
-Price Floor Too High (non-null): 99.97%
-Average Revenue: 6.118755890743279e-06
-Average Revenue (not-null): 1.0571342471194454e-05
-Average Bid Count: 0.954231081650138
-Average Bid Count (non-null): 1.648620036638942
-Average Bid Amount: 0.0028150392288430067
-Average Bid Amount (non-null): 0.004863528516142781
-Time taken: 4289.91 seconds
+Average Price Floor: 0.029849202372346
+Time taken: 8962.81 seconds (0.017 milliseconds per auction)
 -------------------------------------------
 VW (Multiplier: 3.0)
 -------------------------------------------
-Total Revenue: 223703.76598257778
+Total Revenue: 223703.68625066648
 Auction Count: 518420532
 Auction Count (non-null): 300064887
 Price Floor Engaged (non-null): 43.89%
 Price Floor Too High (non-null): 25.92%
-Average Revenue: 0.0004315102357531198
-Average Revenue (not-null): 0.0007455179718597924
+Average Revenue: 0.0004315100819553699
+Average Revenue (not-null): 0.0007455177061442263
 Average Bid Count: 0.954231081650138
 Average Bid Count (non-null): 1.648620036638942
 Average Bid Amount: 0.0028150392288430067
 Average Bid Amount (non-null): 0.004863528516142781
-Time taken: 80963.03 seconds
+Average Price Floor: 0.008926980506974137
+Time taken: 83064.05 seconds (0.160 milliseconds per auction)
 -------------------------------------------
 Running Average Without Zeros
 -------------------------------------------
