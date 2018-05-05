@@ -4,11 +4,10 @@ from simulator import *
 
 
 class RunningAverageWithZeros(Simulator):
-    """Represents a simple running average floor."""
+    """Represents a simple running average floor, where 0 is added to the average if there are no bids."""
 
     def __init__(self, *args, history_len=250, weight=25.0, **kwargs):
         super().__init__(*args, **kwargs)
-        from collections import deque
         self.most_recent_bids = deque([0] * history_len, maxlen=history_len)
         self.weight = weight
 
@@ -25,7 +24,6 @@ class RunningAverageWithoutZeros(Simulator):
 
     def __init__(self, *args, history_len=25, weight=0.45, **kwargs):
         super().__init__(*args, **kwargs)
-        from collections import deque
         self.most_recent_bids = deque([0] * history_len, maxlen=history_len)
         self.weight = weight
 
