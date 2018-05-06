@@ -104,8 +104,7 @@ def get_line_iterator(start=(11, 0), stop=(15, 23), limit=None, dictionary=True,
                 lines = f.readlines()
                 f.close()
         except IOError:
-            # TODO: add warning message, replace IOError with correct error
-            print("if you can see this, fix the code yourself :D just replace IOError with the one you got")
+            print('Warning: Could not find', file_name)
             continue
         print(file_name)
         sys.stdout.flush()
@@ -115,4 +114,4 @@ def get_line_iterator(start=(11, 0), stop=(15, 23), limit=None, dictionary=True,
             try:
                 os.remove(file_name)
             except OSError:
-                print("Warning: Could not delete", file_name)
+                print('Warning: Could not delete', file_name)
