@@ -38,7 +38,7 @@ class RunningAverageWithoutZeros(Simulator):
 class BucketedRunningAverageWithZeros(Simulator):
     """Represents a simple running average floor."""
 
-    def __init__(self, *args, history_len=25, weight=0.45, feature='site_id', **kwargs):
+    def __init__(self, *args, history_len=35, weight=0.95, feature='site_id', **kwargs):
         super().__init__(*args, **kwargs)
         self.history_len = history_len
         self.feature = feature
