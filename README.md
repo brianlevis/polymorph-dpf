@@ -9,7 +9,10 @@ Relevant Files:
 * `oneshot.py` contains the oneshot algorithm 
 * `multishot.py` contains the multishot algorithm
 ## /randomForest/
-
+Relevant Files:
+* `randomForestSimulator.py` Simulator file
+* `tensorflowVersion/Random Forest Tensorflow.ipynb` Research notebook
+* `randomForest/` Scrapped haskell version, never tested
 ## /vwprediction/
 Contains code for the Vowpal Wabbit strategy.  
 
