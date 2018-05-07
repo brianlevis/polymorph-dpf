@@ -3,6 +3,10 @@ Please see our report for an explanation of these strategies.
 ## /gametheory/
 Contains code for the weighted running average strategy. See `gametheory.py` for strategy classes.
 ## /linear_optimization/
+Relevant Files:
+* `clever_brute_force.py` brute force solver
+* `linear_heuristic.py` linear heuristic approximation method
+* `linear_programming.py` old linear programming approach (does not work)
 
 ## /oneshot/
 Relevant Files:
