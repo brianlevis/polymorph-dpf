@@ -8,7 +8,7 @@ See this file for an example of how to use our simulator to reproduce results.
 ## `/simulator/`
 This is where the simulator engine is located. The methods are detailed by the docstrings in simulator.py.
 ## `/results/`
-This directory contains output from experiments, in addition to the associated test code.
+This directory contains output from experiments, in addition to the associated test code. See `final_results.txt` for agreggated simulator output.
 ## `/gametheory/`
 Contains code for the weighted running average strategy. See `gametheory.py` for strategy classes.
 ## `/linear_optimization/`
